@@ -7,8 +7,8 @@
 ## Get all new changes from team
 
 Do this BEFORE working on the project **every time**  
-`git fetch`  
-`git pull`
+`git fetch origin`  <-- not 100% sure about this. Ask Profe.  
+`git pull origin main` <-- not 100% sure about this. Ask Profe.  
 
 # Starting a new Tarea
 
