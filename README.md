@@ -42,6 +42,10 @@ Make your changes and save the files.
 
 ![Screenshot 2022-02-17 at 08 23 15](https://user-images.githubusercontent.com/58273749/154426123-be9d3c02-3e4d-45a0-becd-c5b63a998d3c.png)
 
+## Check teammate's work and confirm ALL GOOD 😄
+![Screenshot 2022-02-19 at 09 41 19](https://user-images.githubusercontent.com/58273749/154794007-a5dc4a18-6f26-4e94-a83f-ae0e16ed7c28.png)
+
+
 ## Notes
 
 [Git tutorials](https://www.git-tower.com/learn/git/faq/difference-between-git-fetch-git-pull/)
