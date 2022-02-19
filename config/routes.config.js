@@ -10,41 +10,54 @@ const passport = require("passport");
 
 // const SCOPES []
 
-// MISC ROUTES
-router.get("/", misc.home);
-
 // TODO
 // const authmiddleware = require("../middlewares/auth.middleware");
-
-// express
-// router
-// controllers
-// passport
 // authmiddleware?
 
-// ROUTERS
-// =================
-// GET - home DONE
-// GET - restaurants
-// GET - restaurantsDetail
-// GET - profilePage <-- show most recent comments?
-// GET - register
-// GET - login
-// GET - socialLogin
-// GET - activate
+// MISC ROUTES
+router.get("/"); // homepage
 
-// =================
+// RESTAURANTS
+router.get("/restaurants"); // view -> all restaurants
+router.get("/restaurants/:id"); // views detail
 
-// POST - addAvacadoRating <-- just a number rating
-// POST - editAvacadoRating
+// SHOPS FOOD -> TO DO
 
-// POST - addComment <-- upload images, write text
-// POST - editComment
+// OTHER LOCATIONS MISC -> TO DO
 
-// POST - register
-// POST - login
-// POST - editProfilePage
+// USER
+router.get("/profile"); // view profile
+router.get("/profile/edit"); // view -> EDIT
 
-// =================
+router.post("/profile/edit"); // view -> send CHANGES to db
 
-// export all routers
+// REGISTER
+router.get("/register"); // views -> create account
+router.post("/register"); // db create account
+
+// ACTIVATE
+router.get("/activate/:token");
+
+// LOGIN
+router.get("/login"); // views -> log in
+router.post("/login"); // send email & password to db
+
+router.get("/login/google"); // needs passport middleware
+router.get("/auth/google/callback");
+
+router.get("/logout"); // should be post??
+
+// COMMENTS
+router.get("/comment/new"); // view -> create review
+router.get("/comment/:id/edit"); // view for a review EDIT
+
+router.post("/comment"); // send NEW review to db
+router.post("/comment/:id/edit"); // send review CHANGES to db
+router.post("/comment/:id/delete"); // DELETE review from db
+
+// AVOCADO RATING
+router.post("/avocado"); // send NEW / CHANGE rating in db (if exists, change num - doesn't exist add num)
+
+// RESEVATIONS TODO
+
+module.exports = router;
