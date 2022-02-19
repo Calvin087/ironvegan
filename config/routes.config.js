@@ -19,7 +19,7 @@ const passport = require("passport");
 // authmiddleware?
 
 // MISC ROUTES
-router.get("/"); // homepage
+router.get("/", misc.home); // homepage
 
 // RESTAURANTS
 router.get("/restaurants", restaurants.list); // view -> all restaurants
