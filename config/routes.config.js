@@ -1,3 +1,21 @@
+const express = require("express");
+const router = express.Router();
+const misc = require("../controllers/misc.controller");
+const restaurants = require("../controllers/restaurant.controller");
+const user = require("../controllers/user.controller");
+
+const auth = require("../controllers/auth.controller");
+
+const passport = require("passport");
+
+// const SCOPES []
+
+// MISC ROUTES
+router.get("/", misc.home);
+
+// TODO
+// const authmiddleware = require("../middlewares/auth.middleware");
+
 // express
 // router
 // controllers
@@ -6,7 +24,7 @@
 
 // ROUTERS
 // =================
-// GET - home
+// GET - home DONE
 // GET - restaurants
 // GET - restaurantsDetail
 // GET - profilePage <-- show most recent comments?
