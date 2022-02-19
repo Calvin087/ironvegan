@@ -14,3 +14,11 @@
 // }
 
 // ```;
+
+// virtuals
+// userscheme('name', {
+//     ref -> model we're looking for
+//     localField: user's id
+//     forField: location of user id in Like model
+//     justone false.
+// })
