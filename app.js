@@ -8,7 +8,7 @@ const passport = require("passport");
 const sessionConfig = require("./config/session.config");
 
 require("./config/db.config");
-require("./config/hsb.config");
+require("./config/hbs.config");
 require("./config/passport.config");
 
 const app = express();
