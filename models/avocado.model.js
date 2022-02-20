@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const commentsSchema = new Schema ({
+const avocadoSchema = new Schema({
     restaurant: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Restaurant',
@@ -14,14 +14,21 @@ const commentsSchema = new Schema ({
     }
 }, { timestamps: true });
 
-const Comment = mongoose.model('Comment', commentsSchema);
-module.exports = Comment;
+const Avocado = mongoose.model('Avocado', avocadoSchema);
+module.exports = Avocado;
 
+
+
+
+
+
+
+
+// Rating system for the tiendas y restaurantes
+// 1 - 5? / 1 - 10?
 
 // ```js
-// id (auto)
 // locationID: "mongoose.ObjectId",
-// userID: "mongoose.ObjectId:",
-// imageURL: "String" // Cloudify,
-// comment: "String",
+// userID: "mongoose.ObjectId:"
+// avocados: "Number",
 // ```;
