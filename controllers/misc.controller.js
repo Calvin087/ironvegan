@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+
 // MODELS GO HERE
 
 // MODELS GO HERE
@@ -6,5 +6,5 @@ const mongoose = require("mongoose");
 // MAILER...?
 
 module.exports.home = (req, res, next) => {
-  //
+  res.render('misc/home')
 };
