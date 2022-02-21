@@ -607,3 +607,21 @@ const restaurantesEN = [
 ];
 
 module.exports = { restaurantesEN };
+
+const cleaned = restaurantesEN.map((el) => {
+  return {
+    name: el.title,
+    address: el.address,
+    phone: el.phone,
+    website: "",
+    schedule: "",
+    foodType: el.cols2[1],
+    veganOptions: el.cols2[2],
+    description: "",
+    fullVegan: false,
+    takeOut: "",
+    image: el.img,
+  };
+});
+
+console.log(JSON.stringify(cleaned, null, 2));
