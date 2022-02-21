@@ -59,7 +59,7 @@ router.get("/logout", authMiddleware.isAuthenticated, auth.logout); // should be
 router.get("/comment/new", authMiddleware.isAuthenticated, comments.create); // view -> create review
 router.get("/comment/:id/edit", authMiddleware.isAuthenticated, comments.edit); // view for a review EDIT
 
-router.post("/comment", authMiddleware.isAuthenticated, comment.doCreate); // send NEW review to db
+router.post("/comment", authMiddleware.isAuthenticated, comments.doCreate); // send NEW review to db
 router.post(
   "/comment/:id/edit",
   authMiddleware.isAuthenticated,
