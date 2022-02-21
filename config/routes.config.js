@@ -55,7 +55,9 @@ router.get(
 
 router.get("/logout", authMiddleware.isAuthenticated, auth.logout); // should be post??
 
+
 // COMMENTS
+
 router.get("/comment/new", authMiddleware.isAuthenticated, comments.create); // view -> create review
 router.get("/comment/:id/edit", authMiddleware.isAuthenticated, comments.edit); // view for a review EDIT
 
