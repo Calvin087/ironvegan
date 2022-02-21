@@ -22,4 +22,4 @@ mongoose.connection.once('open', () => {
         })
     })
     .catch(error => console.log('mongoose', error));
-})
+});
