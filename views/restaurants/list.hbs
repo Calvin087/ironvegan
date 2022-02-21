@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row mx-auto">
+    {{#each restaurants as |restaurant|}}
+     <div class="col-xl-3 col-sm-6 col-xs-12 gy-4 d-flex align-items-stretch">
+        <div class="card w-100 " style="width: 18rem;">
+          <div class="position-relative">
+            <img src="{{restaurant.image}}" class="card-img-top" alt="restaurant">
+            <div class="avocado-button">
+              <i class="fa-solid fa-avocado"></i>
+            </div>
+          </div>
+          <div class="card-body d-flex flex-column mt-2">
+            <h6 class="card-title">{{restaurant.name}}</h6>
+            <small class="card-text text-small mb-3">{{restaurant.description}}</small>
+            <a href="/restaurants/{{restaurant.id}}" class="btn btn-outline-dark mt-auto">Detail</a>
+            <a href="/restaurants/{{restaurant.id}}/edit" class="btn btn-outline-success mt-1">Edit info</a>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+
+</div>
