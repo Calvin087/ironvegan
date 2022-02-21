@@ -1,9 +1,25 @@
-// restaurant seeds
+require('dotenv').config();
 
-// user seeds?
+const mongoose = require('mongoose');
+const restaurants = require('../data/restaurantes_en');
+const Restaurant = require('../models/restaurant.model');
 
-// avocado seeds
+require('../config/db.config');
 
-// fav seeds
+mongoose.connection.once('open', () => {
+    console.info(`*** Connected to the database ${mongoose.connection.db.databaseName} ***`);
 
-// comments
+    mongoose.connection.db
+    .dropDatabase()
+    .then(() => `${mongoose.connection.db.databaseName} successfully dropped`)
+    .then(() => {
+        restaurants.forEach(restaurant => {
+            new Restaurant({
+                ...restaurant
+            }).save()
+            .then(restaurant => console.log(`${restaurant.name} successfully created!`))
+            .catch(error =>  console.error(error))
+        })
+    })
+    .catch(error => console.log('mongoose', error));
+});
