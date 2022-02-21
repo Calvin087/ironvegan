@@ -55,12 +55,12 @@ router.get("/auth/google/callback", auth.doLoginGoogle);
 router.get("/logout", auth.logout); // should be post??
 
 // COMMENTS
-router.get("/comment/new", comments.create); // view -> create review
+/* router.get("/comment/new", comments.create); // view -> create review
 router.get("/comment/:id/edit", comments.edit); // view for a review EDIT
 
 router.post("/comment", comment.doCreate); // send NEW review to db
 router.post("/comment/:id/edit", comments.doEdit); // send review CHANGES to db
-router.post("/comment/:id/delete", comments.delete); // DELETE review from db
+router.post("/comment/:id/delete", comments.delete); // DELETE review from db */
 
 // RESEVATIONS TODO
 
