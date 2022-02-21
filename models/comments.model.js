@@ -11,6 +11,17 @@ const commentsSchema = new Schema ({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User',
         required: true
+    },
+    rating: {
+        type: Number,
+        required: true
+    },
+    description: {
+        type: String,
+        required: [true, 'Please let us know how was your experience!']
+    },
+    images: {
+        type: [String]
     }
 }, { timestamps: true });
 
