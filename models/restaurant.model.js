@@ -27,7 +27,7 @@ const restaurantSchema = new Schema(
     },
     veganOptions: {
       type: String,
-    }
+    },
     description: {
       type: String,
       required: [true, "Please, tell us something about this place!"],
