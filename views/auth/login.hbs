@@ -1,0 +1,35 @@
+<div class="mt-4 row justify-content-center">
+  <div class="col-4">
+    <h2 class="text-center">LOGIN</h2>
+    <form class="mt-4" method="POST" action="/login">
+      <div class="form-group mb-3">
+        <label for="email">Email</label>
+        <input
+          id="email"
+          value="{{user.email}}"
+          name="email"
+          type="email"
+          class="form-control {{#if errorMessage}}is-invalid{{/if}}"
+          placeholder="Enter name"
+        >
+      </div>
+      <div class="form-group mb-3">
+        <label for="password">Password</label>
+        <input
+          id="password"
+          name="password"
+          type="password"
+          class="form-control {{#if errorMessage}}is-invalid{{/if}}"
+          placeholder="Password"
+        >
+      </div>
+      {{#if errorMessage}}
+        <div class="text-danger text-small mb-2">
+          {{errorMessage}}
+        </div>
+      {{/if}}
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <a href="/login/google" class="btn btn-primary">Login with Google</a>
+    </form>
+  </div>
+</div>
