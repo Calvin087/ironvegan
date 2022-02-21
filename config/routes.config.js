@@ -54,6 +54,7 @@ router.get("/auth/google/callback", auth.doLoginGoogle);
 
 router.get("/logout", auth.logout); // should be post??
 
+
 // COMMENTS
 /* router.get("/comment/new", comments.create); // view -> create review
 router.get("/comment/:id/edit", comments.edit); // view for a review EDIT
