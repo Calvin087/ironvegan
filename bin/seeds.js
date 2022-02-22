@@ -89,7 +89,16 @@ mongoose.connection.once("open", () => {
       console.log(avocados.length, "avocados created");
     })
 
-    .catch((error) => console.log("mongoose", error));
+    .catch((error) => console.log("mongoose", error))
+    .finally(() => {
+      mongoose.connection
+        .close()
+        .then(() => console.log("Finish seeds.js"))
+        .catch((e) => console.error(e))
+        .finally(() => {
+          process.exit(0);
+        });
+    });
 });
 
 // Keep This
