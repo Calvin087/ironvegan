@@ -5,15 +5,15 @@ const restaurantSchema = new Schema(
   {
     name: {
       type: String,
-      required: [true, "Please enter name"],
+      // required: [true, "Please enter name"],
     },
     address: {
       type: String,
-      required: [true, "Please enter address"],
+      // required: [true, "Please enter address"],
     },
     phone: {
       type: String,
-      required: [true, "Please enter a valid telephone number"],
+      // required: [true, "Please enter a valid telephone number"],
     },
     website: {
       type: String,
@@ -30,7 +30,7 @@ const restaurantSchema = new Schema(
     },
     description: {
       type: String,
-      required: [true, "Please, tell us something about this place!"],
+      // required: [true, "Please, tell us something about this place!"],
     },
     fullVegan: {
       type: Boolean,
