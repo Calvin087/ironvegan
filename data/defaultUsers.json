@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Calvin Torra",
+    "city": "Madrid",
+    "email": "calvin@ironvegan.com",
+    "password": "CalvinIronV1!",
+    "paidUser": false
+  },
+  {
+    "name": "María Gallego",
+    "city": "Madrid",
+    "email": "maria@ironvegan.com",
+    "password": "MariaIronV1!",
+    "paidUser": false
+  },
+  {
+    "name": "Robert Cabrera",
+    "city": "Madrid",
+    "email": "robert@ironvegan.com",
+    "password": "RobertIronV1!",
+    "paidUser": false
+  }
+]
