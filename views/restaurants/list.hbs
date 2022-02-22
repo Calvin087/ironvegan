@@ -6,7 +6,11 @@
           <div class="position-relative">
             {{#each restaurant.image as |image|}}
               {{#if @last}}
-                <img src="{{image}}" class="card-img-top" alt="restaurant" />
+                {{!-- <img src="{{image}}" class="card-img-top" alt="restaurant" /> --}}
+                <div
+                  style="background-image: url({{image}});"
+                  class="card-images"
+                ></div>
               {{/if}}
             {{/each}}
             <div class="avocado-button">
