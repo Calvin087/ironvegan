@@ -23,10 +23,11 @@ module.exports.doRegister = (req, res, next) => {
           user.image = req.file.path;
         }
         return User.create(user).then((createdUser) => {
-          // mailer.sendActivationEmail(
-          //   createdUser.email,
-          //   createdUser.activationToken
-          // );
+          mailer.sendActivationEmail(
+            createdUser.email,
+            createdUser.activationToken,
+            createdUser.name
+          );
           res.redirect("/login");
         });
       }

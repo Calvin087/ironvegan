@@ -25,12 +25,12 @@ app.set("view engine", "hbs");
 app.use(passport.initialize());
 app.use(passport.session());
 
-// TODO
-// need locals.currentUser for state
-// app.use(() => {
-//   res.locals.currentUser = req.user;
-//   next();
-// });
+ // TODO
+ // need locals.currentUser for state
+ app.use((req, res, next) => {
+   res.locals.currentUser = req.user;
+   next();
+ });
 
 const router = require("./config/routes.config");
 app.use("/", router);

@@ -59,7 +59,7 @@ router.get(
   auth.doLoginGoogle
 );
 
-router.get("/logout", authMiddleware.isAuthenticated, auth.logout); // should be post??
+router.get("/logout", auth.logout); // should be post??
 
 // COMMENTS
 
