@@ -23,16 +23,17 @@ module.exports.doRegister = (req, res, next) => {
           user.image = req.file.path;
         }
         return User.create(user).then((createdUser) => {
-          mailer.sendActivationEmail(
-            createdUser.email,
-            createdUser.activationToken
-          );
+          // mailer.sendActivationEmail(
+          //   createdUser.email,
+          //   createdUser.activationToken
+          // );
           res.redirect("/login");
         });
       }
     })
     .catch((err) => {
       if (err instanceof mongoose.Error.ValidationError) {
+        console.log(err);
         renderWithErrors(err.errors);
       } else {
         next(err);
