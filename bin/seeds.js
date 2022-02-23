@@ -25,8 +25,6 @@ mongoose.connection.once("open", () => {
 
   // Get random location ID
   // Get random User ID
-  const randomLocation = Math.floor(Math.random() * allLocationID.length);
-  const randomUser = Math.floor(Math.random() * allUserID.length);
 
   // Connect to DB and create all dummy content
 
@@ -59,6 +57,9 @@ mongoose.connection.once("open", () => {
       // Create random comments with these two IDs
 
       const listOfComments = defaultComments.map((comment) => {
+        const randomLocation = Math.floor(Math.random() * allLocationID.length);
+        const randomUser = Math.floor(Math.random() * allUserID.length);
+
         return {
           ...comment,
           restaurant: allLocationID[randomLocation],
@@ -76,6 +77,9 @@ mongoose.connection.once("open", () => {
       // Create random likes with these two IDs
 
       const listOfAvocados = defaultComments.map((el) => {
+        const randomLocation = Math.floor(Math.random() * allLocationID.length);
+        const randomUser = Math.floor(Math.random() * allUserID.length);
+
         return {
           restaurant: allLocationID[randomLocation],
           user: allUserID[randomUser],
