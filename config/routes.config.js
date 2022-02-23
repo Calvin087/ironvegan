@@ -17,6 +17,7 @@ const SCOPES = [
 
 // MISC ROUTES
 router.get("/", misc.home); // homepage
+router.get("/favicon.ico", misc.fav); // stops the annoying favicon 404 error
 
 // RESTAURANTS
 router.get("/restaurants", restaurants.list); // view -> all restaurants
@@ -46,7 +47,10 @@ router.get("/activate/:token", auth.activate);
 router.get("/login", authMiddleware.isNotAuthenticated, auth.login); // views -> log in
 router.post("/login", authMiddleware.isNotAuthenticated, auth.doLogin); // send email & password to db
 
-router.get("/login/google"); // needs passport middleware TODO
+router.get(
+  "/login/google",
+  passport.authenticate("google-auth", { scope: SCOPES })
+); // needs passport middleware TODO
 router.get(
   "/auth/google/callback",
   authMiddleware.isNotAuthenticated,

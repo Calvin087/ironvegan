@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 // MAILER...?
 
 module.exports.profile = (req, res, next) => {
-  //
+  res.render("profile");
 };
 
 module.exports.edit = (req, res, next) => {

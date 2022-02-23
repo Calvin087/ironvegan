@@ -4,6 +4,7 @@
     "city": "Madrid",
     "email": "calvin@ironvegan.com",
     "password": "CalvinIronV1!",
+    "googleID": "",
     "paidUser": false
   },
   {
@@ -11,6 +12,7 @@
     "city": "Madrid",
     "email": "maria@ironvegan.com",
     "password": "MariaIronV1!",
+    "googleID": "",
     "paidUser": false
   },
   {
@@ -18,6 +20,7 @@
     "city": "Madrid",
     "email": "robert@ironvegan.com",
     "password": "RobertIronV1!",
+    "googleID": "",
     "paidUser": false
   }
 ]

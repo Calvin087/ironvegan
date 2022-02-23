@@ -19,7 +19,7 @@ const userSchema = new mongoose.Schema(
     },
     city: {
       type: String,
-      required: [true, "Please enter city name"],
+      // required: [true, "Please enter city name"],
     },
     email: {
       type: String,
@@ -40,6 +40,9 @@ const userSchema = new mongoose.Schema(
     active: {
       type: Boolean,
       default: false,
+    },
+    googleID: {
+      type: String,
     },
     activationToken: {
       type: String,
