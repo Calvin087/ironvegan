@@ -59,10 +59,11 @@ mongoose.connection.once("open", () => {
       // Create random comments with these two IDs
 
       const listOfComments = defaultComments.map((comment) => {
+        console.log(allLocationID[randomLocation]._id);
         return {
           ...comment,
-          restaurant: allLocationID[randomLocation],
-          user: allUserID[randomUser],
+          restaurant: allLocationID[randomLocation]._id,
+          user: allUserID[randomUser]._id,
         };
       });
 
