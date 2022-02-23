@@ -25,6 +25,7 @@ passport.use(
       passwordField: "password",
     },
     (email, password, next) => {
+      // Comprobar si ya existe un usuario -> comparar la contraseña -> GO
       User.findOne({ email })
         .then((user) => {
           if (!user) {
@@ -34,14 +35,7 @@ passport.use(
               if (!match) {
                 next(null, false, { error: "Email or password are incorrect" });
               } else {
-                if (user.active) {
-                  next(null, user);
-                } else {
-                  next(null, false, {
-                    error:
-                      "Check your email. You have to activate your account",
-                  });
-                }
+                next(null, user);
               }
             });
           }

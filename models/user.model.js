@@ -23,12 +23,12 @@ const userSchema = new mongoose.Schema(
     },
     email: {
       type: String,
-      required: [true, "Please enter your email"],
+      // required: [true, "Please enter your email"],
       match: [EMAIL_PATTERN, "Please provide a valid email"],
     },
     password: {
       type: String,
-      required: [true, "Please enter your password"],
+      // required: [true, "Please enter your password"],
       match: [PASSWORD_PATTERN, "Password must be at least 6 characters"],
     },
     paidUser: {
