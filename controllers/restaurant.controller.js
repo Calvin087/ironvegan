@@ -20,3 +20,11 @@ module.exports.detail = (req, res, next) => {
   })
   .catch((error) => next(error));
 };
+
+module.exports.create = (req, res, next) => {
+  res.render('restaurants/new')
+};
+
+module.exports.doCreate = (req, res, next) => {
+/* aquí la información del form la recibimos nosotros para crear el restaurant */
+}

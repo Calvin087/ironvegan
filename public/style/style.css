@@ -4,3 +4,23 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.avocado-button {
+  position: absolute;
+  bottom: -25px;
+  left: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-avocado {
+  width: 20px;
+  height: 20px;
+  background-image: url('/img/aguacate.png')
+}
+
