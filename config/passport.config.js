@@ -54,28 +54,26 @@ passport.use(
       callbackURL: "/auth/google/callback",
     },
     (accessToken, refreshToken, profile, next) => {
-      console.log({ profile });
-
+      // console.log({ profile });
       const googleID = profile.id;
       const email = profile.emails[0] ? profile.emails[0].value : undefined;
       const name = profile.displayName;
 
       if (googleID && email) {
-        User.findOne({
-          $or: [{ googleID }, { email }],
-        })
+        User.findOne({ $or: [{ email }, { googleID }] })
           .then((user) => {
-            if (user) {
-              next(null, user);
-            } else {
+            if (!user) {
               return User.create({
-                email,
-                googleID,
-                password: mongoose.Types.ObjectId(),
                 name,
+                email,
+                password: mongoose.Types.ObjectId(),
+                googleID,
               }).then((createdUser) => {
                 next(null, createdUser);
               });
+            } else {
+              console.log(user);
+              next(null, user);
             }
           })
           .catch((err) => next(err));

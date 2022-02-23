@@ -1,4 +1,3 @@
-
 // MODELS GO HERE
 
 // MODELS GO HERE
@@ -6,5 +5,9 @@
 // MAILER...?
 
 module.exports.home = (req, res, next) => {
-  res.render('misc/home')
+  res.render("misc/home");
+};
+
+module.exports.fav = (req, res) => {
+  res.status(204);
 };

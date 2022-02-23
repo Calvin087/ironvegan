@@ -41,6 +41,9 @@ const userSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
+    googleID: {
+      type: String,
+    },
     activationToken: {
       type: String,
       default: () => {
