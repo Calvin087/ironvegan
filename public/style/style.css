@@ -8,19 +8,21 @@
 .avocado-button {
   position: absolute;
   bottom: -25px;
-  left: 20px;
-  width: 30px;
-  height: 30px;
+  right: 10%;
+  width: 50px;
+  height: 50px;
   background-color: white;
   border-radius: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
 }
 
 .icon-avocado {
-  width: 20px;
-  height: 20px;
-  background-image: url('/img/aguacate.png')
+  /* we can change the image here i think */
+  /* We can't use bgimage on img tag */
+  /* width: 20px; */
+  /* height: 20px; */
+  /* background-image: url('/img/aguacate.png') */
 }
-
