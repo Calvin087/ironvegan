@@ -13,8 +13,12 @@
                 ></div>
               {{/if}}
             {{/each}}
-            <div class="avocado-button">
-              <i class="fa-solid fa-avocado"></i>
+            <button class="avocado-button">
+              <img 
+              data-id="{{restaurant.id}}"
+              class="
+              {{#userDoAvocado avocados=../avocados restaurant=restaurant}}icon-avocado{{/userDoAvocado}}
+              "></img>
             </div>
           </div>
           <div class="card-body d-flex flex-column mt-2">
