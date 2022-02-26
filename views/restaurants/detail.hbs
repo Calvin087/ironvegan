@@ -20,6 +20,15 @@
       <p>{{{restaurant.description}}}</p>
     </div>
 
+    {{#if restaurant.comments}}
+      {{#each restaurant.comments as |comment|}}
+      <ul>
+        <li>{{comment.description}}</li>
+      </ul>
+        
+      {{/each}}
+    {{/if}}
+
   </div>
   <div>
     {{#each restaurant.categories as |category|}}

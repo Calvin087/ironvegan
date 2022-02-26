@@ -1,8 +1,9 @@
 const mongoose = require("mongoose");
-const Restaurant = require("../models/restaurant.model");
-// const categories = Object.keys(require("../data/categories.json"));
-const categories = require("../data/categories.json");
 
+const Restaurant = require("../models/restaurant.model");
+require("../models/comments.model");
+
+const categories = require("../data/categories.json");
 const mailer = require("../config/mailer.config");
 
 module.exports.list = (req, res, next) => {
@@ -14,6 +15,7 @@ module.exports.list = (req, res, next) => {
 
 module.exports.detail = (req, res, next) => {
   Restaurant.findById(req.params.id)
+    .populate("comments")
     .then((restaurant) => {
       if (restaurant) {
         res.render("restaurants/detail", { restaurant });
