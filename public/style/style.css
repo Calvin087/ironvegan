@@ -12,6 +12,14 @@
   background-size: cover;
 }
 
+/* .comment-images {
+  height: 120px;
+  width: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
 .avocado-button {
   position: absolute;
   bottom: -25px;
@@ -24,6 +32,10 @@
   align-items: center;
   justify-content: center;
   border: none;
+}
+
+.write-a-review {
+  margin-top: 120px;
 }
 
 .icon-avocado {

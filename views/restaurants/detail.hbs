@@ -1,5 +1,9 @@
+
+
 <div class="container">
-  <div class="row mx-auto bg-white mx-auto mb-4 mt-5">
+  
+  <div class="row bg-white mb-4 mt-5">
+    
     <div class="col-md-6 col-sm-12 py-2">
       {{>imageSlider}}
     </div>
@@ -58,28 +62,35 @@
         100% Vegan
       </p>
       {{/if}}
+
+    {{#if currentUser}}
+      <a href="#write-a-review">
+        <button type="button" class="btn btn-success btn-sm">Write a review</button>
+      </a>
+    {{/if}}
+     
     </div>
 
-    <h2 class="my-4">Recent Reviews</h2>
+<div>
+    <h2 class="mt-4">Recent Reviews</h2>
+    
+</div>
 
+     
+  </div>
+  {{!-- <div class="card-group"> --}}
+    <div class="row row-cols-1 row-cols-md-3 g-4">
     {{#if restaurant.comments}}
       {{#each restaurant.comments as |comment|}}
-        <div>
-          <p>{{comment.description}}</p>
-        </div>
-
+        {{>commentCard}}
       {{/each}}
     {{/if}}
-    
-    
+  </div>
+
     {{#if currentUser}}
-      <div id="write-a-review" >
+      <div class="write-a-review" id="write-a-review">
         <h5 class="my-4">Hi {{currentUser.name}}, please write a review for {{restaurant.name}}</h5>
         {{>commentForm}}
       </div>
-    {{/if}} 
-
-  </div>
-
-
+    {{/if}}
 </div>

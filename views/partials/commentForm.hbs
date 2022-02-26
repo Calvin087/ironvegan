@@ -1,4 +1,5 @@
-<form action="/comment" method="POST">
+
+<form action="/comment" method="POST" enctype="multipart/form-data">
   <div class="form-group visually-hidden ">
     <input
       name="restaurant"
@@ -48,8 +49,8 @@
   </div>
   
   <div class="form-group mb-3">
-    <label for="image" class="form-label">Avatar</label>
-        <input class="form-control" type="file" name="image" id="image">
+    <label for="image-input" class="form-label">Avatar</label>
+        <input class="form-control" type="file" name="image" id="image-input">
 
     {{#if errors.image}}
       <div class="invalid-feedback">
