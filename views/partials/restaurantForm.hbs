@@ -1,0 +1,134 @@
+<form action="/restaurants/new" method="POST">
+  <div class="form-group mb-3">
+    <label for="name">Name</label>
+    <input name="name" type="text" class="form-control {{#if errors.name}}is-invalid{{/if}}" id="name" placeholder="Brunch & Cocktails..."
+      value="{{ restaurant.name }}">
+    {{#if errors.name}}
+      <div class="invalid-feedback">
+        {{errors.name.message}}
+      </div>
+    {{/if}}
+  </div>
+
+  <div class="form-group mb-3">
+    <label for="address">Address</label>
+    <input name="address" type="text" class="form-control {{#if errors.address}}is-invalid{{/if}}" id="address" placeholder="Calle Arlaban 1..."
+      value="{{ restaurant.address }}">
+    {{#if errors.address}}
+      <div class="invalid-feedback">
+        {{errors.address.message}}
+      </div>
+    {{/if}}
+  </div>
+
+  <div class="form-group mb-3">
+    <label for="phone">Phone number</label>
+    <input name="phone" type="text" class="form-control {{#if errors.phone}}is-invalid{{/if}}" id="phone" placeholder="+34 915..."
+      value="{{ restaurant.phone }}">
+    {{#if errors.phone}}
+      <div class="invalid-feedback">
+        {{errors.phone.message}}
+      </div>
+    {{/if}}
+  </div>
+
+  <div class="form-group mb-3">
+    <label for="website">Web</label>
+    <input name="website" type="text" class="form-control {{#if errors.website}}is-invalid{{/if}}" id="website" placeholder="www.brunch-tails.com..."
+      value="{{ restaurant.website }}">
+    {{#if errors.website}}
+      <div class="invalid-feedback">
+        {{errors.website.message}}
+      </div>
+    {{/if}}
+  </div>
+
+  <div class="form-group mb-3">
+    <label for="schedule">Schedule</label>
+    <input name="schedule" type="text" class="form-control {{#if errors.schedule}}is-invalid{{/if}}" id="schedule" placeholder="Mon-Thurs: 9am - 10pm..."
+      value="{{ restaurant.schedule }}">
+    {{#if errors.schedule}}
+      <div class="invalid-feedback">
+        {{errors.schedule.message}}
+      </div>
+    {{/if}}
+  </div>
+
+   {{!-- <div class="form-group mb-3">
+    <label for="dishType">Cuisine</label>
+    <input name="dishType" type="text" class="form-control {{#if errors.dishType}}is-invalid{{/if}}" id="dishType" placeholder="Enter cuisine type"
+      value="{{ restaurant.dishType }}">
+    {{#if errors.dishType}}
+      <div class="invalid-feedback">
+        {{errors.dishType.message}}
+      </div>
+    {{/if}}
+  </div> --}}
+
+    
+  <div class="form-group mb-3">
+    <label for="takeOut">Takeaway</label>
+      <select id="takeOut" name="takeOut" class="form-select">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select>
+  </div>
+  
+  {{!-- <div class="form-group mb-3">
+    <label for="veganOptions">Vegan Options</label>
+      <select id="veganOptions" name="veganOptions">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select>
+  </div>
+   --}}
+  <div class="form-group mb-3">
+    <label for="fullVegan">100% Vegan?</label>
+      <select id="fullVegan" name="fullVegan" class="form-select">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select>
+  </div>
+
+  <div class="form-group mb-3">
+    <label for="categories">Categories</label>
+    <select class="form-select" name="categories" show-labels multiple aria-label="Categories" id="categories">
+      {{#each categories as |category|}}
+        <option
+          value="{{@key}}">
+          {{ category.text }}
+        </option>
+      {{/each}}
+    </select>
+  </div>
+
+  {{!-- <div class="form-group mb-3">
+    <label for="image" class="form-label">Avatar</label>
+        <input class="form-control" type="file" name="image" id="image">
+
+    {{#if errors.image}}
+      <div class="invalid-feedback">
+        {{errors.image.message}}
+      </div>
+    {{/if}}
+  </div> --}}
+
+  <div class="form-group mb-3">
+    <label for="text">Description</label>
+    <textarea name="description" type="text" class="form-control html-editor {{#if errors.description}}is-invalid{{/if}}" id="text"
+      placeholder="Enter restaurant description" rows="10">{{ restaurant.description }}</textarea>
+    {{#if errors.description}}<div class="invalid-feedback">{{errors.description}}</div>
+    {{/if}}
+  </div>
+
+   <button type="submit" class="btn btn-primary">Submit</button>
+
+  </div>
+
+  
+
+</form>
+</div>
+<div>
+
+</div>

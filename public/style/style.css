@@ -4,3 +4,25 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.avocado-button {
+  position: absolute;
+  bottom: -25px;
+  right: 10%;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.icon-avocado {
+  /* we can change the image here i think */
+  /* We can't use bgimage on img tag */
+  /* width: 20px; */
+  /* height: 20px; */
+  /* background-image: url('/img/aguacate.png') */
+}

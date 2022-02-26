@@ -2,7 +2,14 @@
   <h2>{{restaurant.name}}</h2>
   <div class="row mx-auto bg-white mx-auto mb-4">
     <div class="col-md-4 col-sm-12 py-2">
-      <img src="{{restaurant.image}}" class="w-100 rounded border" />
+      {{#each restaurant.image as |image|}}
+        {{#if @last}}
+          <div
+            style="background-image: url({{image}});"
+            class="card-images"
+          ></div>
+        {{/if}}
+      {{/each}}
     </div>
     <div class="col-md-6 col-sm-12 py-2">
 
@@ -22,6 +29,11 @@
       {{/each}}
     {{/if}}
 
+  </div>
+  <div>
+    {{#each restaurant.categories as |category|}}
+      <p>{{category}}</p>
+    {{/each}}
   </div>
 
 </div>

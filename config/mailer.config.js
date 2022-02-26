@@ -6,16 +6,28 @@ const transporter = nodemailer.createTransport({
   service: "Gmail",
   auth: {
     user: process.env.NM_USER,
-    pass: process.env.NM_PASSWORD
-  }
-})
+    pass: process.env.NM_PASSWORD,
+  },
+});
 
 // Send email
-module.exports.sendActivationEmail = (email, token) => {
+module.exports.sendActivationEmail = (email, token, name) => {
   transporter.sendMail({
-    from: `Activation account <${process.env.NM_USER}>`,
+    from: `"VegEspaña" <${process.env.NM_USER}>`,
     to: email,
-    subject: "You are one step away from creating your account.",
-    html: template.generateEmail(token)
-  })
-}
+    subject: `${name}, confirm your account 🥑`,
+    html: template.generateEmail(token),
+  });
+};
+
+// Send Recommendation
+module.exports.sendRecommendation = (body) => {
+  let emailBody = JSON.stringify(body, null, 2);
+
+  transporter.sendMail({
+    from: `"VegEspaña" <${process.env.NM_USER}>`,
+    to: `"VegEspaña" <${process.env.NM_USER}>`,
+    subject: `New Recommendation`,
+    html: emailBody,
+  });
+};
