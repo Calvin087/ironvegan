@@ -1,16 +1,64 @@
 <div class="container">
-  <h2 class="my-4">{{restaurant.name}}</h2>
-  <div class="row mx-auto bg-white mx-auto mb-4">
-    <div class="col-md-4 col-sm-12 py-2">
+  
+  <div class="row mx-auto bg-white mx-auto mb-4 mt-5">
+    <div class="col-md-6 col-sm-12 py-2">
       {{>imageSlider}}
     </div>
-    <div class="col-md-6 col-sm-12 py-2">
 
+{{!-- Details Section --}}
+    <div class="col-md-6 col-sm-12 py-2">
+    <h2 class="mb-4">{{restaurant.name}}</h2>
       <p class="card-address">
-        <span class="pe-1">
-          <i class="bi bi-geo-alt"></i>
-        </span>{{restaurant.address}}</p>
-      <p>{{{restaurant.description}}}</p>
+          <i class="bi bi-geo-alt me-2"></i>
+        {{restaurant.address}}
+      </p>
+      
+      <p class="card-address">
+          <i class="bi bi-telephone me-2"></i>
+        {{restaurant.phone}}
+      </p>
+      
+      {{#if restaurant.website}}
+        <p class="card-address">
+           <i class="bi bi-laptop me-2"></i>
+          {{restaurant.website}}
+        </p>
+      {{/if}}
+      
+        {{#if restaurant.schedule}}
+      <p class="card-address">
+        <i class="bi bi-stopwatch me-2"></i>
+        {{restaurant.schedule}}
+      </p>
+      {{/if}}
+     
+      {{#if restaurant.dishType}}
+      <p class="card-address">
+          <i class="bi bi-pie-chart me-2"></i>
+        {{restaurant.dishType}}
+      </p>
+      {{/if}}
+      
+      {{#if restaurant.veganOptions}}
+       <p class="card-address">
+         <i class="bi bi-book me-2"></i>
+        {{restaurant.veganOptions}}
+      </p>
+      {{/if}}
+       
+      {{#if restaurant.takeOut}}
+       <p class="card-address">
+        <i class="bi bi-bag-check me-2"></i>
+        Take Away Available
+      </p>
+      {{/if}}
+
+      {{#if restaurant.fullVegan}}
+      <p class="card-address">
+          <i class="bi bi-arrow-through-heart me-2"></i>
+        100% Vegan
+      </p>
+      {{/if}}
     </div>
 
     <h2 class="my-4">Recent Reviews</h2>

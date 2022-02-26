@@ -7,7 +7,12 @@
 
     {{#each restaurant.image}}
       <div class="carousel-item {{#if @first}}active{{/if}}">
-        <img src={{this}} class="d-block w-100" alt="test" />
+      <div
+          style="background-image: url({{this}});"
+          class="detail-images"
+        >
+                </div>
+        {{!-- <img src={{this}} class="d-block w-100" alt="test" /> --}}
       </div>
     {{/each}}
 

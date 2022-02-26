@@ -5,6 +5,13 @@
   background-size: cover;
 }
 
+.detail-images {
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .avocado-button {
   position: absolute;
   bottom: -25px;

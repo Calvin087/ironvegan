@@ -18,6 +18,7 @@ module.exports.detail = (req, res, next) => {
     .populate("comments")
     .then((restaurant) => {
       if (restaurant) {
+        console.log(restaurant);
         res.render("restaurants/detail", { restaurant });
       } else {
         res.redirect("/restaurants");
