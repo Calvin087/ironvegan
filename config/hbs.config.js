@@ -8,6 +8,7 @@ hbs.registerPartials("./views/partials"); // to do
 
 hbs.registerHelper('userDoAvocado', function (options) {
     const {restaurant, avocados } = options.hash;
+    /* .some checks if at least one element pass the condition --> true */
     if (restaurant && avocados && avocados.some(avocado => avocado.restaurant == restaurant.id)) {
         return options.fn(this);
     } else {
