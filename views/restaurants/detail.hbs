@@ -1,5 +1,4 @@
 <div class="container">
-  
   <div class="row mx-auto bg-white mx-auto mb-4 mt-5">
     <div class="col-md-6 col-sm-12 py-2">
       {{>imageSlider}}
@@ -62,6 +61,16 @@
     </div>
 
     <h2 class="my-4">Recent Reviews</h2>
+
+
+    {{#if currentUser}}
+    
+    <div>
+        <p>Welcome {{currentUser.name}}</p>
+    </div>
+    {{/if}}
+
+
     {{#if restaurant.comments}}
       {{#each restaurant.comments as |comment|}}
         <div>
@@ -70,12 +79,5 @@
 
       {{/each}}
     {{/if}}
-
   </div>
-  <div>
-    {{#each restaurant.categories as |category|}}
-      <p>{{category}}</p>
-    {{/each}}
-  </div>
-
 </div>
