@@ -26,3 +26,7 @@
   /* height: 20px; */
   background: url('/img/avoTwo.svg')
 }
+
+.avocado-events-none {
+  background: url('/img/avoOne.svg')
+}
