@@ -23,7 +23,7 @@ router.get("/favicon.ico", misc.fav); // stops the annoying favicon 404 error
 // RESTAURANTS
 router.get("/restaurants", restaurants.list); // view -> all restaurants
 router.get("/restaurants/new", restaurants.create); // render create new rest form
-router.get("/restaurants/:id", restaurants.detail); // views detail
+router.get("/restaurants/:id", restaurants.detail); // views detail 
 router.post("/restaurants/new", restaurants.doCreate); // send form info
 
 // SHOPS FOOD -> TO DO
