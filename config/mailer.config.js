@@ -19,3 +19,15 @@ module.exports.sendActivationEmail = (email, token, name) => {
     html: template.generateEmail(token),
   });
 };
+
+// Send Recommendation
+module.exports.sendRecommendation = (body) => {
+  let emailBody = JSON.stringify(body, null, 2);
+
+  transporter.sendMail({
+    from: `"VegEspaña" <${process.env.NM_USER}>`,
+    to: `"VegEspaña" <${process.env.NM_USER}>`,
+    subject: `New Recommendation`,
+    html: emailBody,
+  });
+};
