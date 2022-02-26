@@ -1,5 +1,5 @@
 <div class="container">
-  <h2>{{restaurant.name}}</h2>
+  <h2 class="my-4">{{restaurant.name}}</h2>
   <div class="row mx-auto bg-white mx-auto mb-4">
     <div class="col-md-4 col-sm-12 py-2">
       {{#each restaurant.image as |image|}}
@@ -20,12 +20,13 @@
       <p>{{{restaurant.description}}}</p>
     </div>
 
+    <h2 class="my-4">Recent Reviews</h2>
     {{#if restaurant.comments}}
       {{#each restaurant.comments as |comment|}}
-      <ul>
-        <li>{{comment.description}}</li>
-      </ul>
-        
+        <div>
+          <p>{{comment.description}}</p>
+        </div>
+
       {{/each}}
     {{/if}}
 
