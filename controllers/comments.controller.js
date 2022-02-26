@@ -10,7 +10,7 @@ module.exports.create = (req, res, next) => {
 };
 
 module.exports.doCreate = (req, res, next) => {
-  //
+  console.log(req.body);
 };
 
 module.exports.edit = (req, res, next) => {

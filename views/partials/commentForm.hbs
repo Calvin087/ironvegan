@@ -1,0 +1,83 @@
+<form action="/comment" method="POST">
+  <div class="form-group visually-hidden ">
+    <input
+      name="restaurant"
+      type="text"
+      class="form-control {{#if errors.name}}is-invalid{{/if}}"
+      id="name"
+      {{!-- disabled  --}}
+      value={{restaurant._id}}
+    >
+    {{#if errors.name}}
+      <div class="invalid-feedback">
+        {{errors.name.message}}
+      </div>
+    {{/if}}
+  </div>
+
+  <div class="form-group visually-hidden">
+    <label for="name">Reviewer</label>
+    <input name="user"
+      value={{currentUser._id}}
+      type="text"
+      class="form-control {{#if errors.name}}is-invalid{{/if}} "
+      id="name"
+    >
+    {{#if errors.name}}
+      <div class="invalid-feedback">
+        {{errors.name.message}}
+      </div>
+    {{/if}}
+  </div>
+  
+  <div class="form-group mb-3">
+    <label for="name">Rating (1-10)</label>
+    <input name="rating"
+      type="number"
+      min="1"
+      max="10"
+      class="form-control {{#if errors.name}}is-invalid{{/if}}"
+      placeholder="5"
+      value=""
+    >
+    {{#if errors.name}}
+      <div class="invalid-feedback">
+        {{errors.name.message}}
+      </div>
+    {{/if}}
+  </div>
+  
+  <div class="form-group mb-3">
+    <label for="image" class="form-label">Avatar</label>
+        <input class="form-control" type="file" name="image" id="image">
+
+    {{#if errors.image}}
+      <div class="invalid-feedback">
+        {{errors.image.message}}
+      </div>
+    {{/if}}
+  </div>
+
+    <div class="form-group mb-3">
+    <label for="name">Comment</label>
+    <textarea name="description"
+      type="text"
+      class="form-control html-editor {{#if errors.description}}is-invalid{{/if}}"
+      id="text"
+      placeholder="Tell us about your experience"
+      rows="3"> </textarea>
+    {{#if errors.name}}
+      <div class="invalid-feedback">
+        {{errors.name.message}}
+      </div>
+    {{/if}}
+  </div>
+
+   <button type="submit" class="btn btn-primary">Submit</button>
+
+  </div>
+</form>
+</div>
+<div>
+
+</div>

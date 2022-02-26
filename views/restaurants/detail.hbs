@@ -62,15 +62,6 @@
 
     <h2 class="my-4">Recent Reviews</h2>
 
-
-    {{#if currentUser}}
-    
-    <div>
-        <p>Welcome {{currentUser.name}}</p>
-    </div>
-    {{/if}}
-
-
     {{#if restaurant.comments}}
       {{#each restaurant.comments as |comment|}}
         <div>
@@ -79,5 +70,16 @@
 
       {{/each}}
     {{/if}}
+    
+    
+    {{#if currentUser}}
+      <div id="write-a-review" >
+        <h5 class="my-4">Hi {{currentUser.name}}, please write a review for {{restaurant.name}}</h5>
+        {{>commentForm}}
+      </div>
+    {{/if}} 
+
   </div>
+
+
 </div>
