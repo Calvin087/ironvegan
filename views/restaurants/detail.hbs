@@ -2,20 +2,13 @@
   <h2 class="my-4">{{restaurant.name}}</h2>
   <div class="row mx-auto bg-white mx-auto mb-4">
     <div class="col-md-4 col-sm-12 py-2">
-      {{#each restaurant.image as |image|}}
-        {{#if @last}}
-          <div
-            style="background-image: url({{image}});"
-            class="card-images"
-          ></div>
-        {{/if}}
-      {{/each}}
+      {{>imageSlider}}
     </div>
     <div class="col-md-6 col-sm-12 py-2">
 
       <p class="card-address">
         <span class="pe-1">
-          <i class="fa fa-map-pin"></i>
+          <i class="bi bi-geo-alt"></i>
         </span>{{restaurant.address}}</p>
       <p>{{{restaurant.description}}}</p>
     </div>
