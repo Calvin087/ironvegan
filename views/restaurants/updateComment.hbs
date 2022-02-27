@@ -1,0 +1,24 @@
+
+
+<div class="container">
+    <h1>Edit your review:</h1>
+
+        <form method="POST">
+        <div>
+          <label for="rating">Rating:</label>
+          <br />
+          <input type="number" name="rating" value="{{rating}}"/>
+        </div>
+        <div>
+          <label for="images">Propellers:</label>
+          <br />
+          <input type="file" name="images" value="{{images}}" />
+        </div>
+        <div>
+          <label for="description">Description:</label>
+          <br />
+          <input type="text" name="description" value="{{description}}" />
+        </div>
+        <button type="submit">Update review</button>
+      </form>
+</div>
