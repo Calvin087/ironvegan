@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 
 const Restaurant = require("../models/restaurant.model");
 require("../models/comments.model");
+require("../models/avocado.model");
 
 const categories = require("../data/categories.json");
 const mailer = require("../config/mailer.config");
@@ -16,10 +17,15 @@ module.exports.list = (req, res, next) => {
 module.exports.detail = (req, res, next) => {
   Restaurant.findById(req.params.id)
     .populate("comments")
+    .populate("avocados")
     .then((restaurant) => {
       console.log(restaurant);
       if (restaurant) {
-        res.render("restaurants/detail", { restaurant });
+        console.log(restaurant.avocados.length);
+        res.render("restaurants/detail", {
+          restaurant,
+          avocados: restaurant.avocados.length, // we just want the number of avocados.
+        });
       } else {
         res.redirect("/restaurants");
       }
