@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+const upload = require("../config/storage.config");
 
 const misc = require("../controllers/misc.controller");
 const restaurants = require("../controllers/restaurant.controller");
@@ -66,7 +67,12 @@ router.get("/logout", auth.logout); // should be post??
 router.get("/comment/new", authMiddleware.isAuthenticated, comments.create); // view -> create review
 router.get("/comment/:id/edit", authMiddleware.isAuthenticated, comments.edit); // view for a review EDIT
 
-router.post("/comment", authMiddleware.isAuthenticated, comments.doCreate); // send NEW review to db
+router.post(
+  "/comment",
+  authMiddleware.isAuthenticated,
+  upload.single("images"), // comment model expects 'images'
+  comments.doCreate
+); // send NEW review to db
 router.post(
   "/comment/:id/edit",
   authMiddleware.isAuthenticated,

@@ -17,8 +17,8 @@ module.exports.detail = (req, res, next) => {
   Restaurant.findById(req.params.id)
     .populate("comments")
     .then((restaurant) => {
+      console.log(restaurant);
       if (restaurant) {
-        console.log(restaurant);
         res.render("restaurants/detail", { restaurant });
       } else {
         res.redirect("/restaurants");
