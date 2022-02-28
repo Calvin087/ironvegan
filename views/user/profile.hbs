@@ -4,7 +4,7 @@
     <div>
       <h1>Hi {{currentUser.name}} 👋</h1>
       <p class="mb-0">Email: {{currentUser.email}}</p>
-      <p>Joined: {{currentUser.createdAt}}</p>
+      <p>Joined: {{formatCommentDates currentUser.createdAt}}</p>
     </div>   
     <div>
       <img class="profile-picture" src="{{currentUser.avatarImg}}" alt="avatar">
