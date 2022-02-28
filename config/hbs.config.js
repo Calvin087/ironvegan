@@ -42,3 +42,10 @@ hbs.registerHelper("userDoAvocado", function (options) {
     return options.inverse(this);
   }
 });
+
+hbs.registerHelper("formatCommentDates", function (date) {
+  let thedate = new Date(date);
+  let options = { year: "numeric", day: "numeric", month: "long" };
+  // return thedate.toLocaleString("es-ES", options); // figure out later how to switch between the two types based on location?
+  return thedate.toLocaleString("en-GB", options);
+});
