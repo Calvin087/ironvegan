@@ -11,7 +11,8 @@
       <p>{{{showKiwis this.rating}}}</p>
     </div>
     <div class="card-footer">
-      <small class="text-muted">{{this.updatedAt}}</small>
+      <small class="text-muted">Posted
+        {{formatCommentDates this.updatedAt}}</small>
     </div>
     <form action="/comment/{{this._id}}/edit" method="GET">
       <button type="submit">Edit</button>

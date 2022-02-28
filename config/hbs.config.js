@@ -43,7 +43,14 @@ hbs.registerHelper("userDoAvocado", function (options) {
   }
 });
 
-hbs.registerHelper("showKiwis", function (rating) {
+
+hbs.registerHelper("formatCommentDates", function (date) {
+  let thedate = new Date(date);
+  let options = { year: "numeric", day: "numeric", month: "long" };
+  // return thedate.toLocaleString("es-ES", options); // figure out later how to switch between the two types based on location?
+  return thedate.toLocaleString("en-GB", options);
+  
+  hbs.registerHelper("showKiwis", function (rating) {
   const kiwiImage = `<img
     src="/img/kiwi.svg"
     class="me-1 mb-1"
