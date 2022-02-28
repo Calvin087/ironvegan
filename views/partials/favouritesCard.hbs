@@ -1,0 +1,21 @@
+<div class="col">
+  <a href="/restaurants/{{this.id}}" class="text-decoration-none text-dark">
+
+    <div class="card">
+
+      {{#each this.image as |image|}}
+        {{#if @last}}
+          <div
+            style="background-image: url({{image}});"
+            class="profile-card-images"
+          ></div>
+        {{/if}}
+      {{/each}}
+
+      <div class="card-body">
+        <p class="card-text">{{this.name}}</p>
+      </div>
+
+    </div>
+  </a>
+</div>

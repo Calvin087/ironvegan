@@ -5,6 +5,13 @@
   background-size: cover;
 }
 
+.profile-card-images {
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .detail-images {
   height: 400px;
   background-position: center;
@@ -43,5 +50,10 @@
   /* We can't use bgimage on img tag */
   /* width: 20px; */
   /* height: 20px; */
-  background: url('/img/avoTwo.svg')
+  background: url("/img/avoTwo.svg");
+}
+
+.profile-picture {
+  width: 120px;
+  height: auto;
 }

@@ -1,3 +1,55 @@
-<div class="container">
-  <h1>Hello {{currentUser.name}}</h1>
+<div class="container mt-5 mb-5">
+  
+  <div class="d-flex justify-content-between align-items-center p-2">
+    <div>
+      <h1>Hi {{currentUser.name}} 👋</h1>
+      <p class="mb-0">Email: {{currentUser.email}}</p>
+      <p>Joined: {{currentUser.createdAt}}</p>
+    </div>   
+    <div>
+      <img class="profile-picture" src="{{currentUser.avatarImg}}" alt="avatar">
+    </div>   
+  </div>
+
+  
+  {{!-- TODO use the new helper from comment pull req --}}
 </div>
+
+
+<div class="container mb-5">
+  <h2 class="mb-3">Your Favourites</h2>
+   <div class="row row-cols-2 row-cols-md-4 g-2">
+    {{#if favourites}}
+      {{#each favourites as |favourite| }}
+        {{>favouritesCard}}
+      {{/each}}
+    {{/if}}
+  </div>
+</div>
+
+<div class="container mb-5">
+  <h2 class="mb-3">Your Recent Reviews</h2>
+   <div class="row row-cols-1 row-cols-md-3 g-4">
+    {{#if comments}}
+      {{#each comments as |comment| }}
+        {{>commentCard}}
+      {{/each}}
+    {{/if}}
+  </div>
+</div>
+
+{{!-- {
+  _id: new ObjectId("621d03de9b12467f7634a9e3"),
+  name: 'Calvin Torra',
+  avatarImg: 'https://res.cloudinary.com/magaboo/image/upload/v1645371452/ironvegana/default-profile-picture-avatar-png-green_bk8idz.jpg',
+  city: 'Madrid',
+  email: 'calvin@ironvegan.com',
+  password: '$2b$10$UiGnJgHkoHJkKpIYfrDxVeOQ9f7/n/iSMOrUHiC76./4LzLuPu1m.',
+  paidUser: false,
+  active: false,
+  googleID: '',
+  activationToken: 'fhfzq951ltkf3ceyjuwsddd',
+  createdAt: 2022-02-28T17:18:22.976Z,
+  updatedAt: 2022-02-28T17:18:22.976Z,
+  __v: 0
+} --}}
