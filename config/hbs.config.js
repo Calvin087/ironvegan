@@ -42,3 +42,17 @@ hbs.registerHelper("userDoAvocado", function (options) {
     return options.inverse(this);
   }
 });
+
+hbs.registerHelper("showKiwis", function (rating) {
+  const kiwiImage = `<img
+    src="/img/kiwi.svg"
+    class="me-1 mb-1"
+    width="27px"
+    height="auto"
+  />`;
+  let kiwiString = "";
+  for (let i = 0; i < rating; i++) {
+    kiwiString += kiwiImage;
+  }
+  return kiwiString;
+});
