@@ -1,9 +1,9 @@
 const { localsAsTemplateData } = require("hbs");
 const mongoose = require("mongoose");
-const Comment = require("../models/comments.model");
+
 const Avocado = require("../models/avocado.model");
 const Restaurant = require("../models/restaurant.model");
-// MODELS GO HERE
+const Comment = require("../models/comments.model");
 
 // PASSPORT
 // MAILER...?
