@@ -19,7 +19,7 @@ module.exports.doCreate = (req, res, next) => {
     user,
     rating,
     description,
-    images: fileName,
+    images: fileName, // filename from cloudinary
   })
     .then((newComment) => {
       console.log(newComment);
@@ -29,7 +29,12 @@ module.exports.doCreate = (req, res, next) => {
 };
 
 module.exports.edit = (req, res, next) => {
-  //
+  Comment.findById(req.params.id)
+  .then((comment) => {
+    res.render("restaurants/updateComment", comment)
+  })
+  .catch((error) => console.log(error))
+  
 };
 
 module.exports.doEdit = (req, res, next) => {

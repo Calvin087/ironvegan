@@ -70,7 +70,7 @@ router.get("/comment/:id/edit", authMiddleware.isAuthenticated, comments.edit); 
 router.post(
   "/comment",
   authMiddleware.isAuthenticated,
-  upload.single("image"),
+  upload.single("images"), // comment model expects 'images'
   comments.doCreate
 ); // send NEW review to db
 router.post(
