@@ -21,7 +21,6 @@ module.exports.detail = (req, res, next) => {
     .then((restaurant) => {
       console.log(restaurant);
       if (restaurant) {
-        console.log(restaurant.avocados.length);
         res.render("restaurants/detail", {
           restaurant,
           avocados: restaurant.avocados.length, // we just want the number of avocados.
