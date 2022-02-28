@@ -6,7 +6,9 @@
   background-repeat: no-repeat; background-size: cover;"
     ></div>
     <div class="card-body">
-      <p class="card-text">{{this.description}} - {{this.rating}}</p>
+      <p class="card-text">{{this.description}}</p>
+      <p class="mb-2 fw-bold">Rating ({{this.rating}})</p>
+      <p>{{{showKiwis this.rating}}}</p>
     </div>
     <div class="card-footer">
       <small class="text-muted">{{this.updatedAt}}</small>
