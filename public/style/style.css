@@ -57,3 +57,7 @@
   width: 120px;
   height: auto;
 }
+
+.avocado-events-none {
+  background: url('/img/avoOne.svg')
+}
