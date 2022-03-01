@@ -50,13 +50,13 @@
   margin-top: 120px;
 }
 
-.icon-avocado {
-  /* we can change the image here i think */
-  /* We can't use bgimage on img tag */
-  /* width: 20px; */
-  /* height: 20px; */
-  /* background: url("/img/avoTwo.svg"); */
-}
+/* .icon-avocado { */
+/* we can change the image here i think */
+/* We can't use bgimage on img tag */
+/* width: 20px; */
+/* height: 20px; */
+/* background: url("/img/avoTwo.svg"); */
+/* } */
 
 /* default styles for avocado button on list page */
 .list-page-advocado {
@@ -79,6 +79,6 @@
   height: auto;
 }
 
-.avocado-events-none {
+/* .avocado-events-none {
   background: url("/img/avoOne.svg");
-}
+} */
