@@ -26,7 +26,6 @@ module.exports.doRegister = (req, res, next) => {
             "https://res.cloudinary.com/dbvcuz0d3/image/upload/v1646080280/newAvatar_uthmgp.png";
         }
         return User.create(user).then((createdUser) => {
-          console.log(createdUser);
           mailer.sendActivationEmail(
             createdUser.email,
             createdUser.activationToken,
@@ -52,14 +51,12 @@ module.exports.activate = (req, res, next) => {
   // User.findOneAndUpdate({ activationToken, active: false }, { active: true })
   User.findOneAndUpdate({ activationToken: token }, { $set: { active: true } })
     .then((updatedUser) => {
-      console.log(updatedUser);
       res.redirect("/login");
     })
     .catch((err) => next(err));
 };
 
 module.exports.pleaseActivate = (req, res, next) => {
-  console.log(res.locals.currentUser);
   res.render("auth/pleaseActivate");
 };
 
@@ -67,7 +64,6 @@ const doLogin = (req, res, next, provider) => {
   const userEmail = req.body.email;
 
   User.find({ email: userEmail }).then((user) => {
-    console.log(user);
     if (user[0].active === false) {
       return res.redirect("/activate");
     } else {
