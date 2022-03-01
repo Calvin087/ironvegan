@@ -68,7 +68,7 @@ router.get("/comment/new", authMiddleware.isAuthenticated, comments.create); // 
 router.get("/comment/:id/edit", authMiddleware.isAuthenticated, comments.edit); // view for a review EDIT
 
 router.post(
-  "/comment",
+  "/restaurants/:id",
   authMiddleware.isAuthenticated,
   upload.single("images"), // comment model expects 'images'
   comments.doCreate
@@ -76,6 +76,7 @@ router.post(
 router.post(
   "/comment/:id/edit",
   authMiddleware.isAuthenticated,
+  upload.single("images"),
   comments.doEdit
 ); // send review CHANGES to db
 router.post(
