@@ -66,5 +66,12 @@ restaurantSchema.virtual("comments", {
   justOne: false,
 });
 
+restaurantSchema.virtual("avocados", {
+  ref: "Avocado",
+  localField: "_id",
+  foreignField: "restaurant",
+  justOne: false,
+});
+
 const Restaurant = mongoose.model("Restaurant", restaurantSchema);
 module.exports = Restaurant;

@@ -41,6 +41,10 @@
   border: none;
 }
 
+.avocado-detail-page {
+  margin-top: -10px;
+}
+
 .write-a-review {
   margin-top: 120px;
 }
