@@ -19,7 +19,7 @@ module.exports.doCreate = (req, res, next) => {
     user,
     rating,
     description,
-    images: fileName,
+    images: fileName, // filename from cloudinary
   })
     .then((newComment) => {
       res.redirect(`/restaurants/${restaurant}`);
