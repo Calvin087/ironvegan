@@ -7,7 +7,7 @@ const Comment = require("../models/comments.model");
 // MAILER...?
 
 module.exports.create = (req, res, next) => {
-  //
+  res.render('restaurants/detail')
 };
 
 module.exports.doCreate = (req, res, next) => {
@@ -22,23 +22,46 @@ module.exports.doCreate = (req, res, next) => {
     images: fileName,
   })
     .then((newComment) => {
-      console.log(newComment);
       res.redirect(`/restaurants/${restaurant}`);
     })
     .catch((error) => console.log(error));
 };
 
 module.exports.edit = (req, res, next) => {
+  let user = req.user.id
+
   Comment.findById(req.params.id)
   .then((comment) => {
-    res.render("restaurants/updateComment", comment)
+    if (user == comment.user) {
+      console.log("You can edit your review");
+      res.render("restaurants/updateComment", comment)
+    } else {
+      console.log("This is not your review")
+      res.redirect(`/restaurants/${comment.restaurant}`);
+    }
   })
   .catch((error) => console.log(error))
   
 };
 
 module.exports.doEdit = (req, res, next) => {
-  //
+  const { id } = req.params;
+  const { restaurant, user, rating, description } = req.body;
+
+  let images;
+
+  if (req.file) {
+    images = req.file.path;
+  } else {
+    images = req.body.existingImage;
+    console.log(images)
+  }
+
+  Comment.findByIdAndUpdate(id, { restaurant, user, rating, description, images }, { new: true })
+    .then((comment) => {
+       res.redirect(`/restaurants/${comment.restaurant}`);
+    })
+    .catch((error) => next(error))
 };
 
 module.exports.delete = (req, res, next) => {
