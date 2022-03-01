@@ -20,9 +20,13 @@ module.exports.doRegister = (req, res, next) => {
         renderWithErrors({ email: "Email already in use" });
       } else {
         if (req.file) {
-          user.image = req.file.path;
+          user.avatarImg = req.file.path;
+        } else {
+          user.avatarImg =
+            "https://res.cloudinary.com/dbvcuz0d3/image/upload/v1646080280/newAvatar_uthmgp.png";
         }
         return User.create(user).then((createdUser) => {
+          console.log(createdUser);
           mailer.sendActivationEmail(
             createdUser.email,
             createdUser.activationToken,
@@ -43,33 +47,52 @@ module.exports.doRegister = (req, res, next) => {
 };
 
 module.exports.activate = (req, res, next) => {
-  const activationToken = req.params.token;
+  const token = req.params.token;
 
-  User.findOneAndUpdate({ activationToken, active: false }, { active: true })
-    .then(() => {
+  // User.findOneAndUpdate({ activationToken, active: false }, { active: true })
+  User.findOneAndUpdate({ activationToken: token }, { $set: { active: true } })
+    .then((updatedUser) => {
+      console.log(updatedUser);
       res.redirect("/login");
     })
     .catch((err) => next(err));
 };
 
+module.exports.pleaseActivate = (req, res, next) => {
+  console.log(res.locals.currentUser);
+  res.render("auth/pleaseActivate");
+};
+
 const doLogin = (req, res, next, provider) => {
-  passport.authenticate(provider || "local-auth", (err, user, validations) => {
-    if (err) {
-      next(err);
-    } else if (!user) {
-      res
-        .status(404)
-        .render("auth/login", { errors: { email: validations.error } });
+  const userEmail = req.body.email;
+
+  User.find({ email: userEmail }).then((user) => {
+    console.log(user);
+    if (user[0].active === false) {
+      return res.redirect("/activate");
     } else {
-      req.login(user, (loginError) => {
-        if (loginError) {
-          next(loginError);
-        } else {
-          res.redirect("/profile");
+      passport.authenticate(
+        provider || "local-auth",
+        (err, user, validations) => {
+          if (err) {
+            next(err);
+          } else if (!user) {
+            res
+              .status(404)
+              .render("auth/login", { errors: { email: validations.error } });
+          } else {
+            req.login(user, (loginError) => {
+              if (loginError) {
+                next(loginError);
+              } else {
+                res.redirect("/profile");
+              }
+            });
+          }
         }
-      });
+      )(req, res, next);
     }
-  })(req, res, next);
+  });
 };
 
 module.exports.login = (req, res, next) => {
