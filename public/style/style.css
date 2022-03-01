@@ -5,6 +5,13 @@
   background-size: cover;
 }
 
+.profile-card-images {
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .detail-images {
   height: 400px;
   background-position: center;
@@ -48,4 +55,13 @@
   /* width: 20px; */
   /* height: 20px; */
   background: url("/img/avoTwo.svg");
+}
+
+.profile-picture {
+  width: 120px;
+  height: auto;
+}
+
+.avocado-events-none {
+  background: url('/img/avoOne.svg')
 }

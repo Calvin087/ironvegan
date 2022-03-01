@@ -19,7 +19,6 @@ module.exports.detail = (req, res, next) => {
     .populate("comments")
     .populate("avocados")
     .then((restaurant) => {
-      console.log(restaurant);
       if (restaurant) {
         res.render("restaurants/detail", {
           restaurant,

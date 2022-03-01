@@ -15,7 +15,7 @@ const userSchema = new mongoose.Schema(
     avatarImg: {
       type: String,
       default:
-        "https://res.cloudinary.com/magaboo/image/upload/v1645371452/ironvegana/default-profile-picture-avatar-png-green_bk8idz.jpg",
+        "https://res.cloudinary.com/dbvcuz0d3/image/upload/v1646080280/newAvatar_uthmgp.png",
     },
     city: {
       type: String,
