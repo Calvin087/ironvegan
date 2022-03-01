@@ -13,17 +13,16 @@
                 ></div>
               {{/if}}
             {{/each}}
-            <button class=" avocado-action avocado-button">
-              <img 
-              data-id="{{restaurant.id}}"
-              src="/img/avoOne.svg"
-              id="avoOne"
-              width="30px"
-              height="auto"
-              class="
-              {{#userDoAvocado avocados=../avocados restaurant=restaurant}}icon-avocado{{/userDoAvocado}}
-              "/>   
-              </button>
+            <button class="avocado-button">
+              <div
+                data-id="{{restaurant.id}}"
+                class="
+                list-page-advocado
+                {{!-- {{#userDoAvocado avocados=../avocados restaurant=restaurant}}list-page-advocado-active{{/userDoAvocado}} --}}
+                "
+              >
+              </div>
+            </button>
           </div>
           <div class="card-body d-flex flex-column mt-2">
             <h5 class="card-title text-truncate">{{restaurant.name}}</h5>

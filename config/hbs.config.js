@@ -7,17 +7,20 @@ hbs.registerPartials("./views/partials"); // to do
 // helpers down here
 
 hbs.registerHelper("userDoAvocado", function (options) {
-  const { restaurant, avocados } = options.hash;
+  const { restaurant, avocados } = options.hash; // avocados is undefined. Check Routers
+  const restaurantId = restaurant._id;
+
+  // console.log(avocados);
   /* .some checks if at least one element pass the condition --> true */
-  if (
-    restaurant &&
-    avocados &&
-    avocados.some((avocado) => avocado.restaurant == restaurant.id)
-  ) {
-    return options.fn(this);
-  } else {
-    return options.inverse(this);
-  }
+  // if (
+  //   restaurant &&
+  //   avocados &&
+  //   avocados.some((avocado) => avocado.restaurant == restaurant.id)
+  // ) {
+  //   return options.fn(this);
+  // } else {
+  //   return options.inverse(this);
+  // }
 });
 
 hbs.registerHelper("restaurantHasCategory", function (options) {
