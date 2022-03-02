@@ -1,7 +1,7 @@
 <div class="row justify-content-center mt-4">
   <div class="col-sm-4">
     <h1>Register</h1>
-    <form method="POST" action="/register">
+    <form method="POST" action="/register" enctype="multipart/form-data">
       <div class="form-group mb-3">
         <label for="name">Name</label>
         <input
@@ -65,7 +65,7 @@
 
       <div class="mb-3">
         <label for="avatarImg" class="form-label">Avatar</label>
-        <input class="form-control" type="file" name="avatarImg" id="avatarImg">
+        <input class="form-control" type="file" name="images" id="avatarImg">
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>

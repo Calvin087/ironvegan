@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const upload = require("../config/storage.config");
+const { commentImages, userAvatars } = require("../config/storage.config");
 const Comment = require("../models/comments.model");
 
 // MODELS GO HERE
@@ -7,7 +7,7 @@ const Comment = require("../models/comments.model");
 // MAILER...?
 
 module.exports.create = (req, res, next) => {
-  res.render('restaurants/detail')
+  res.render("restaurants/detail");
 };
 
 module.exports.doCreate = (req, res, next) => {
@@ -28,20 +28,19 @@ module.exports.doCreate = (req, res, next) => {
 };
 
 module.exports.edit = (req, res, next) => {
-  let user = req.user.id
+  let user = req.user.id;
 
   Comment.findById(req.params.id)
-  .then((comment) => {
-    if (user == comment.user) {
-      console.log("You can edit your review");
-      res.render("restaurants/updateComment", comment)
-    } else {
-      console.log("This is not your review")
-      res.redirect(`/restaurants/${comment.restaurant}`);
-    }
-  })
-  .catch((error) => console.log(error))
-  
+    .then((comment) => {
+      if (user == comment.user) {
+        console.log("You can edit your review");
+        res.render("restaurants/updateComment", comment);
+      } else {
+        console.log("This is not your review");
+        res.redirect(`/restaurants/${comment.restaurant}`);
+      }
+    })
+    .catch((error) => console.log(error));
 };
 
 module.exports.doEdit = (req, res, next) => {
@@ -54,14 +53,18 @@ module.exports.doEdit = (req, res, next) => {
     images = req.file.path;
   } else {
     images = req.body.existingImage;
-    console.log(images)
+    console.log(images);
   }
 
-  Comment.findByIdAndUpdate(id, { restaurant, user, rating, description, images }, { new: true })
+  Comment.findByIdAndUpdate(
+    id,
+    { restaurant, user, rating, description, images },
+    { new: true }
+  )
     .then((comment) => {
-       res.redirect(`/restaurants/${comment.restaurant}`);
+      res.redirect(`/restaurants/${comment.restaurant}`);
     })
-    .catch((error) => next(error))
+    .catch((error) => next(error));
 };
 
 module.exports.delete = (req, res, next) => {
