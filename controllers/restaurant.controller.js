@@ -4,13 +4,26 @@ const Restaurant = require("../models/restaurant.model");
 require("../models/comments.model");
 require("../models/avocado.model");
 
+const Avocado = require("../models/avocado.model");
+
 const categories = require("../data/categories.json");
 const mailer = require("../config/mailer.config");
 
-module.exports.list = (req, res, next) => {
+module.exports.list = async (req, res, next) => {
+  const userDetails = res.locals.currentUser
+    ? res.locals.currentUser
+    : undefined;
+
+  let avocados;
+  if (userDetails != undefined) {
+    avocados = await Avocado.find({ user: userDetails._id });
+  }
+
   Restaurant.find()
     .limit(12)
-    .then((restaurants) => res.render("restaurants/list", { restaurants }))
+    .then((restaurants) =>
+      res.render("restaurants/list", { restaurants, avocados })
+    )
     .catch((error) => next(error));
 };
 

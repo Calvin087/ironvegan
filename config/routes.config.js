@@ -37,7 +37,7 @@ router.get("/profile/edit", authMiddleware.isAuthenticated, user.edit); // view 
 router.post("/profile/edit", authMiddleware.isAuthenticated, user.doEdit); // view -> send CHANGES to db
 
 // AVOCADO RATING
-router.post("/avocado", authMiddleware.isAuthenticated, user.doAvocado); // send NEW / CHANGE rating in db (if exists, change num - doesn't exist add num)
+router.post("/avocado/:id", authMiddleware.isAuthenticated, user.doAvocado); // send NEW / CHANGE rating in db (if exists, change num - doesn't exist add num)
 
 // REGISTER
 router.get("/register", authMiddleware.isNotAuthenticated, auth.register); // views -> create account
@@ -45,6 +45,7 @@ router.post("/register", auth.doRegister); // db create account
 
 // ACTIVATE
 router.get("/activate/:token", auth.activate);
+router.get("/activate", auth.pleaseActivate);
 
 // LOGIN
 router.get("/login", authMiddleware.isNotAuthenticated, auth.login); // views -> log in
