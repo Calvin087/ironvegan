@@ -8,21 +8,16 @@ const Avocado = require("../models/avocado.model");
 const categories = require("../data/categories.json");
 const mailer = require("../config/mailer.config");
 
-module.exports.list = async (req, res, next) => {
-  const userDetails = res.locals.currentUser
-    ? res.locals.currentUser
-    : undefined;
+module.exports.list = (req, res, next) => {
+  Avocado.find({ user: req.user.id })
+    .then((avocados) => {
+      return Restaurant.find()
+        .limit(12)
+        .then((restaurants) =>
+          res.render("restaurants/list", { restaurants, avocados })
+        );
+    })
 
-  let avocados;
-  if (userDetails != undefined) {
-    avocados = await Avocado.find({ user: userDetails._id });
-  }
-
-  Restaurant.find()
-    .limit(12)
-    .then((restaurants) =>
-      res.render("restaurants/list", { restaurants, avocados })
-    )
     .catch((error) => next(error));
 };
 
