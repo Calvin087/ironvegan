@@ -7,7 +7,7 @@ hbs.registerPartials("./views/partials"); // to do
 // helpers down here
 
 hbs.registerHelper("userDoAvocado", function (options) {
-  const { restaurant, avocados } = options.hash;
+  const { restaurant, avocados } = options.hash;  
   /* .some checks if at least one element pass the condition --> true */
   if (
     restaurant &&
