@@ -4,7 +4,6 @@ const hbs = require("hbs");
 // partials
 hbs.registerPartials("./views/partials"); // to do
 
-
 hbs.registerHelper("userDoAvocado", function (options) {
   const { restaurant, avocados } = options.hash;
   /* .some checks if at least one element pass the condition --> true */
@@ -29,9 +28,8 @@ hbs.registerHelper("restaurantHasCategory", function (options) {
   }
 });
 
-
 hbs.registerHelper("userDoAvocado", function (options) {
-  const { restaurant, avocados } = options.hash;  
+  const { restaurant, avocados } = options.hash;
   /* .some checks if at least one element pass the condition --> true */
   if (
     restaurant &&
@@ -41,7 +39,8 @@ hbs.registerHelper("userDoAvocado", function (options) {
     return options.fn(this);
   } else {
     return options.inverse(this);
-
+  }
+});
 
 hbs.registerHelper("formatCommentDates", function (date) {
   let thedate = new Date(date);
@@ -60,7 +59,6 @@ hbs.registerHelper("showKiwis", function (rating) {
   let kiwiString = "";
   for (let i = 0; i < rating; i++) {
     kiwiString += kiwiImage;
-
   }
   return kiwiString;
 });
