@@ -10,12 +10,30 @@
 
 {{!-- Details Section --}}
     <div class="col-md-6 col-sm-12 py-2">
-    <h2 class="mb-4">{{restaurant.name}}</h2>
+
+
+      <div class="d-flex align-items-center mb-4">
+      <h2 class="me-3">{{restaurant.name}}</h2>
+      {{#if avocados}}
+        <img 
+          display="inline"
+          src="/img/avoTwo.svg"
+          width="30px"
+          height="auto"
+          class="avocado-detail-page"
+        /> 
+        <h4>
+          ({{avocados}})
+        </h4>
+      {{/if}}
+      </div>
+    
+   
       <p class="card-address">
           <i class="bi bi-geo-alt me-2"></i>
         {{restaurant.address}}
       </p>
-      
+
       <p class="card-address">
           <i class="bi bi-telephone me-2"></i>
         {{restaurant.phone}}
@@ -90,7 +108,7 @@
     {{#if currentUser}}
       <div class="write-a-review" id="write-a-review">
         <h5 class="my-4">Hi {{currentUser.name}}, please write a review for {{restaurant.name}}</h5>
-        {{>commentForm}}
+        {{>commentForm edit=false}}
       </div>
     {{/if}}
 </div>
