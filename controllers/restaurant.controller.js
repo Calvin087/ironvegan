@@ -3,13 +3,19 @@ const mongoose = require("mongoose");
 const Restaurant = require("../models/restaurant.model");
 require("../models/comments.model");
 
+const Avocado = require("../models/avocado.model");
+
 const categories = require("../data/categories.json");
 const mailer = require("../config/mailer.config");
 
 module.exports.list = (req, res, next) => {
-  Restaurant.find()
-    .limit(12)
-    .then((restaurants) => res.render("restaurants/list", { restaurants }))
+  Avocado.find({ user: req.user.id })
+    .then((avocados) => {
+      return Restaurant.find()
+        .limit(12)
+        .then((restaurants) => res.render("restaurants/list", { restaurants, avocados }));
+    })
+
     .catch((error) => next(error));
 };
 
