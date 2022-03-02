@@ -32,6 +32,7 @@
   align-items: center;
   justify-content: center;
   border: none;
+  padding: 10px;
 }
 
 .write-a-review {
@@ -43,11 +44,11 @@
   /* We can't use bgimage on img tag */
   /* width: 20px; */
   /* height: 20px; */
-/*   background: url('/img/avoTwo.svg') */
+  /*   background: url('/img/avoTwo.svg') */
 }
 
 .avocado-events-none {
-  background: url('/img/avoOne.svg')
+  background: url("/img/avoOne.svg");
 }
 
 /* default styles for avocado button on list page */
@@ -64,4 +65,9 @@
 /* Just changing the background image */
 .list-page-advocado-active {
   background: url("../img/avoTwo.svg");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
