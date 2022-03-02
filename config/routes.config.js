@@ -45,6 +45,7 @@ router.post("/register", auth.doRegister); // db create account
 
 // ACTIVATE
 router.get("/activate/:token", auth.activate);
+router.get("/activate", auth.pleaseActivate);
 
 // LOGIN
 router.get("/login", authMiddleware.isNotAuthenticated, auth.login); // views -> log in
