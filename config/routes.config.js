@@ -23,7 +23,7 @@ router.get("/favicon.ico", misc.fav); // stops the annoying favicon 404 error
 // RESTAURANTS
 router.get("/restaurants", restaurants.list); // view -> all restaurants
 router.get("/restaurants/new", restaurants.create); // render create new rest form
-router.get("/restaurants/:id", restaurants.detail); // views detail
+router.get("/restaurants/:id", restaurants.detail); // views detail 
 router.post("/restaurants/new", restaurants.doCreate); // send form info
 
 // SHOPS FOOD -> TO DO
@@ -45,6 +45,7 @@ router.post("/register", auth.doRegister); // db create account
 
 // ACTIVATE
 router.get("/activate/:token", auth.activate);
+router.get("/activate", auth.pleaseActivate);
 
 // LOGIN
 router.get("/login", authMiddleware.isNotAuthenticated, auth.login); // views -> log in
@@ -68,7 +69,7 @@ router.get("/comment/new", authMiddleware.isAuthenticated, comments.create); // 
 router.get("/comment/:id/edit", authMiddleware.isAuthenticated, comments.edit); // view for a review EDIT
 
 router.post(
-  "/comment",
+  "/restaurants/:id",
   authMiddleware.isAuthenticated,
   upload.single("images"), // comment model expects 'images'
   comments.doCreate
@@ -76,6 +77,7 @@ router.post(
 router.post(
   "/comment/:id/edit",
   authMiddleware.isAuthenticated,
+  upload.single("images"),
   comments.doEdit
 ); // send review CHANGES to db
 router.post(
