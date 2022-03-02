@@ -1,5 +1,7 @@
 // hbs
 const hbs = require("hbs");
+const { mongoose } = require("mongoose");
+
 
 // partials
 hbs.registerPartials("./views/partials"); // to do
@@ -32,11 +34,16 @@ hbs.registerHelper("restaurantHasCategory", function (options) {
   }
 });
 
-<<<<<<< HEAD
+hbs.registerHelper("isUserReview", function (options) {
+  const { comment, user } = options.hash;
+  console.log(user)
+  if (comment.user._id.equals(user._id)) {
+    return options.fn(this);
+  } else {
+    return options.inverse(this);
+  }
+});
 
-
-
-=======
 hbs.registerHelper("formatCommentDates", function (date) {
   let thedate = new Date(date);
   let options = { year: "numeric", day: "numeric", month: "long" };
@@ -57,4 +64,3 @@ hbs.registerHelper("showKiwis", function (rating) {
   }
   return kiwiString;
 });
->>>>>>> c288c1fd51334322003758da57b8619d59146a27

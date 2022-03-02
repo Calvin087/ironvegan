@@ -65,3 +65,7 @@
 .avocado-events-none {
   background: url('/img/avoOne.svg')
 }
+
+.btn-edit {
+  display: none;
+}

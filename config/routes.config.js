@@ -85,6 +85,15 @@ router.post(
   comments.delete
 ); // DELETE review from db
 
+//
+/* router.post(
+  "/comment/:id/delete",
+  authMiddleware.isAuthenticated,
+  comments.deleteClient
+) */
+
+
+
 // RESEVATIONS TODO
 
 module.exports = router;

@@ -28,6 +28,7 @@ module.exports.doRegister = (req, res, next) => {
             createdUser.activationToken,
             createdUser.name
           );
+          req.flash('flashMessage', 'You have to activate your account.');
           res.redirect("/login");
         });
       }
@@ -47,6 +48,7 @@ module.exports.activate = (req, res, next) => {
 
   User.findOneAndUpdate({ activationToken, active: false }, { active: true })
     .then(() => {
+      req.flash('flashMessage', 'You have activated your account. Welcome!');
       res.redirect("/login");
     })
     .catch((err) => next(err));

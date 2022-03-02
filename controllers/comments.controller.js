@@ -6,6 +6,7 @@ const Comment = require("../models/comments.model");
 // PASSPORT
 // MAILER...?
 
+      
 module.exports.create = (req, res, next) => {
   res.render('restaurants/detail')
 };
@@ -32,13 +33,7 @@ module.exports.edit = (req, res, next) => {
 
   Comment.findById(req.params.id)
   .then((comment) => {
-    if (user == comment.user) {
-      console.log("You can edit your review");
-      res.render("restaurants/updateComment", comment)
-    } else {
-      console.log("This is not your review")
-      res.redirect(`/restaurants/${comment.restaurant}`);
-    }
+    res.render("restaurants/updateComment", comment)
   })
   .catch((error) => console.log(error))
   
@@ -65,5 +60,21 @@ module.exports.doEdit = (req, res, next) => {
 };
 
 module.exports.delete = (req, res, next) => {
-  //
+  console.log(req.params.id)
+
+  Comment.findByIdAndDelete(req.params.id)
+  .then((comment) => res.redirect(`/restaurants/${comment.restaurant}`))
+  .catch((error) => console.log(error))
 };
+
+// 
+/* module.exports.deleteClient = (req, res, next) => {
+  console.log('*********************')
+  console.log(req.params.id)
+
+  Comment.deleteComment(req.params.id)
+    .then((response) => {
+      res.status(200).json({})
+    })
+    .catch(err => next(err))
+} */
