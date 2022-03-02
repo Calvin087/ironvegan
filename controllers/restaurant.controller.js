@@ -11,7 +11,8 @@ const mailer = require("../config/mailer.config");
 module.exports.list = (req, res, next) => {
   Avocado.find({ user: req.user.id })
     .then((avocados) => {
-      return Restaurant.find()
+      return Restaurant
+        .find()
         .limit(12)
         .then((restaurants) =>
           res.render("restaurants/list", { restaurants, avocados })
