@@ -41,7 +41,7 @@ router.post("/avocado/:id", authMiddleware.isAuthenticated, user.doAvocado); // 
 
 // REGISTER
 router.get("/register", authMiddleware.isNotAuthenticated, auth.register); // views -> create account
-router.post("/register", userAvatars.single("images"), auth.doRegister); // db create account
+router.post("/register", userAvatars.single("avatarImg"), auth.doRegister); // db create account
 
 // ACTIVATE
 router.get("/activate/:token", auth.activate);
