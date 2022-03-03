@@ -31,6 +31,7 @@ module.exports.doRegister = (req, res, next) => {
             createdUser.activationToken,
             createdUser.name
           );
+          req.flash('flashMessage', 'You have to activate your account. Please check your inbox or SPAM.')
           res.redirect("/login");
         });
       }
@@ -51,6 +52,7 @@ module.exports.activate = (req, res, next) => {
   // User.findOneAndUpdate({ activationToken, active: false }, { active: true })
   User.findOneAndUpdate({ activationToken: token }, { $set: { active: true } })
     .then((updatedUser) => {
+      req.flash('flashMessage', 'You have activated your account. Welcome!')
       res.redirect("/login");
     })
     .catch((err) => next(err));
@@ -81,6 +83,7 @@ const doLogin = (req, res, next, provider) => {
               if (loginError) {
                 next(loginError);
               } else {
+                req.flash('flashMessage', 'You have succesfully signed in')
                 res.redirect("/profile");
               }
             });
