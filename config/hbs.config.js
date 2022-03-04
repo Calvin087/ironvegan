@@ -6,7 +6,15 @@ const { mongoose } = require("mongoose");
 // partials
 hbs.registerPartials("./views/partials"); // to do
 
-// helpers down here
+hbs.registerHelper("restaurantHasCategory", function (options) {
+  const { restaurant, category } = options.hash;
+
+  if (restaurant && restaurant.categories.includes(category)) {
+    return options.fn(this);
+  } else {
+    return options.inverse(this);
+  }
+});
 
 hbs.registerHelper("userDoAvocado", function (options) {
   const { restaurant, avocados } = options.hash;
@@ -21,17 +29,6 @@ hbs.registerHelper("userDoAvocado", function (options) {
     return options.inverse(this);
   }
 });
-
-hbs.registerHelper("restaurantHasCategory", function (options) {
-  const { restaurant, category } = options.hash;
-
-  if (restaurant && restaurant.categories.includes(category)) {
-    return options.fn(this);
-  } else {
-    return options.inverse(this);
-  }
-});
-
 
 hbs.registerHelper("isUserReview", function (options) {
   const { comment, user } = options.hash;
