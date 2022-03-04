@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const User = require("../models/user.model");
 const mailer = require("../config/mailer.config");
+const { commentImages, userAvatars } = require("../config/storage.config");
 const passport = require("passport");
 
 module.exports.register = (req, res, next) => {
@@ -66,7 +67,7 @@ const doLogin = (req, res, next, provider) => {
   const userEmail = req.body.email;
 
   User.find({ email: userEmail }).then((user) => {
-    if (user[0].active === false) {
+    if (user[0]?.active === false) {
       return res.redirect("/activate");
     } else {
       passport.authenticate(

@@ -5,7 +5,8 @@
     "email": "calvin@ironvegan.com",
     "password": "CalvinIronV1!",
     "googleID": "",
-    "paidUser": false
+    "paidUser": false,
+    "avatarImg": "https://res.cloudinary.com/dbvcuz0d3/image/upload/v1646080280/newAvatar_uthmgp.png"
   },
   {
     "name": "María Gallego",
@@ -13,7 +14,8 @@
     "email": "maria@ironvegan.com",
     "password": "MariaIronV1!",
     "googleID": "",
-    "paidUser": false
+    "paidUser": false,
+    "avatarImg": "https://res.cloudinary.com/dbvcuz0d3/image/upload/v1646080280/newAvatar_uthmgp.png"
   },
   {
     "name": "Robert Cabrera",
@@ -21,6 +23,7 @@
     "email": "robert@ironvegan.com",
     "password": "RobertIronV1!",
     "googleID": "",
-    "paidUser": false
+    "paidUser": false,
+    "avatarImg": "https://res.cloudinary.com/dbvcuz0d3/image/upload/v1646080280/newAvatar_uthmgp.png"
   }
 ]
