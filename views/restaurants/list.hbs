@@ -32,32 +32,13 @@
               href="/restaurants/{{restaurant.id}}"
               class="btn btn-success"
             >View Details</a>
-            {{!-- <a
-              href="/restaurants/{{restaurant.id}}/edit"
-              class="btn btn-outline-success mt-1"
-            >Edit info</a> --}}
           </div>
         </div>
       </div>
     {{/each}}
   </div>
 
-Next{{next}}
-previous{{previous}}
-
-  <div class="mt-5">
-    <ul class="pagination justify-content-center ">
-      <li class="page-item disabled">
-        <a class="page-link">Previous</a>
-      </li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item">
-        <a class="page-link" href="/restaurants?page={{next}}">Next</a>
-      </li>
-    </ul>
-  </div>
+  {{>listPagniation pagination}}
 
 </div>
 
