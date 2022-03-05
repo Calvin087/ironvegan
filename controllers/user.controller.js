@@ -32,7 +32,8 @@ module.exports.doAvocado = (req, res, next) => {
   const restId = req.params.id;
   const userId = res.locals.currentUser.id;
 
-  Avocado.findOneAndDelete({ restaurant: restId, user: userId })
+  if(userId) {
+    Avocado.findOneAndDelete({ restaurant: restId, user: userId })
     .then((deletedAvocado) => {
       if (deletedAvocado) {
         res.status(200).send({ success: "Avocado removed from DDBB" });
@@ -45,4 +46,7 @@ module.exports.doAvocado = (req, res, next) => {
       }
     })
     .catch(next);
+  }
+
+  
 };
