@@ -10,6 +10,8 @@ const categories = require("../data/categories.json");
 const mailer = require("../config/mailer.config");
 
 module.exports.list = async (req, res, next) => {
+  const { page = 1, limit = 4 } = req.query;
+
   const userDetails = res.locals.currentUser
     ? res.locals.currentUser
     : undefined;
@@ -19,12 +21,31 @@ module.exports.list = async (req, res, next) => {
     avocados = await Avocado.find({ user: userDetails._id });
   }
 
-  Restaurant.find()
-    .limit(12)
-    .then((restaurants) =>
-      res.render("restaurants/list", { restaurants, avocados })
-    )
-    .catch((error) => next(error));
+  try {
+    const restaurants = await Restaurant.find()
+      .limit(limit * 1)
+      .skip((page - 1) * limit)
+      .exec();
+
+    const count = await restaurants.countDocuments();
+
+    res.render("restaurants/list", {
+      restaurants,
+      count,
+      totalPages: Math.ceil(count / limit),
+      currentPage: page,
+      avocados,
+    });
+  } catch (err) {
+    console.error(err.message);
+  }
+
+  // Restaurant.find()
+  //   .limit(12)
+  //   .then((restaurants) =>
+  //     res.render("restaurants/list", { restaurants, avocados })
+  //   )
+  //   .catch((error) => next(error));
 };
 
 module.exports.detail = (req, res, next) => {
