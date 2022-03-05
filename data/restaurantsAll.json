@@ -10,7 +10,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/0c/a0/17/02/ensalada.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/9d/5b/07/photo0jpg.jpg",
@@ -39,7 +39,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-w/15/81/2d/00/plato-de-dopiaza.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/15/81/2b/5d/momo-tipico-plato-nepali.jpg",
@@ -69,7 +69,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/85/e6/93/salumeria-quesos-italianos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/85/e4/e9/parmigiana-di-melanzane.jpg",
@@ -100,7 +100,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/71/0d/df/level-veggie-bistro.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/ad/34/0c/photo1jpg.jpg",
@@ -129,7 +129,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/03/23/10/solomillo-al-oporto.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0c/71/ed/7b/tartare-de-aguacate-y.jpg",
@@ -159,7 +159,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/91/e2/84/curry-canela.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/91/e2/65/curry-canela.jpg",
@@ -188,7 +188,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/21/d9/a8/comida-hindu.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/21/dd/b2/comida-hindu-arpit.jpg",
@@ -217,7 +217,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/a2/6c/14/eggs.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/a2/6b/90/plenti.jpg",
@@ -248,7 +248,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-l/15/5f/11/ac/lum3.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/25/7e/60/foto-9.jpg",
@@ -277,7 +277,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/19/68/e2/9e/tom-yam-kung-sopa-tradicional.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/19/68/e2/11/karee-pab-empanadillas.jpg",
@@ -306,7 +306,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-p/0e/8c/fd/9b/tacos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/0e/8c/fd/7c/tacos-y-quesadilla.jpg",
@@ -335,7 +335,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/15/64/07/39/bienvenidos-a-vietnam.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/18/1b/1e/d9/caption.jpg",
@@ -366,7 +366,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/d4/9b/e9/photo3jpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/06/b2/7f/5c/oliveto.jpg",
@@ -397,7 +397,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/25/a8/una-delicia.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/24/b4/nuestro-tartar-de-salmon.jpg",
@@ -426,7 +426,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0a/ba/a5/c7/local.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0a/ba/8e/2c/vega.jpg",
@@ -455,7 +455,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/09/f9/26/17/la-hummuseria.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/11/36/e8/b5/tapa-del-dia.jpg",
@@ -484,7 +484,7 @@
     "veganOptions": "Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-o/09/4c/59/5c/bambubox.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/14/ee/d6/48/tom-ka-gai.jpg",
@@ -513,7 +513,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/df/e7/d2/galette-queso-de-cabra.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/df/e7/c0/crepe-belle-helene.jpg",
@@ -540,7 +540,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/12/8c/85/4c/pulpito-gallego-a-la.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/99/36/26/urumaki-barbacue-duck.jpg",
@@ -569,7 +569,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-p/18/27/7d/2d/brunch.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/11/59/0b/bf/brunch.jpg",
@@ -600,7 +600,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/16/ae/9f/91/great-atmosphere.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/9d/f9/89/typical-hyderabad-dum.jpg",
@@ -630,7 +630,7 @@
     "veganOptions": "Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/3b/6b/f6/inueva-pinsa-acquolina.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/16/1c/0f/95/bagnacauda.jpg",
@@ -659,7 +659,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/10/21/20/ee/clarita.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/8a/2d/a8/tartar.jpg",
@@ -688,7 +688,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0b/9c/e7/13/bombardino-cafe-fachada.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1b/b5/21/88/emanuele-y-jorge-socios.jpg",
@@ -717,7 +717,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/15/4c/6e/16/un-pequeno-trocito-de.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/03/35/1b/ad/restaurante-sagar.jpg",
@@ -748,7 +748,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/9f/pues-hoy-os-traemos-nuestras.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/a5/pues-hoy-os-traemos-nuestras.jpg",
@@ -779,7 +779,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0a/f6/7f/1c/jack-percoca-bar-kitchen.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/0a/f6/98/5c/el-nuestro-spaghetti.jpg",
@@ -808,7 +808,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/e2/28/5b/corvina-con-acelgas-y.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/cf/7d/f4/lomo-de-caballa-curado.jpg",
@@ -835,7 +835,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/c0/a7/18/burrata-e-gamberi-speziata.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/c0/a7/3e/speziata.jpg",
@@ -866,7 +866,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/19/bb/8c/44/pate-de-centolla.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/19/51/6d/c4/postre-choco-bone-jornadas.jpg",
@@ -897,7 +897,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/53/34/8c/solomillo-de-ternera.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/53/34/54/pan-cook.jpg",
@@ -927,7 +927,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/0f/f4/4b/70/omelette-a-medida.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/0f/f4/39/96/brunch.jpg",
@@ -956,7 +956,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/19/b9/d0/b9/beytna-que-significa.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/f8/40/a4/beytna-es-el-sitio-perfecto.jpg",
@@ -986,7 +986,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/9f/pues-hoy-os-traemos-nuestras.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/a5/pues-hoy-os-traemos-nuestras.jpg",
@@ -1017,7 +1017,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/be/8f/c4/taco-de-oreja-con-salsa.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/be/8f/b0/timbal-de-berenjena-tomate.jpg",
@@ -1047,7 +1047,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/12/22/df/d3/menu-del-dia.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/13/0b/d7/14/hamburguesa.jpg",
@@ -1076,7 +1076,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/4e/c6/38/choco-loko.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/4e/c9/51/steak-tartar-de-beyond.jpg",
@@ -1107,7 +1107,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/12/8c/85/4c/pulpito-gallego-a-la.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/99/36/26/urumaki-barbacue-duck.jpg",
@@ -1136,7 +1136,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/10/bb/53/97/poteto-sarada-ensalada.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/05/13/7b/bd/okashi-sanda.jpg",
@@ -1164,7 +1164,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/7a/73/4a/nuestra-especial-pizza.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/5a/f2/de/tagliatelle-bolognese.jpg",
@@ -1195,7 +1195,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/17/f7/99/54/comida.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/17/f7/98/27/comida.jpg",
@@ -1224,7 +1224,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-l/18/a4/e0/88/hamburguesa-caribena.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/18/a4/e4/db/vegan-tacos.jpg",
@@ -1253,7 +1253,7 @@
     "veganOptions": "Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/da/af/0a/mesas-para-grupos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/da/af/2b/elegante-diferente-comodo.jpg",
@@ -1283,7 +1283,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/15/98/e9/41/oreja-fina-crujiente.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/15/98/e9/0f/pimientos-de-cristal.jpg",
@@ -1308,7 +1308,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/25/a8/una-delicia.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/24/b4/nuestro-tartar-de-salmon.jpg",
@@ -1337,7 +1337,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/91/2a/65/calamar-fresco-de-potera.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/91/2a/74/quien-se-resiste-a-una.jpg",
@@ -1366,7 +1366,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/17/f7/a2/bc/pollo.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/16/83/00/0c/entrantes.jpg",
@@ -1395,7 +1395,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/a6/75/6f/delicious-grilled-salmon.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/19/de/d1/2d/mouthwatering-creamy.jpg",
@@ -1424,7 +1424,7 @@
     "veganOptions": "Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/9d/f7/9a/brunch-de-los-alpes.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/9d/f8/49/macho-iberico.jpg",
@@ -1453,7 +1453,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/12/a7/a6/db/green-baos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/12/a7/a6/e6/postres.jpg",
@@ -1483,7 +1483,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/b0/ba/80/tres-leches-bizcocho.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/b0/b9/f6/brunchs.jpg",
@@ -1512,7 +1512,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Kosher, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/12/46/31/82/falafel.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/12/46/31/c2/falafeleria.jpg",
@@ -1541,7 +1541,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-p/11/65/90/14/vegeteriana-berenjena.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/8b/56/5c/caption.jpg",
@@ -1570,7 +1570,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/0a/68/6d/56/la-pizzateca.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/12/63/08/a2/ensalada-de-la-casa.jpg",
@@ -1599,7 +1599,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0e/ea/35/88/ensalada-de-burrata.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/ac/13/48/esto-es-una-senora-pizza.jpg",
@@ -1626,7 +1626,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-l/18/a4/e0/88/hamburguesa-caribena.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/18/a4/e4/db/vegan-tacos.jpg",
@@ -1655,7 +1655,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/13/17/36/ce/pizza-acciughe-del-cantabrico.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/13/17/36/c3/pizza-araldo-picante.jpg",
@@ -1686,7 +1686,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/10/ed/d7/20/chitarrine-allo-scoglio.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0e/6b/b1/55/ensalada.jpg",
@@ -1715,7 +1715,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0e/02/44/ff/casa-jaguar-madrid.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/12/32/91/bf/casa-jaguar-madrid.jpg",
@@ -1745,7 +1745,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/0b/c9/c4/07/doli-indian-restaurant.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0b/ee/18/b8/doli-indian-restaurant.jpg",
@@ -1775,7 +1775,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/03/f4/91/f2/getlstd-property-photo.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/13/e3/40/f7/te-traemos-el-espiritu.jpg",
@@ -1807,7 +1807,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/25/a8/una-delicia.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/24/b4/nuestro-tartar-de-salmon.jpg",
@@ -1836,7 +1836,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/18/03/dc/13/itodas-las-semanas-tenemos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1a/d6/7e/52/ibagel-que-te-quiero.jpg",
@@ -1866,7 +1866,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0e/de/7c/ad/cartas-2017.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/07/19/9d/06/pajaritos-mojados.jpg",
@@ -1898,7 +1898,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/06/d2/58/1b/fachada-matilda-cafe.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0f/31/aa/af/photo0jpg.jpg",
@@ -1927,7 +1927,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/5a/f3/c6/bruschetta-di-sorrento.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/5a/f3/cc/filetto-al-pepe-verde.jpg",
@@ -1956,7 +1956,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/21/ab/19/de/restaurante-de-comida.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/21/a0/80/f7/carta-restaurante-aloha.jpg",
@@ -1987,7 +1987,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/08/fc/0b/dc/clean-and-ecologics.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/27/ea/06/20170805-222028-largejpg.jpg",
@@ -2017,7 +2017,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/4d/0b/82/caption.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/bd/0a/87/photo0jpg.jpg",
@@ -2046,7 +2046,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/12/8c/85/4c/pulpito-gallego-a-la.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/99/36/26/urumaki-barbacue-duck.jpg",
@@ -2075,7 +2075,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0d/cd/da/8a/photo0jpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/15/9e/85/76/photo9jpg.jpg",
@@ -2105,7 +2105,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0e/98/b2/6f/tomates-origen-idiazabal.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0e/98/b4/93/coulant-de-chocolate.jpg",
@@ -2135,7 +2135,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/04/c5/f8/pastor.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/04/c5/c2/pure-freshness.jpg",
@@ -2165,7 +2165,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/12/bf/22/8c/tandoori-station.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1b/f9/05/1e/genial-nunca-defrauda.jpg",
@@ -2196,7 +2196,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/25/a8/una-delicia.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/24/b4/nuestro-tartar-de-salmon.jpg",
@@ -2225,7 +2225,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/13/ee/8a/51/pie-de-citricos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/13/ee/8a/6a/arepa-avila.jpg",
@@ -2254,7 +2254,7 @@
     "veganOptions": "Vegan Options, Vegetarian Friendly, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/17/77/83/88/my-greek-summer-salad.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/17/77/83/6f/ben-s-sweet-potato-fries.jpg",
@@ -2283,7 +2283,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/14/a4/cc/ee/smothie-frutos-rojos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/15/7b/60/b9/vegana.jpg",
@@ -2311,7 +2311,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/18/9a/9b/78/espacio-de-barra.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/18/9a/9c/15/vista-general.jpg",
@@ -2340,7 +2340,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/9f/pues-hoy-os-traemos-nuestras.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/a5/pues-hoy-os-traemos-nuestras.jpg",
@@ -2371,7 +2371,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0e/9a/d0/9a/pizza-huevo-y-trufa.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/22/05/4b/las-pizzas-son-unas-de.jpg",
@@ -2400,7 +2400,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Kosher, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/21/ec/27/27/hummus-clasico.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/b7/27/fb/img-20200126-161403-largejpg.jpg",
@@ -2430,7 +2430,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/12/42/58/a5/bodega-1.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/12/42/58/ae/sala-1.jpg",
@@ -2460,7 +2460,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/88/6d/4f/salon.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0b/e7/79/43/restaurante-de-sichuan.jpg",
@@ -2491,7 +2491,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/03/c7/97/2c/el-jardin-del-intercontinental.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/03/c8/79/37/el-jardin-del-intercontinental.jpg",
@@ -2520,7 +2520,7 @@
     "veganOptions": "features Location and contactCalle Velazquez 11, 28001 Madrid SpainSalamanca (District)0.4 miles from Plaza de CibelesWebsiteEmail+34 910 88 78 24Improve this listing",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/0a/70/13/b8/bumpgreen.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0a/70/13/b9/bumpgreen.jpg",
@@ -2549,7 +2549,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/05/d0/8f/ab/izakaya-han.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/05/aa/c7/26/izakaya-han.jpg",
@@ -2579,7 +2579,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/16/91/b2/df/comida-decadente.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/16/91/b0/d9/salas-decadente.jpg",
@@ -2610,7 +2610,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/22/04/66/tu-tambien-eres-un-amante.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/20/d0/df/una-de-nuestras-pizzas.jpg",
@@ -2640,7 +2640,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0f/2a/f6/2b/azotea-forus-barcelo.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0f/2a/f7/01/azotea-forus-barcelo.jpg",
@@ -2672,7 +2672,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/05/72/06/ea/rico-rico.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/05/72/07/1b/cazon-en-adobo-con-ali.jpg",
@@ -2702,7 +2702,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/05/a4/3e/b5/rayuela.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/05/a4/3e/83/rayuela.jpg",
@@ -2731,7 +2731,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/03/2c/2c/8f/bahia-taberna.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/03/2c/2c/85/bahia-taberna.jpg",
@@ -2763,7 +2763,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0b/08/5d/8b/chocolate-aceite-y-sal.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0c/35/25/82/dolores-y-lola.jpg",
@@ -2792,7 +2792,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/12/1a/1a/85/vinoteca.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/12/1a/1c/ff/jardin-de-pure-de-boniato.jpg",
@@ -2821,7 +2821,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/12/0f/55/ab/srito-lab.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/ac/fe/8f/caption.jpg",
@@ -2847,7 +2847,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/10/21/20/ee/clarita.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/8a/2d/a8/tartar.jpg",
@@ -2876,7 +2876,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-l/0d/f4/69/da/mesas.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/0d/f4/6a/72/mesas.jpg",
@@ -2906,7 +2906,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/07/8b/da/5a/little-big-cafe.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/30/d3/7a/photo0jpg.jpg",
@@ -2938,7 +2938,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/b1/90/44/spaghetti-a-la-carbonara.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/5e/b9/96/aperitivo-en-noi.jpg",
@@ -2967,7 +2967,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/9f/pues-hoy-os-traemos-nuestras.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/a5/pues-hoy-os-traemos-nuestras.jpg",
@@ -2998,7 +2998,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/9d/b3/ca/fresh.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/9d/b3/d6/comparte.jpg",
@@ -3027,7 +3027,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0d/40/39/b3/periplo-cafe.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/0b/d2/f5/02/periplo-cafe.jpg",
@@ -3057,7 +3057,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/3f/1a/20/spaghettis-al-vongole.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0e/4c/19/ba/pepata-di-cotze-mejillones.jpg",
@@ -3086,7 +3086,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0f/97/9c/5e/meriendast.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/0f/97/9c/8b/de-los-dulce.jpg",
@@ -3115,7 +3115,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0d/57/cd/52/nuestro-chuleton-de-buey.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/57/cc/fd/fajita-de-secreto-iberico.jpg",
@@ -3144,7 +3144,7 @@
     "veganOptions": "Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/23/87/99/salmon-grill.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/23/49/15/power-duo.jpg",
@@ -3169,7 +3169,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/05/30/86/e4/the-market-madrid.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/06/97/8b/47/the-market-madrid.jpg",
@@ -3198,7 +3198,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/25/a8/una-delicia.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/24/b4/nuestro-tartar-de-salmon.jpg",
@@ -3227,7 +3227,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/15/cc/89/e9/vacaciones.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/90/4f/aa/caption.jpg",
@@ -3256,7 +3256,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/05/12/10/fc/sabe-a-gloria.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/05/12/e8/dd/sabe-a-gloria.jpg",
@@ -3285,7 +3285,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/06/5b/db/c7/artemisa-sol-gran-via.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/66/90/fa/img-20201206-152915-largejpg.jpg",
@@ -3317,7 +3317,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/ed/d7/6e/clasico.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1a/ed/d5/b6/terrina-de-foie.jpg",
@@ -3343,7 +3343,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/10/21/20/ee/clarita.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/8a/2d/a8/tartar.jpg",
@@ -3371,7 +3371,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/10/99/8e/26/asi-nos-veras-por-fuera.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/13/50/da/20/tapeo-de-dumpling-de.jpg",
@@ -3399,7 +3399,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0e/72/b0/67/tarta-salada-de-masa.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0e/cc/e0/30/hamburguesa-de-garbanzos.jpg",
@@ -3429,7 +3429,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-l/1b/38/88/57/decoracion.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1b/38/88/51/roll-king-salmon-terminado.jpg",
@@ -3453,7 +3453,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0a/be/19/58/ensalada.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/0a/dc/43/buenas-y-santas.jpg",
@@ -3483,7 +3483,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/12/8c/85/4c/pulpito-gallego-a-la.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/99/36/26/urumaki-barbacue-duck.jpg",
@@ -3512,7 +3512,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/9f/pues-hoy-os-traemos-nuestras.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/a5/pues-hoy-os-traemos-nuestras.jpg",
@@ -3543,7 +3543,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/09/e1/f4/b6/foto.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/09/e1/f4/b7/foto-2.jpg",
@@ -3572,7 +3572,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0c/b1/51/ac/mesa-en-la-cueva-de-l.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/09/63/ab/4b/birimbap-lleva-verdura.jpg",
@@ -3602,7 +3602,7 @@
     "veganOptions": "Vegan Options, Vegetarian Friendly, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/12/b8/41/64/new-post.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/4c/e5/10/img-20201025-143655-largejpg.jpg",
@@ -3634,7 +3634,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/16/ae/9f/91/great-atmosphere.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/9d/f9/89/typical-hyderabad-dum.jpg",
@@ -3664,7 +3664,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0e/ed/60/a0/photo2jpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0a/4f/95/e5/photo0jpg.jpg",
@@ -3695,7 +3695,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/0e/bc/80/af/photo2jpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/50/da/a7/tagliatelle-con-gambon.jpg",
@@ -3727,7 +3727,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/10/21/20/ee/clarita.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/8a/2d/a8/tartar.jpg",
@@ -3756,7 +3756,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/fb/b6/7a/calle-de-hernan-cortes.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/fb/c9/d4/ensalada-cesar.jpg",
@@ -3785,7 +3785,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/12/2e/55/1a/saona-balboa.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/12/2e/55/17/saona-balboa.jpg",
@@ -3815,7 +3815,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-p/13/99/f8/b6/prueba-nuestros-cacahuetes.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/13/99/fc/57/nuestros-conos-de-tu.jpg",
@@ -3844,7 +3844,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/8f/e4/1a/taberna-baco-y-beto-vinos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/70/87/ad/sandwich-cubano.jpg",
@@ -3874,7 +3874,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/10/38/d7/02/huevos-rotos-con-salmorejo.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/02/ee/74/bd/vinos-de-bellota.jpg",
@@ -3905,7 +3905,7 @@
     "veganOptions": "Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/18/16/85/36/pasillo.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/18/16/85/2c/local.jpg",
@@ -3934,7 +3934,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/11/f6/14/5b/el-postre-es-la-comida.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/11/f6/14/4c/las-mejores-ensaladas.jpg",
@@ -3960,7 +3960,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/11/2b/a9/02/creps-dulces.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/11/2b/a8/26/tinto-de-verano.jpg",
@@ -3990,7 +3990,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/85/e1/fd/speziata.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/85/e2/16/camembert-e-pollo.jpg",
@@ -4018,7 +4018,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/10/44/ea/a8/la-terraza.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/19/a6/62/8c/starter-restaurant-madrid.jpg",
@@ -4047,7 +4047,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-o/1b/a4/e9/80/pepino-aplastado.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/a4/e9/93/dorada-frita-al-tofu.jpg",
@@ -4075,7 +4075,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/16/77/92/e7/comida-konnichiwa.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/16/77/8c/62/comida-konnichiwa-madrid.jpg",
@@ -4104,7 +4104,7 @@
     "veganOptions": "Vegetarian Friendly, Gluten Free Options, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-l/11/ce/76/8d/terraza.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/11/ce/73/bf/lateral.jpg",
@@ -4131,7 +4131,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/12/8c/85/4c/pulpito-gallego-a-la.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/99/36/26/urumaki-barbacue-duck.jpg",
@@ -4160,7 +4160,7 @@
     "veganOptions": "Vegetarian Friendly, Gluten Free Options, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-l/15/ca/29/27/es-importante-empezar.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/1b/5f/62/healthy-hunters.jpg",
@@ -4189,7 +4189,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/25/a8/una-delicia.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/24/b4/nuestro-tartar-de-salmon.jpg",
@@ -4217,7 +4217,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-p/0f/9c/72/8e/paccheri-al-ragu-napoletano.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/0f/9c/74/25/ensalada-de-mar.jpg",
@@ -4247,7 +4247,7 @@
     "veganOptions": "Vegan Options, Vegetarian Friendly, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/17/77/84/32/ben-s-sweet-potato-fries.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/17/77/84/41/new-latin-lover-garden.jpg",
@@ -4276,7 +4276,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/12/8b/df/75/interior-de-elemental.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/35/cf/25/decoracion-natural-para.jpg",
@@ -4305,7 +4305,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/4e/f6/14/tyropita-phyllo-pastry.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/4e/f6/0c/pikilia-assortment-of.jpg",
@@ -4334,7 +4334,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/09/7a/e6/45/gaudium.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/09/7a/e7/8e/gaudium.jpg",
@@ -4363,7 +4363,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/12/84/4b/b2/photo2jpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/68/4a/02/127-taipei-bar-ramen.jpg",
@@ -4392,7 +4392,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/0a/c0/c3/12/atocha-tandoori.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/09/a8/c4/b5/getlstd-property-photo.jpg",
@@ -4422,7 +4422,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/18/97/b4/a5/rigatoni-al-curry-chipotle.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/17/5c/0a/6f/rigatoni-al-curry-chipotle.jpg",
@@ -4450,7 +4450,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/18/45/83/18/calle-lavapies-27.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/03/21/f8/09/bombay-palace.jpg",
@@ -4478,7 +4478,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-o/05/ff/d6/14/tempura-de-verduras-y.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0e/49/8c/2e/sushi-prensado-de-anguila.jpg",
@@ -4508,7 +4508,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-p/16/f2/33/66/carino-y-pasion.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/16/f2/31/6f/pasion-por-nuestra-tierra.jpg",
@@ -4538,7 +4538,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/22/4b/70/42/freestsyle-52-piezas.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/22/4b/70/39/sake-sibuya.jpg",
@@ -4569,7 +4569,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-l/18/a4/e0/88/hamburguesa-caribena.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/18/a4/e4/db/vegan-tacos.jpg",
@@ -4598,7 +4598,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/02/d4/dd/8c/el-vegetariano.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/02/d4/dd/46/el-vegetariano.jpg",
@@ -4627,7 +4627,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-p/15/18/1e/29/rucula-brotes-de-soja.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/07/36/2c/d3/xanacuk.jpg",
@@ -4656,7 +4656,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/10/a8/64/3e/salon-de-los-sentidos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/a8/63/db/salon-chimenea.jpg",
@@ -4685,7 +4685,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/9f/pues-hoy-os-traemos-nuestras.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/a5/pues-hoy-os-traemos-nuestras.jpg",
@@ -4716,7 +4716,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/b1/84/69/chuleton-de-atun-rojo.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/4f/90/5b/risotto-de-boletus-con.jpg",
@@ -4747,7 +4747,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-p/17/e3/2f/7b/es-fundamental-para-el.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/17/e3/2f/ee/conozcan-la-parte-fotografica.jpg",
@@ -4773,7 +4773,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/ca/88/58/caption.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/ca/88/e6/caption.jpg",
@@ -4802,7 +4802,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/11/4a/ab/45/fratelli-d-italia.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/11/4a/ab/41/fratelli-d-italia.jpg",
@@ -4832,7 +4832,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/ff/a0/57/arroz-cremoso-al-azafran.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1b/1f/29/b8/tarta-de-queso-crumble.jpg",
@@ -4861,7 +4861,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0d/9f/bd/89/img-20161112-wa0024-largejpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/07/36/20/42/loving-hut-madrid.jpg",
@@ -4891,7 +4891,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/25/a8/una-delicia.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/24/b4/nuestro-tartar-de-salmon.jpg",
@@ -4919,7 +4919,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/09/48/e4/9b/adrede.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/09/48/e4/2d/adrede.jpg",
@@ -4948,7 +4948,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/08/8b/56/3e/taberna-el-sur.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/06/13/98/9f/lo-mas-sano.jpg",
@@ -4978,7 +4978,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/17/0e/79/14/panes-baos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/17/0e/78/d3/foie-caramelizado.jpg",
@@ -5009,7 +5009,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0c/49/6a/b4/pimientos-tuberculos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/0c/49/6a/af/berengenas-rellenas.jpg",
@@ -5038,7 +5038,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/25/a8/una-delicia.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/24/b4/nuestro-tartar-de-salmon.jpg",
@@ -5067,7 +5067,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/f4/40/5b/postre-gulab-jamun-bolitas.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/f4/3b/38/nepali-special-momo.jpg",
@@ -5096,7 +5096,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/10/1f/fc/02/restaurante-volvoreta.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/08/6b/3d/99/restaurant-volvoreta.jpg",
@@ -5127,7 +5127,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/10/52/9f/67/paella-de-marisco.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/52/9f/b3/jamon-especial-segovia.jpg",
@@ -5156,7 +5156,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0d/09/9a/d0/vegetarian-pasta-dish.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/07/aa/34/9d/flavia-restaurant-bar.jpg",
@@ -5186,7 +5186,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0f/09/73/34/nuestra-terraza-acondicionada.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/00/80/d0/raya-a-la-gallega.jpg",
@@ -5216,7 +5216,7 @@
     "veganOptions": "Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/21/ab/1e/6f/restaurante-de-comida.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/21/ab/1e/6d/restaurante-de-comida.jpg",
@@ -5242,7 +5242,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/10/21/20/ee/clarita.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/8a/2d/a8/tartar.jpg",
@@ -5271,7 +5271,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/19/1d/8e/53/set-yokaloka-con-las.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/19/1d/9b/83/nuestro-california-roll.jpg",
@@ -5300,7 +5300,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/54/c5/8c/descubra-el-picaporte.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/54/c3/81/descubra-nuestro-jardin.jpg",
@@ -5329,7 +5329,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/12/d7/03/e5/aji-de-gallina.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/12/d7/03/c9/ceviches.jpg",
@@ -5358,7 +5358,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-p/1d/07/21/25/txuleton-de-vaca-vieja.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/07/21/28/hamburguesa-tx.jpg",
@@ -5388,7 +5388,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/10/bb/5c/ef/trio-de-gazpachos-carta.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/12/9c/b4/fd/cod-loin-confit-with.jpg",
@@ -5417,7 +5417,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/12/8c/85/4c/pulpito-gallego-a-la.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/99/36/26/urumaki-barbacue-duck.jpg",
@@ -5446,7 +5446,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-p/15/6c/14/d3/caprese.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/15/6c/16/1a/roquefort-y-pera.jpg",
@@ -5476,7 +5476,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/b8/61/2e/chef-terminando-de-emplatar.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/b8/61/76/terraza-interior-por.jpg",
@@ -5505,7 +5505,7 @@
     "veganOptions": "Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/87/67/8c/taco-de-pulpo-y-chistorra.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/87/67/e1/cacerola-de-queso-y-chistorra.jpg",
@@ -5534,7 +5534,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/9f/pues-hoy-os-traemos-nuestras.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/a5/pues-hoy-os-traemos-nuestras.jpg",
@@ -5565,7 +5565,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/eb/37/4f/mesa-de-6-presiona.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/eb/37/b9/gautm-alon.jpg",
@@ -5594,7 +5594,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/0a/14/1d/37/restaurante-luxury.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/78/83/d6/photo3jpg.jpg",
@@ -5623,7 +5623,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/ab/77/d9/bueno.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/87/e5/b0/caption.jpg",
@@ -5652,7 +5652,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-p/12/81/1f/5e/photo2jpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/2f/ae/a6/nooddles-con-tartare.jpg",
@@ -5681,7 +5681,7 @@
     "veganOptions": "Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/23/87/99/salmon-grill.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/23/49/15/power-duo.jpg",
@@ -5706,7 +5706,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/09/b7/f1/54/le-comptoir-de-la-crepe.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/05/ff/d2/5b/le-comptoir-de-la-crepe.jpg",
@@ -5736,7 +5736,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0c/7d/83/38/restaurant.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0c/7d/81/e5/pui-s-thai-tapas.jpg",
@@ -5768,7 +5768,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/08/ff/64/39/cantabronas.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/08/ff/64/3b/ceviche.jpg",
@@ -5796,7 +5796,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/19/91/6a/a1/carbonara-foto-credit.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/7e/a2/7f/sandy-club.jpg",
@@ -5827,7 +5827,7 @@
     "veganOptions": "Vegan Options, Gluten Free Options, Vegetarian Friendly",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/81/3a/ae/tataki-de-atun-balfego.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/81/3c/10/vitello-tonnato.jpg",
@@ -5856,7 +5856,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/12/06/2a/e7/img-20180125-wa0003-largejpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/f6/44/d6/vegamisu.jpg",
@@ -5886,7 +5886,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/13/7e/ad/99/sala-restaurante-nantes.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/87/e5/2a/torrija-de-sobao-artesano.jpg",
@@ -5913,7 +5913,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/16/cd/5c/guacamole.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/16/cd/5a/tapas.jpg",
@@ -5944,7 +5944,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-l/18/a4/e0/88/hamburguesa-caribena.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/18/a4/e4/db/vegan-tacos.jpg",
@@ -5973,7 +5973,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/06/40/53/6d/east-47.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/06/40/53/66/east-47.jpg",
@@ -6005,7 +6005,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/15/9d/81/67/caption.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/11/35/d4/ec/linguine-royal-boccone.jpg",
@@ -6032,7 +6032,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/07/6f/c7/64/la-vaca-y-la-huerta.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/07/6f/c7/35/la-vaca-y-la-huerta.jpg",
@@ -6063,7 +6063,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/25/a8/una-delicia.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/24/b4/nuestro-tartar-de-salmon.jpg",
@@ -6092,7 +6092,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/8c/f2/a2/our-open-space.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/16/34/b4/fe/choco-protein-bowl.jpg",
@@ -6121,7 +6121,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/16/5d/57/c4/detalle-de-nuestra-decoracion.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/16/5d/57/42/nuestro-pad-thai-de-pollo.jpg",
@@ -6149,7 +6149,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/11/15/f2/49/pizza-napolitana-horno.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1b/23/60/37/pizza-grosso.jpg",
@@ -6178,7 +6178,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/9f/pues-hoy-os-traemos-nuestras.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/a5/pues-hoy-os-traemos-nuestras.jpg",
@@ -6209,7 +6209,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/10/7f/70/65/arroz-al-wok-con-pollo.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/7f/72/a5/tofu-relleno-de-panceta.jpg",
@@ -6238,7 +6238,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/07/13/e0/b2/moharaj.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/07/13/d8/1b/moharaj.jpg",
@@ -6267,7 +6267,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/07/a2/a7/15/la-vinoteca.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/07/8c/28/44/vinoteca-barbechera.jpg",
@@ -6299,7 +6299,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/10/21/20/ee/clarita.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/8a/2d/a8/tartar.jpg",
@@ -6328,7 +6328,7 @@
     "veganOptions": "Vegetarian Friendly, Gluten Free Options, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/12/86/91/89/langostinos-crujientes.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/b7/74/33/monster-burger.jpg",
@@ -6357,7 +6357,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-l/1a/35/29/8a/bikinis-de-carrillera.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/13/f9/e2/33/rabo-de-toro-sobre-milhojas.jpg",
@@ -6386,7 +6386,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/12/2a/a5/09/barra-younique-lounge.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/13/1a/5a/00/patio-restaurante-younique.jpg",
@@ -6415,7 +6415,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/12/ca/56/8f/entrantes-para-abrir.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/21/7f/45/22/mejor-acompanamiento.jpg",
@@ -6444,7 +6444,7 @@
     "veganOptions": "Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/23/87/99/salmon-grill.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/23/49/15/power-duo.jpg",
@@ -6469,7 +6469,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0d/f8/b8/be/photo0jpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/0e/03/ee/54/img-20161230-224934-largejpg.jpg",
@@ -6499,7 +6499,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/10/21/20/ee/clarita.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/8a/2d/a8/tartar.jpg",
@@ -6528,7 +6528,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/79/59/ee/especies-casero.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/79/59/ed/especies-casero.jpg",
@@ -6558,7 +6558,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/03/7f/88/fc/ecocentro-esquilache.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/14/bd/8d/67/img-20180917-131609-largejpg.jpg",
@@ -6587,7 +6587,7 @@
     "veganOptions": "Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/15/bb/0d/1.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/15/bc/44/1.jpg",
@@ -6612,7 +6612,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-l/18/a4/e0/88/hamburguesa-caribena.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/18/a4/e4/db/vegan-tacos.jpg",
@@ -6641,7 +6641,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/78/95/da/wok-de-noodles-con-langostinos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/78/95/dd/menu-degustacion.jpg",
@@ -6670,7 +6670,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/11/7d/21/dd/scoons-relleno-de-queso.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/11/7d/21/e2/superbowl-dream-surf.jpg",
@@ -6697,7 +6697,7 @@
     "veganOptions": "Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0b/8d/2d/92/noteolvides.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0a/6b/54/55/noteolvides.jpg",
@@ -6726,7 +6726,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/12/8c/85/4c/pulpito-gallego-a-la.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/99/36/26/urumaki-barbacue-duck.jpg",
@@ -6755,7 +6755,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/13/bd/09/c6/food-yatai-market.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/13/bd/04/1b/food-yatai-market.jpg",
@@ -6783,7 +6783,7 @@
     "veganOptions": "Vegan Options, Gluten Free Options, Vegetarian Friendly",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-l/0a/70/75/42/raku-sushi.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0b/be/ce/0b/postre.jpg",
@@ -6811,7 +6811,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-p/10/7b/30/dc/los-lolos-estan-hechos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/12/5f/27/76/lolo-polos-artesanos.jpg",
@@ -6841,7 +6841,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/06/08/f8/83/bellamia-heladeria.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/07/0d/43/14/bellamia-heladeria.jpg",
@@ -6871,7 +6871,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/9f/pues-hoy-os-traemos-nuestras.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/69/02/a5/pues-hoy-os-traemos-nuestras.jpg",
@@ -6902,7 +6902,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0d/66/dc/b1/letrero-entrada.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/66/db/ca/banderola-externa.jpg",
@@ -6931,7 +6931,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/0c/64/67/ff/ebi-tem-maki-espectacular.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/0a/24/9d/31/megu.jpg",
@@ -6960,7 +6960,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/08/d7/82/33/casa-lafu.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/08/d7/81/e0/casa-lafu.jpg",
@@ -6989,7 +6989,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/15/17/ef/c1/ensalada-de-pesto-y-jamon.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/15/17/ef/6e/pizza-mitad-spianatta.jpg",
@@ -7018,7 +7018,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/5b/2b/f8/esturion-con-crema-de.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/11/e1/a5/a3/gilda-de-bonito.jpg",
@@ -7047,7 +7047,7 @@
     "veganOptions": "Vegetarian Friendly, Vegan Options, Gluten Free Options",
     "description": "",
     "fullVegan": false,
-    "takeOut": "",
+    "takeOut": false,
     "image": [
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/25/a8/una-delicia.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/24/b4/nuestro-tartar-de-salmon.jpg",

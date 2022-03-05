@@ -11,7 +11,7 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_SECRET,
 });
 
-const storage = new CloudinaryStorage({
+const commentImages = new CloudinaryStorage({
   cloudinary,
   params: {
     folder: "commentImages",
@@ -19,4 +19,13 @@ const storage = new CloudinaryStorage({
   },
 });
 
-module.exports = multer({ storage });
+const userAvatars = new CloudinaryStorage({
+  cloudinary,
+  params: {
+    folder: "userAvatars",
+    allowed_formats: ["jpg", "jpeg", "png"],
+  },
+});
+
+module.exports.commentImages = multer({ storage: commentImages });
+module.exports.userAvatars = multer({ storage: userAvatars });

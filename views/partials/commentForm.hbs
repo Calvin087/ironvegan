@@ -35,8 +35,10 @@
   </div>
   
   <div class="form-group mb-3">
-    <label for="rating">Rating (1-10)</label>
+    
+    <label for="rating">Rating (1-10)<span class="required-form-input">*</span></label>
     <input name="rating"
+      required="true"
       type="number"
       min="1"
       max="10"
@@ -64,8 +66,10 @@
   </div>
 
     <div class="form-group mb-3">
-    <label for="description">Comment</label>
+    <label for="description">Comment<span class="required-form-input">*</span></label>
     <textarea name="description"
+      minlength="50"
+      required="true"
       type="text" 
       class="form-control html-editor {{#if errors.description}}is-invalid{{/if}}"
       id="text"

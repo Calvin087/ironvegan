@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const upload = require("../config/storage.config");
+const { commentImages, userAvatars } = require("../config/storage.config");
 const Comment = require("../models/comments.model");
 
 // MODELS GO HERE
@@ -8,12 +8,20 @@ const Comment = require("../models/comments.model");
 
       
 module.exports.create = (req, res, next) => {
-  res.render('restaurants/detail')
+  res.render("restaurants/detail");
 };
 
 module.exports.doCreate = (req, res, next) => {
   const { restaurant, user, rating, description } = req.body;
-  const fileName = req.file.path;
+  let fileName;
+
+  if (req.file?.path) {
+    // if there is a file check the path
+    fileName = req.file.path;
+  } else {
+    fileName =
+      "https://res.cloudinary.com/dbvcuz0d3/image/upload/v1646424940/defaultCommentImage_i0fvkv.jpg";
+  }
 
   Comment.create({
     restaurant,
@@ -29,14 +37,13 @@ module.exports.doCreate = (req, res, next) => {
 };
 
 module.exports.edit = (req, res, next) => {
-  let user = req.user.id
+  let user = req.user.id;
 
   Comment.findById(req.params.id)
   .then((comment) => {
     res.render("restaurants/updateComment", comment)
   })
   .catch((error) => console.log(error))
-  
 };
 
 module.exports.doEdit = (req, res, next) => {
@@ -49,14 +56,18 @@ module.exports.doEdit = (req, res, next) => {
     images = req.file.path;
   } else {
     images = req.body.existingImage;
-    console.log(images)
+    console.log(images);
   }
 
-  Comment.findByIdAndUpdate(id, { restaurant, user, rating, description, images }, { new: true })
+  Comment.findByIdAndUpdate(
+    id,
+    { restaurant, user, rating, description, images },
+    { new: true }
+  )
     .then((comment) => {
-       res.redirect(`/restaurants/${comment.restaurant}`);
+      res.redirect(`/restaurants/${comment.restaurant}`);
     })
-    .catch((error) => next(error))
+    .catch((error) => next(error));
 };
 
 module.exports.delete = (req, res, next) => {

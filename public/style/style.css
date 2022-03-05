@@ -86,10 +86,15 @@
 .profile-picture {
   width: 120px;
   height: auto;
+  border-radius: 100%;
 }
 
 .avocado-events-none {
-  background: url('/img/avoOne.svg')
+  background: url("/img/avoOne.svg");
+}
+
+.required-form-input {
+  color: red;
 }
 
 .btn-edit {
