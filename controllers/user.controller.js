@@ -32,7 +32,6 @@ module.exports.doAvocado = (req, res, next) => {
   const restId = req.params.id;
   const userId = res.locals.currentUser.id;
 
-  if(userId) {
     Avocado.findOneAndDelete({ restaurant: restId, user: userId })
     .then((deletedAvocado) => {
       if (deletedAvocado) {
@@ -46,7 +45,5 @@ module.exports.doAvocado = (req, res, next) => {
       }
     })
     .catch(next);
-  }
 
-  
 };
