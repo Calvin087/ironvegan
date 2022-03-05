@@ -42,6 +42,23 @@
     {{/each}}
   </div>
 
+Next{{next}}
+previous{{previous}}
+
+  <div class="mt-5">
+    <ul class="pagination justify-content-center ">
+      <li class="page-item disabled">
+        <a class="page-link">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="/restaurants?page={{next}}">Next</a>
+      </li>
+    </ul>
+  </div>
+
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>

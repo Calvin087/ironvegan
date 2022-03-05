@@ -11,6 +11,7 @@ const mailer = require("../config/mailer.config");
 
 module.exports.list = async (req, res, next) => {
   const { page = 1, limit = 8 } = req.query;
+  console.log(typeof page);
 
   const userDetails = res.locals.currentUser
     ? res.locals.currentUser
@@ -24,7 +25,7 @@ module.exports.list = async (req, res, next) => {
   try {
     const restaurants = await Restaurant.find()
       .limit(limit * 1)
-      .skip((page - 1) * limit)
+      .skip((Number(page) - 1) * limit)
       .exec();
 
     const count = await restaurants.length;
@@ -32,9 +33,10 @@ module.exports.list = async (req, res, next) => {
 
     res.render("restaurants/list", {
       restaurants,
-      count,
       totalPages: Math.ceil(count / limit),
       currentPage: page,
+      next: Number(page) + 1,
+      previous: Number(page) - 1,
       avocados,
     });
   } catch (err) {
