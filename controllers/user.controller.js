@@ -7,14 +7,16 @@ const Comment = require("../models/comments.model");
 module.exports.profile = async (req, res, next) => {
   const userDetails = res.locals.currentUser;
 
-  const comments = await Comment.find({ user: userDetails._id });
+  const comments = await Comment.find({ user: userDetails._id }).populate('restaurant');
   const avocados = await Avocado.find({ user: userDetails._id });
   const favouriteLocations = avocados.map((avocado) => {
     return avocado.restaurant;
   });
+  
   Restaurant.find({ _id: favouriteLocations }).then((favourites) => {
     res.render("user/profile", { comments, favourites });
   });
+
 };
 
 module.exports.edit = (req, res, next) => {
