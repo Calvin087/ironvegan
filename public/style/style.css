@@ -96,3 +96,7 @@
 .required-form-input {
   color: red;
 }
+
+.btn-edit {
+  display: none;
+}

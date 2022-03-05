@@ -1,5 +1,7 @@
 // hbs
 const hbs = require("hbs");
+const { mongoose } = require("mongoose");
+
 
 // partials
 hbs.registerPartials("./views/partials"); // to do
@@ -28,6 +30,19 @@ hbs.registerHelper("userDoAvocado", function (options) {
   }
 });
 
+hbs.registerHelper("isUserReview", function (options) {
+  const { comment, user } = options.hash;
+  console.log(user)
+  if (user) {
+    if (comment.user._id.equals(user._id)) {
+      return options.fn(this);
+    } else {
+      return options.inverse(this);
+    }
+  }
+  
+});
+
 hbs.registerHelper("formatCommentDates", function (date) {
   let thedate = new Date(date);
   let options = { year: "numeric", day: "numeric", month: "long" };
@@ -48,4 +63,3 @@ hbs.registerHelper("showKiwis", function (rating) {
   }
   return kiwiString;
 });
-

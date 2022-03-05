@@ -1,5 +1,5 @@
 const httpClient = axios.create({
-    baseURL: 'http://localhost:3000'
+  baseURL: 'http://localhost:3000'
 });
 
 document.querySelectorAll(".list-page-advocado").forEach((btn) => {
@@ -12,3 +12,18 @@ document.querySelectorAll(".list-page-advocado").forEach((btn) => {
       image.classList.toggle('list-page-advocado-active');
       httpClient.post(`/avocado/${id}`).catch((error) => next(error));
   };
+
+/* 
+  const deleteComment = (id) => httpClient.delete(`/comment/${id}`)
+    .then(() => {
+      document.getElementById(`/comment/${id}`).remove()
+    })
+    .catch(err => console.error(err))
+
+  document.querySelectorAll('.delete-btn').forEach(btn => {
+    btn.onclick = (event) => {
+      btn.classList.add('disabled')
+      deleteComment(event.target.value)
+    }
+  })
+ */
