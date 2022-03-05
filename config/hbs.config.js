@@ -37,11 +37,14 @@ hbs.registerHelper("restaurantHasCategory", function (options) {
 hbs.registerHelper("isUserReview", function (options) {
   const { comment, user } = options.hash;
   console.log(user)
-  if (comment.user._id.equals(user._id)) {
-    return options.fn(this);
-  } else {
-    return options.inverse(this);
+  if (user) {
+    if (comment.user._id.equals(user._id)) {
+      return options.fn(this);
+    } else {
+      return options.inverse(this);
+    }
   }
+  
 });
 
 hbs.registerHelper("formatCommentDates", function (date) {

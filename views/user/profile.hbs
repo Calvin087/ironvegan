@@ -32,7 +32,7 @@
    <div class="row row-cols-1 row-cols-md-3 g-4">
     {{#if comments}}
       {{#each comments as |comment| }}
-        {{>commentCard}}
+        {{>commentCard comment=comment showActions=false}}
       {{/each}}
     {{/if}}
   </div>

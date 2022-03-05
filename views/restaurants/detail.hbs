@@ -100,7 +100,9 @@
     <div class="row row-cols-1 row-cols-md-3 g-4">
     {{#if restaurant.comments}}
       {{#each restaurant.comments as |comment|}}
-        {{>commentCard user=../currentUser comment=comment}}
+
+          {{>commentCard showActions=true user=../currentUser comment=comment}}
+
       {{/each}}
     {{/if}}
   </div>

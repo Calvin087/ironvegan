@@ -15,6 +15,7 @@
         {{formatCommentDates comment.updatedAt}}</small>
     </div>
 
+  {{#if showActions}}
     {{#isUserReview user=user._id comment=comment}}
       <form action="/comment/{{comment._id}}/edit" method="GET">
         <button type="submit" id="edit-btn">Edit</button>
@@ -24,7 +25,7 @@
         <button type="submit">Delete</button>
       </form>
     {{/isUserReview}}
-
+  {{/if}}
 
 
     {{!-- <button type="button" value="/comment/{{this._id}}/delete" class="delete-btn btn btn-danger">Delete Client</button> --}}
