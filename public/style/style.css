@@ -92,3 +92,7 @@
 .avocado-events-none {
   background: url("/img/avoOne.svg");
 }
+
+.required-form-input {
+  color: red;
+}

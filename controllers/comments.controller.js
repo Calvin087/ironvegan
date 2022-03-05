@@ -12,7 +12,15 @@ module.exports.create = (req, res, next) => {
 
 module.exports.doCreate = (req, res, next) => {
   const { restaurant, user, rating, description } = req.body;
-  const fileName = req.file.path;
+  let fileName;
+
+  if (req.file?.path) {
+    // if there is a file check the path
+    fileName = req.file.path;
+  } else {
+    fileName =
+      "https://res.cloudinary.com/dbvcuz0d3/image/upload/v1646424940/defaultCommentImage_i0fvkv.jpg";
+  }
 
   Comment.create({
     restaurant,
