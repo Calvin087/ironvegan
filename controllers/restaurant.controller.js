@@ -10,7 +10,7 @@ const categories = require("../data/categories.json");
 const mailer = require("../config/mailer.config");
 
 module.exports.list = async (req, res, next) => {
-  const { page = 1, limit = 4 } = req.query;
+  const { page = 1, limit = 8 } = req.query;
 
   const userDetails = res.locals.currentUser
     ? res.locals.currentUser
@@ -27,7 +27,8 @@ module.exports.list = async (req, res, next) => {
       .skip((page - 1) * limit)
       .exec();
 
-    const count = await restaurants.countDocuments();
+    const count = await restaurants.length;
+    console.log(count);
 
     res.render("restaurants/list", {
       restaurants,
