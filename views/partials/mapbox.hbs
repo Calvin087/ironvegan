@@ -3,18 +3,17 @@
    mapboxgl.accessToken =
     'pk.eyJ1IjoibWFnYWJvbyIsImEiOiJjbDA5eGhqOTAwNWQ4M21wY2drZjRvN2N3In0.GdYfQ1DulUyzdva_gWc9kQ';
 
-    const ll = new mapboxgl.LngLat(restaurant.coordenates[0], restaurant.coordenates[1]);
 
      const map = new mapboxgl.Map({
 
      container: 'map',  // <-- container id
      style: 'mapbox://styles/mapbox/streets-v11',
-     center: [ll], //[data.latlng[0], data.latlng[1]]
+     center: [-5.243676273676681, 40.15661067240338], //[data.latlng[0], data.latlng[1]]
      zoom: 12,
    });
 
    const marker = new mapboxgl.Marker()
-   .setLngLat([ll])
+   .setLngLat([-5.243676273676681, 40.15661067240338])
    .addTo(map);
 
   const geocoder = new MapboxGeocoder({
