@@ -1,36 +1,43 @@
-<div class="mt-4 row justify-content-center">
-  <div class="col-4">
-    <h2 class="text-center">LOGIN</h2>
-    <form class="mt-4" method="POST" action="/login">
-      <div class="form-group mb-3">
-        <label for="email">Email</label>
-        <input
-          id="email"
-          value="{{userEmail}}"
-          name="email"
-          type="email"
-          class="form-control {{#if errors}}is-invalid{{/if}}"
-          placeholder="Enter Email"
-        >
+<section id="login" class="d-flex align-items-center">
+  <div class="container">
+    <div class="row d-flex align-items-center">
+      <div class="col-6">
+        <h2>LOGIN</h2>
+        <form class="mt-4" method="POST" action="/login">
+          <div class="form-group mb-3">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              value="{{userEmail}}"
+              name="email"
+              type="email"
+              class="form-control {{#if errors}}is-invalid{{/if}}"
+              placeholder="Enter Email"
+            >
 
-      </div>
-      <div class="form-group mb-3">
-        <label for="password">Password</label>
-        <input
-          id="password"
-          name="password"
-          type="password"
-          class="form-control {{#if errors}}is-invalid{{/if}}"
-          placeholder="Password"
-        >
-      </div>
-        {{#if errors}}
-          <div class="text-danger text-small mb-2">
-            {{errors.errorMessage}}
           </div>
-        {{/if}}
-      <button type="submit" class="btn btn-primary">Submit</button>
-      <a href="/login/google" class="btn btn-primary">Login with Google</a>
-    </form>
+          <div class="form-group mb-3">
+            <label for="password">Password</label>
+            <input
+              id="password"
+              name="password"
+              type="password"
+              class="form-control {{#if errors}}is-invalid{{/if}}"
+              placeholder="Password"
+            >
+          </div>
+            {{#if errors}}
+              <div class="text-danger text-small mb-2">
+                {{errors.errorMessage}}
+              </div>
+            {{/if}}
+          <button type="submit" class="button button--green">Submit</button>
+          <a href="/login/google" class="button">Login with Google</a>
+        </form>
+      </div>
+    </div>
   </div>
+  <div class="d-flex justify-content-center mt-3 mb-5">
+
 </div>
+</section>
