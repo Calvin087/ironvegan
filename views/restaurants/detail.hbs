@@ -1,122 +1,150 @@
-
-
-<div class="container">
-  
-  <div class="row bg-white mb-4 mt-5">
+<section id="header-restaurant-detail">
+  <div class="container single-restaurant">
+    <div class="single-restaurant__name">
+      <h2 class="me-3 single-restaurant__title text-white">{{restaurant.name}}</h2>
+      {{#if avocados}}
+      <img 
+        display="inline"
+        src="/img/avoTwo.svg"
+        width="30px"
+        height="auto"
+        class="avocado-detail-page"
+      /> 
+      <h4>({{avocados}})</h4>
+      {{/if}}
+    </div>
     
-    <div class="col-md-6 col-sm-12 py-2">
+
+    <div class="single-restaurant__slider">
       {{>imageSlider}}
     </div>
 
-{{!-- Details Section --}}
-    <div class="col-md-6 col-sm-12 py-2">
+  </div>
+</section>
 
+<section id="restaurant-detail">
+  <div class="container details">
 
-      <div class="d-flex align-items-center mb-4">
-      <h2 class="me-3">{{restaurant.name}}</h2>
-      {{#if avocados}}
-        <img 
-          display="inline"
-          src="/img/avoTwo.svg"
-          width="30px"
-          height="auto"
-          class="avocado-detail-page"
-        /> 
-        <h4>
-          ({{avocados}})
-        </h4>
-      {{/if}}
-      </div>
-    
-   
-      <p class="card-address">
-          <i class="bi bi-geo-alt me-2"></i>
-        {{restaurant.address}}
-      </p>
+    <div class="detail__map">
+        {{>mapbox}}
+    </div>
 
-      <p class="card-address">
-          <i class="bi bi-telephone me-2"></i>
-        {{restaurant.phone}}
-      </p>
-      
-      {{#if restaurant.website}}
+    <div class="detail__info">
+      <div class="contact mb-4">
+        <h2 class="mb-4">Contact info</h2>
         <p class="card-address">
-           <i class="bi bi-laptop me-2"></i>
+        <i class="bi bi-geo-alt me-2 circle-icon"></i>
+        {{restaurant.address}}
+        </p>
+      </div>
+
+      <div class="contact mb-4">
+        <p class="card-address">
+        <i class="bi bi-telephone me-2 circle-icon"></i>
+        {{restaurant.phone}}
+        </p>
+      </div>
+
+      {{#if restaurant.website}}
+      <div class="contact mb-4">
+        <p class="card-address">
+           <i class="bi bi-laptop me-2 circle-icon"></i>
           {{restaurant.website}}
         </p>
+      </div> 
       {{/if}}
-      
-        {{#if restaurant.schedule}}
-      <p class="card-address">
-        <i class="bi bi-stopwatch me-2"></i>
+
+      {{#if restaurant.schedule}}
+      <div class="contact mb-4">
+<p class="card-address">
+        <i class="bi bi-stopwatch me-2 circle-icon"></i>
         {{restaurant.schedule}}
       </p>
+      </div> 
       {{/if}}
-     
+
       {{#if restaurant.dishType}}
+      <div class="contact mb-4">
       <p class="card-address">
-          <i class="bi bi-pie-chart me-2"></i>
+          <i class="bi bi-pie-chart me-2 circle-icon"></i>
         {{restaurant.dishType}}
       </p>
+      </div> 
       {{/if}}
-      
+
       {{#if restaurant.veganOptions}}
+      <div class="contact mb-4">
        <p class="card-address">
-         <i class="bi bi-book me-2"></i>
+         <i class="bi bi-book me-2 circle-icon"></i>
         {{restaurant.veganOptions}}
       </p>
+      </div> 
       {{/if}}
-       
+
       {{#if restaurant.takeOut}}
+      <div class="contact mb-4">
        <p class="card-address">
-        <i class="bi bi-bag-check me-2"></i>
+        <i class="bi bi-bag-check me-2 circle-icon"></i>
         Take Away Available
       </p>
+      </div> 
       {{/if}}
 
       {{#if restaurant.fullVegan}}
-      <p class="card-address">
-          <i class="bi bi-arrow-through-heart me-2"></i>
+      <div class="contact">
+              <p class="card-address">
+          <i class="bi bi-arrow-through-heart me-2 circle-icon"></i>
         100% Vegan
       </p>
+      </div>
       {{/if}}
 
-    {{#if currentUser}}
-      <a href="#write-a-review">
-        <button type="button" class="btn btn-success btn-sm">Write a review</button>
+      {{#if currentUser}}
+      <div class="contact mb-4">
+              <a href="#write-a-review">
+        <button type="button" class="button button--green">Write a review</button>
       </a>
-    {{/if}}
-     
-    </div>
-<div>
-  {{>mapbox}}
-</div>
-
-<div>
-    <h2 class="mt-4">Recent Reviews</h2>
-    
-</div>
-
-     
-  </div>
-  {{!-- <div class="card-group"> --}}
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-    {{#if restaurant.comments}}
-      {{#each restaurant.comments as |comment|}}
-
-          {{>commentCard showActions=true user=../currentUser comment=comment}}
-
-      {{/each}}
-    {{/if}}
-  </div>
-
-    {{#if currentUser}}
-      <div class="write-a-review" id="write-a-review">
-        <h5 class="my-4">Hi {{currentUser.name}}, please write a review for {{restaurant.name}}</h5>
-        {{>commentForm edit=false}}
       </div>
     {{/if}}
-</div>
 
+    </div>
+
+   </div>
+</section>
+  
+
+
+        {{!-- <div class="row row-cols-1 row-cols-md-3 g-4"> --}}
+{{#if restaurant.comments}}
+  <section id="reviews">
+    <div class="container">
+      <div class="comment row">
+        <h2 class="comment__title">Recent Reviews</h2>
+
+        {{#each restaurant.comments as |comment|}}
+          <div class="col-4 g-4">
+              {{>commentCard showActions=true user=../currentUser comment=comment}}
+              </div>
+          {{/each}}
+        </div>
+
+        {{#if currentUser}}
+          <div class="write-a-review" id="write-a-review">
+            <h5 class="my-4">Hi {{currentUser.name}}, please write a review for {{restaurant.name}}</h5>
+            {{>commentForm edit=false}}
+          </div>
+      {{/if}}
+    </div>
+  </section>
+{{/if}}
+
+  
+
+
+
+
+
+
+{{!--     
 
 {{!-- <script src="/js/axios.js"></script> --}}
