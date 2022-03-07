@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "seeds": "node ./bin/seeds.js",
-    "start": "node app.js",
-    "dev": "nodemon -e hbs,js,css app.js"
+    "seeds": "cross-env NODE_ENV=development node ./bin/seeds.js",
+    "seedsAll": "cross-env NODE_ENV=development node ./bin/seedsAll.js",
+    "start": "cross-env NODE_ENV=production node app.js",
+    "dev": "cross-env NODE_ENV=development nodemon -e hbs,js,css app.js"
   },
   "repository": {
     "type": "git",
