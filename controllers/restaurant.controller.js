@@ -1,13 +1,14 @@
 const mongoose = require("mongoose");
 
 const Restaurant = require("../models/restaurant.model");
+const Avocado = require("../models/avocado.model");
+
 require("../models/comments.model");
 require("../models/avocado.model");
 
-const Avocado = require("../models/avocado.model");
-
 const categories = require("../data/categories.json");
 const mailer = require("../config/mailer.config");
+const categoriesAll = require("../data/categoriesAll.json");
 
 module.exports.list = async (req, res, next) => {
   const userDetails = res.locals.currentUser
@@ -22,7 +23,7 @@ module.exports.list = async (req, res, next) => {
   Restaurant.find()
     .limit(12)
     .then((restaurants) =>
-      res.render("restaurants/list", { restaurants, avocados })
+      res.render("restaurants/list", { restaurants, avocados, categoriesAll })
     )
     .catch((error) => next(error));
 };
@@ -105,7 +106,7 @@ module.exports.filter = async (req, res, next) => {
 
   Restaurant.find({ categories: category })
     .then((restaurants) =>
-      res.render("restaurants/list", { restaurants, avocados })
+      res.render("restaurants/list", { restaurants, avocados, categoriesAll })
     )
     .catch((error) => next(error));
 };

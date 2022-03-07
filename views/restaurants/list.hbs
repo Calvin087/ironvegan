@@ -1,6 +1,23 @@
 <div class="container">
   <div class="row mx-auto">
-    {{>categoryList}}
+
+        {{#each categoriesAll as |cat|}}
+{{cat}}
+        {{/each}}
+
+<p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+</p>
+
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    asdsad
+  </div>
+</div>
+
+
     {{#each restaurants as |restaurant|}}
       <div class="col-xl-3 col-sm-6 col-xs-12 gy-4 d-flex align-items-stretch">
         <div class="card w-100" style="width: 18rem;">
@@ -42,7 +59,6 @@
       </div>
     {{/each}}
   </div>
-
 </div>
 
 {{#if currentUser}}
