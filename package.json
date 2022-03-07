@@ -8,7 +8,7 @@
     "seeds": "NODE_ENV=development node ./bin/seeds.js",
     "seedsAll": "NODE_ENV=development node ./bin/seedsAll.js",
     "start": "NODE_ENV=production node app.js",
-    "dev": "NODE_ENV=development nodemon -e hbs,js,css app.js"
+    "dev": " NODE_ENV=development nodemon -e hbs,js,css app.js"
   },
   "repository": {
     "type": "git",
