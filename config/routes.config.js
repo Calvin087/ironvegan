@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const upload = require("../config/storage.config");
+const { commentImages, userAvatars } = require("../config/storage.config");
 
 const misc = require("../controllers/misc.controller");
 const restaurants = require("../controllers/restaurant.controller");
@@ -23,7 +23,7 @@ router.get("/favicon.ico", misc.fav); // stops the annoying favicon 404 error
 // RESTAURANTS
 router.get("/restaurants", restaurants.list); // view -> all restaurants
 router.get("/restaurants/new", restaurants.create); // render create new rest form
-router.get("/restaurants/:id", restaurants.detail); // views detail 
+router.get("/restaurants/:id", restaurants.detail); // views detail
 router.post("/restaurants/new", restaurants.doCreate); // send form info
 
 // SHOPS FOOD -> TO DO
@@ -37,11 +37,11 @@ router.get("/profile/edit", authMiddleware.isAuthenticated, user.edit); // view 
 router.post("/profile/edit", authMiddleware.isAuthenticated, user.doEdit); // view -> send CHANGES to db
 
 // AVOCADO RATING
-router.post("/avocado", authMiddleware.isAuthenticated, user.doAvocado); // send NEW / CHANGE rating in db (if exists, change num - doesn't exist add num)
+router.post("/avocado/:id", authMiddleware.isAuthenticated, user.doAvocado); // send NEW / CHANGE rating in db (if exists, change num - doesn't exist add num)
 
 // REGISTER
 router.get("/register", authMiddleware.isNotAuthenticated, auth.register); // views -> create account
-router.post("/register", auth.doRegister); // db create account
+router.post("/register", userAvatars.single("avatarImg"), auth.doRegister); // db create account
 
 // ACTIVATE
 router.get("/activate/:token", auth.activate);
@@ -71,13 +71,13 @@ router.get("/comment/:id/edit", authMiddleware.isAuthenticated, comments.edit); 
 router.post(
   "/restaurants/:id",
   authMiddleware.isAuthenticated,
-  upload.single("images"), // comment model expects 'images'
+  commentImages.single("images"), // comment model expects 'images'
   comments.doCreate
 ); // send NEW review to db
 router.post(
   "/comment/:id/edit",
   authMiddleware.isAuthenticated,
-  upload.single("images"),
+  commentImages.single("images"),
   comments.doEdit
 ); // send review CHANGES to db
 router.post(
@@ -85,6 +85,15 @@ router.post(
   authMiddleware.isAuthenticated,
   comments.delete
 ); // DELETE review from db
+
+//
+/* router.post(
+  "/comment/:id/delete",
+  authMiddleware.isAuthenticated,
+  comments.deleteClient
+) */
+
+
 
 // RESEVATIONS TODO
 

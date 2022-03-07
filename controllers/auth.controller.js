@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const User = require("../models/user.model");
 const mailer = require("../config/mailer.config");
+const { commentImages, userAvatars } = require("../config/storage.config");
 const passport = require("passport");
 
 module.exports.register = (req, res, next) => {
@@ -31,6 +32,10 @@ module.exports.doRegister = (req, res, next) => {
             createdUser.activationToken,
             createdUser.name
           );
+          req.flash(
+            "flashMessage",
+            "You have to activate your account. Please check your inbox or SPAM."
+          );
           res.redirect("/login");
         });
       }
@@ -51,6 +56,7 @@ module.exports.activate = (req, res, next) => {
   // User.findOneAndUpdate({ activationToken, active: false }, { active: true })
   User.findOneAndUpdate({ activationToken: token }, { $set: { active: true } })
     .then((updatedUser) => {
+      req.flash("flashMessage", "You have activated your account. Welcome!");
       res.redirect("/login");
     })
     .catch((err) => next(err));
@@ -61,10 +67,14 @@ module.exports.pleaseActivate = (req, res, next) => {
 };
 
 const doLogin = (req, res, next, provider) => {
+  // const renderWithErrors = (errors) => {
+  //   res.render("auth/login", { errors, user });
+  // };
+
   const userEmail = req.body.email;
 
   User.find({ email: userEmail }).then((user) => {
-    if (user[0].active === false) {
+    if (user[0]?.active === false) {
       return res.redirect("/activate");
     } else {
       passport.authenticate(
@@ -73,14 +83,17 @@ const doLogin = (req, res, next, provider) => {
           if (err) {
             next(err);
           } else if (!user) {
-            res
-              .status(404)
-              .render("auth/login", { errors: { email: validations.error } });
+            console.log(validations.error, userEmail);
+            res.status(404).render("auth/login", {
+              errors: { errorMessage: validations.error },
+              userEmail,
+            });
           } else {
             req.login(user, (loginError) => {
               if (loginError) {
                 next(loginError);
               } else {
+                req.flash("flashMessage", "You have succesfully signed in");
                 res.redirect("/profile");
               }
             });

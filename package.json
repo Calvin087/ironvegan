@@ -9,6 +9,8 @@
     "seedsAll": "cross-env NODE_ENV=development node ./bin/seedsAll.js",
     "start": "cross-env NODE_ENV=production node app.js",
     "dev": "cross-env NODE_ENV=development nodemon -e hbs,js,css app.js"
+
+  
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,7 @@
     "cloudinary": "^1.28.1",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^4.6.0",
+    "cross-env": "^7.0.3",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "express-session": "^1.17.2",

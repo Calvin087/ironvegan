@@ -2,20 +2,35 @@
 
   <div class="card">
     <div
-      style="background-image: url({{this.images}}); height:200px; background-position: center;
+      style="background-image: url({{comment.images}}); height:200px; background-position: center;
   background-repeat: no-repeat; background-size: cover;"
     ></div>
     <div class="card-body">
-      <p class="card-text">{{this.description}}</p>
-      <p class="mb-2 fw-bold">Rating ({{this.rating}})</p>
-      <p>{{{showKiwis this.rating}}}</p>
+      <p class="mb-2 fw-bold"><a href="/restaurants/{{restaurant._id}}">{{restaurant.name}}</a></p>
+      <p class="card-text">{{comment.description}}</p>
+      <p class="mb-2 fw-bold">Rating ({{comment.rating}})</p>
+      <p>{{{showKiwis comment.rating}}}</p>
     </div>
     <div class="card-footer">
       <small class="text-muted">Posted
-        {{formatCommentDates this.updatedAt}}</small>
+        {{formatCommentDates comment.updatedAt}}</small>
     </div>
-    <form action="/comment/{{this._id}}/edit" method="GET">
-      <button type="submit">Edit</button>
-    </form>
+
+  {{#if showActions}}
+    {{#isUserReview user=user._id comment=comment}}
+      <form action="/comment/{{comment._id}}/edit" method="GET">
+        <button type="submit" id="edit-btn">Edit</button>
+      </form>
+
+      <form action="/comment/{{comment._id}}/delete" method="POST">
+        <button type="submit">Delete</button>
+      </form>
+    {{/isUserReview}}
+  {{/if}}
+
+
+    {{!-- <button type="button" value="/comment/{{this._id}}/delete" class="delete-btn btn btn-danger">Delete Client</button> --}}
+
+
   </div>
 </div>

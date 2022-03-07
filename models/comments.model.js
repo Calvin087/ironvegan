@@ -23,6 +23,8 @@ const commentsSchema = new Schema(
     },
     images: {
       type: [String],
+      default:
+        "https://res.cloudinary.com/dbvcuz0d3/image/upload/v1646424940/defaultCommentImage_i0fvkv.jpg",
     },
   },
   { timestamps: true }

@@ -6,12 +6,13 @@
         <label for="email">Email</label>
         <input
           id="email"
-          value="{{user.email}}"
+          value="{{userEmail}}"
           name="email"
           type="email"
-          class="form-control {{#if errorMessage}}is-invalid{{/if}}"
-          placeholder="Enter name"
+          class="form-control {{#if errors}}is-invalid{{/if}}"
+          placeholder="Enter Email"
         >
+
       </div>
       <div class="form-group mb-3">
         <label for="password">Password</label>
@@ -19,15 +20,15 @@
           id="password"
           name="password"
           type="password"
-          class="form-control {{#if errorMessage}}is-invalid{{/if}}"
+          class="form-control {{#if errors}}is-invalid{{/if}}"
           placeholder="Password"
         >
       </div>
-      {{#if errorMessage}}
-        <div class="text-danger text-small mb-2">
-          {{errorMessage}}
-        </div>
-      {{/if}}
+        {{#if errors}}
+          <div class="text-danger text-small mb-2">
+            {{errors.errorMessage}}
+          </div>
+        {{/if}}
       <button type="submit" class="btn btn-primary">Submit</button>
       <a href="/login/google" class="btn btn-primary">Login with Google</a>
     </form>

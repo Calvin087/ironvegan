@@ -32,24 +32,8 @@
    <div class="row row-cols-1 row-cols-md-3 g-4">
     {{#if comments}}
       {{#each comments as |comment| }}
-        {{>commentCard}}
+        {{>commentCard comment=comment showActions=false restaurant=comment.restaurant}}
       {{/each}}
     {{/if}}
   </div>
 </div>
-
-{{!-- {
-  _id: new ObjectId("621d03de9b12467f7634a9e3"),
-  name: 'Calvin Torra',
-  avatarImg: 'https://res.cloudinary.com/magaboo/image/upload/v1645371452/ironvegana/default-profile-picture-avatar-png-green_bk8idz.jpg',
-  city: 'Madrid',
-  email: 'calvin@ironvegan.com',
-  password: '$2b$10$UiGnJgHkoHJkKpIYfrDxVeOQ9f7/n/iSMOrUHiC76./4LzLuPu1m.',
-  paidUser: false,
-  active: false,
-  googleID: '',
-  activationToken: 'fhfzq951ltkf3ceyjuwsddd',
-  createdAt: 2022-02-28T17:18:22.976Z,
-  updatedAt: 2022-02-28T17:18:22.976Z,
-  __v: 0
-} --}}
