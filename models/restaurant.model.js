@@ -12,7 +12,7 @@ const restaurantSchema = new Schema(
       // required: [true, "Please enter address"],
     },
     coordenates: {
-      type: [Number]
+      type: [Number],
     },
     phone: {
       type: String,

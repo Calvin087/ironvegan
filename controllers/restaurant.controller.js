@@ -90,3 +90,22 @@ module.exports.doCreate = (req, res, next) => {
   mailer.sendRecommendation(restaurant);
   res.redirect("/restaurants");
 };
+
+module.exports.filter = async (req, res, next) => {
+  const { category } = req.params;
+
+  const userDetails = res.locals.currentUser
+    ? res.locals.currentUser
+    : undefined;
+
+  let avocados;
+  if (userDetails != undefined) {
+    avocados = await Avocado.find({ user: userDetails._id });
+  }
+
+  Restaurant.find({ categories: category })
+    .then((restaurants) =>
+      res.render("restaurants/list", { restaurants, avocados })
+    )
+    .catch((error) => next(error));
+};
