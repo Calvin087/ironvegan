@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 const Restaurant = require("../models/restaurant.model");
 const User = require("../models/user.model");
 const Comment = require("../models/comments.model");
+const axios = require('axios')
 
 const defaultRestaurants = require("../data/restaurants.json");
 const defaultUsers = require("../data/defaultUsers.json");
@@ -43,7 +44,24 @@ mongoose.connection.once("open", () => {
       console.log(allUserID.length, "users created");
     })
     .then(() => {
-      // Create Restaurants
+      // Append restaurants coords
+      const promises = defaultRestaurants.map((rest) => {
+        const ADDRESS = rest.address;
+        const TOKEN = process.env.MAPBOX_TOKEN;
+        const baseURL = 'https://api.mapbox.com/geocoding/v5/mapbox.places/';
+        const URLParams = `.json?country=es&limit=1&types=place%2Cpostcode%2Caddress&language=es&access_token=${TOKEN}`;
+        const finalURL = `${baseURL}${encodeURIComponent(ADDRESS)}${URLParams}`;
+      
+        // hacer la peti (async) a finalURL
+        return axios.get(finalURL);
+      });
+
+      return Promise.all(promises)
+    })
+    .then(coords => {
+      coords.forEach((coord, index) => {
+        defaultRestaurants[index].coordenates = coord.data.features[0].center;
+      })
       return Restaurant.create(defaultRestaurants);
     })
     .then((restaurants) => {

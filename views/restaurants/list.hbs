@@ -18,15 +18,15 @@
                   ></div>
                 {{/if}}
               {{/each}}
-              <button class="avocado-button">
-                <div
-                data-id="{{restaurant.id}}"
-                class="list-page-advocado
-                  {{#userDoAvocado avocados=../avocados restaurant=restaurant}}list-page-advocado-active{{/userDoAvocado}}
-                  "
-                >
-                </div>
-                </button>
+              <button type="button" class="avocado-button" {{#unless ../currentUser}}data-bs-toggle="tooltip" data-bs-placement="top" title="Sign Up To Add Favourites"{{/unless}}>
+               <div
+               data-id="{{restaurant.id}}"
+               class="list-page-advocado
+                {{#userDoAvocado avocados=../avocados restaurant=restaurant}}list-page-advocado-active{{/userDoAvocado}}
+                "
+               >
+               </div>
+              </button>
             </div>
             <div class="card-body d-flex flex-column mt-2">
               <h5 class="card-title text-truncate">{{restaurant.name}}</h5>
@@ -42,6 +42,7 @@
                 class="btn btn-outline-success mt-1"
               >Edit info</a> --}}
             </div>
+      
           </div>
         </div>
       {{/each}}
@@ -49,5 +50,8 @@
   </div>
 </section>
 
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<script src="/js/axios.js"></script>
+{{#if currentUser}}
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="/js/axios.js"></script>
+{{/if}}
+
