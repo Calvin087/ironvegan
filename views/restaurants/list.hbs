@@ -13,7 +13,7 @@
                 ></div>
               {{/if}}
             {{/each}}
-            <button class="avocado-button">
+            <button type="button" class="avocado-button" {{#unless ../currentUser}}data-bs-toggle="tooltip" data-bs-placement="top" title="Sign Up To Add Favourites"{{/unless}}>
                <div
                data-id="{{restaurant.id}}"
                class="list-page-advocado
@@ -44,5 +44,8 @@
 
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<script src="/js/axios.js"></script>
+{{#if currentUser}}
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="/js/axios.js"></script>
+{{/if}}
+
