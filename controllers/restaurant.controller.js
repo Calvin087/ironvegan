@@ -93,7 +93,9 @@ module.exports.doCreate = (req, res, next) => {
 };
 
 module.exports.filter = async (req, res, next) => {
-  const { category } = req.params;
+  let { category } = req.params;
+
+  category = category.split(" ")[0];
 
   const userDetails = res.locals.currentUser
     ? res.locals.currentUser
