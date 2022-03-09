@@ -1,73 +1,76 @@
-<div class="row justify-content-center mt-4">
-  <div class="col-sm-4">
-    <h1>Register</h1>
-    <form method="POST" action="/register" enctype="multipart/form-data">
-      <div class="form-group mb-3">
-        <label for="name">Name</label>
-        <input
-          id="name"
-          value="{{user.name}}"
-          name="name"
-          type="text"
-          class="form-control {{#if errors.name}}is-invalid{{/if}}"
-          placeholder="Name"
-          required
-        >
-        {{#if errors.name}}
-          <div class="invalid-feedback">{{errors.name}}</div>
-        {{/if}}
-      </div>
-      <div class="form-group mb-3">
-        <label for="email">Email</label>
-        <input
-          id="email"
-          value="{{user.email}}"
-          name="email"
-          type="email"
-          class="form-control {{#if errors.email}}is-invalid{{/if}}"
-          placeholder="example@expample.com"
-          required
-        >
-        {{#if errors.email}}
-          <div class="invalid-feedback">{{errors.email}}</div>
-        {{/if}}
-      </div>
-      <div class="form-group mb-3">
-        <label for="city">City</label>
-        <input
-          id="city"
-          value="{{user.city}}"
-          name="city"
-          type="text"
-          class="form-control {{#if errors.email}}is-invalid{{/if}}"
-          placeholder="Madrid"
-          required
-        >
-        {{#if errors.email}}
-          <div class="invalid-feedback">{{errors.email}}</div>
-        {{/if}}
-      </div>
+<section id="register-bg">
+  <div class="d-flex justify-content-center mt-3 mb-5">
+    <div class="col-sm-4 mt-5">
+      <h1>Register</h1>
+      <form method="POST" action="/register" enctype="multipart/form-data">
+        <div class="form-group mb-3">
+          <label for="name">Name</label>
+          <input
+            id="name"
+            value="{{user.name}}"
+            name="name"
+            type="text"
+            class="form-control {{#if errors.name}}is-invalid{{/if}}"
+            placeholder="Name"
+            required
+          >
+          {{#if errors.name}}
+            <div class="invalid-feedback">{{errors.name}}</div>
+          {{/if}}
+        </div>
+        <div class="form-group mb-3">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            value="{{user.email}}"
+            name="email"
+            type="email"
+            class="form-control {{#if errors.email}}is-invalid{{/if}}"
+            placeholder="example@expample.com"
+            required
+          >
+          {{#if errors.email}}
+            <div class="invalid-feedback">{{errors.email}}</div>
+          {{/if}}
+        </div>
+        <div class="form-group mb-3">
+          <label for="city">City</label>
+          <input
+            id="city"
+            value="{{user.city}}"
+            name="city"
+            type="text"
+            class="form-control {{#if errors.email}}is-invalid{{/if}}"
+            placeholder="Madrid"
+            required
+          >
+          {{#if errors.email}}
+            <div class="invalid-feedback">{{errors.email}}</div>
+          {{/if}}
+        </div>
 
-      <div class="form-group mb-3">
-        <label for="password">Password</label>
-        <input
-          id="password"
-          name="password"
-          type="password"
-          class="form-control {{#if errors.password}}is-invalid{{/if}}"
-          placeholder="Password"
-          required
-        >
-        {{#if errors.password}}
-          <div class="invalid-feedback">{{errors.password}}</div>
-        {{/if}}
-      </div>
+        <div class="form-group mb-3">
+          <label for="password">Password</label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            class="form-control {{#if errors.password}}is-invalid{{/if}}"
+            placeholder="Password"
+            required
+          >
+          {{#if errors.password}}
+            <div class="invalid-feedback">{{errors.password}}</div>
+          {{/if}}
+        </div>
 
-      <div class="mb-3">
-        <label for="avatarImg" class="form-label">Avatar</label>
-        <input class="form-control" type="file" name="avatarImg" id="avatarImg">
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+        <div class="mb-3">
+          <label for="avatarImg" class="form-label">Avatar</label>
+          <input class="form-control" type="file" name="avatarImg" id="avatarImg">
+        </div>
+        <button type="submit" class="button button--green">Submit</button>
+      </form>
+    </div>
   </div>
-</div>
+</section>
+

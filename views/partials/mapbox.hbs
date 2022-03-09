@@ -1,4 +1,4 @@
-<div id="map" style="width: 400px; height: 300px;">
+<div id="map" style="width: 500px; height: 300px;">
   <script>
    mapboxgl.accessToken =
     'pk.eyJ1IjoibWFnYWJvbyIsImEiOiJjbDA5eGhqOTAwNWQ4M21wY2drZjRvN2N3In0.GdYfQ1DulUyzdva_gWc9kQ';
@@ -13,7 +13,11 @@
      zoom: 15,
    });
 
-   const marker = new mapboxgl.Marker()
+   const marker = new mapboxgl.Marker({
+     color: '#1ba87e'
+   }
+
+   )
    .setLngLat([long, lat])
    .addTo(map);
 
