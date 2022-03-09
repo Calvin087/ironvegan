@@ -25,7 +25,7 @@ module.exports.list = async (req, res, next) => {
   }
 
   try {
-    const max = Math.ceil(41 / limit);
+    const max = Math.ceil(212 / limit);
 
     if (page > max) {
       res.redirect("/restaurants");

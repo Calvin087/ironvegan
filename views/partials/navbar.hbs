@@ -1,31 +1,31 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-main">
   <div class="container">
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <a class="nav-link active white-color" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/restaurants">Restaurants</a>
+          <a class="nav-link white-color" href="/restaurants">Restaurants</a>
         </li>
         {{#if currentUser}}
         <li class="nav-item">
-          <a class="nav-link" href="/profile">Profile</a>
+          <a class="nav-link white-color" href="/profile">Profile</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/logout">Logout</a>
+          <a class="nav-link white-color" href="/logout">Logout</a>
         </li>
         {{else}}
         <li class="nav-item">
-          <a class="nav-link" href="/login">Login</a>
+          <a class="nav-link white-color" href="/login">Login</a>
         </li>
 
           <li class="nav-item">
-          <a class="nav-link" href="/restaurants/new">New restaurant</a>
+          <a class="nav-link white-color" href="/restaurants/new">New restaurant</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/register">Register</a>
+          <a class="nav-link white-color" href="/register">Register</a>
         </li>
         {{/if}}
 
