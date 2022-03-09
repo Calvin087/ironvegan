@@ -25,6 +25,9 @@ router.get("/restaurants", restaurants.list); // view -> all restaurants
 router.get("/restaurants/new", restaurants.create); // render create new rest form
 router.get("/restaurants/:id", restaurants.detail); // views detail
 router.post("/restaurants/new", restaurants.doCreate); // send form info
+router.get("/restaurant-category/:category", restaurants.filter); // serching by category
+// router.get("/restaurants/:name", restaurants.search); // Ideas for searching by name
+// router.get("/restaurants/:sortBy", restaurants.sort); // sort by avos, reviews
 
 // SHOPS FOOD -> TO DO
 
@@ -92,8 +95,6 @@ router.post(
   authMiddleware.isAuthenticated,
   comments.deleteClient
 ) */
-
-
 
 // RESEVATIONS TODO
 

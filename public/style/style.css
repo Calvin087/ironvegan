@@ -447,3 +447,28 @@ p {
 .page-link:hover {
   color: #2aa87e;
 }
+
+.btn-primary {
+  background-color: #2aa87e;
+  border-color: #2aa87e;
+}
+
+.btn-primary {
+  background-color: #2aa87e;
+  border-color: #2aa87e;
+}
+
+.btn-primary:hover {
+  background-color: #2aa87e;
+  border-color: #2aa87e;
+}
+
+.btn-primary:active {
+  background-color: #2aa87e;
+  border-color: #2aa87e;
+}
+
+.btn-primary:focus {
+  background-color: #2aa87e;
+  border-color: #2aa87e;
+}

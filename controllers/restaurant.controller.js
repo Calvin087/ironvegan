@@ -8,6 +8,7 @@ require("../models/avocado.model");
 
 const categories = require("../data/categories.json");
 const mailer = require("../config/mailer.config");
+const categoriesAll = require("../data/categoriesAll.json");
 
 const { calculatePagination } = require("../utils/calculatePagination");
 
@@ -43,6 +44,7 @@ module.exports.list = async (req, res, next) => {
     res.render("restaurants/list", {
       restaurants,
       pagination,
+      categoriesAll,
       avocados,
     });
   } catch (err) {
@@ -112,4 +114,25 @@ module.exports.doCreate = (req, res, next) => {
 
   mailer.sendRecommendation(restaurant);
   res.redirect("/restaurants");
+};
+
+module.exports.filter = async (req, res, next) => {
+  let { category } = req.params;
+
+  category = category.split(" ")[0];
+
+  const userDetails = res.locals.currentUser
+    ? res.locals.currentUser
+    : undefined;
+
+  let avocados;
+  if (userDetails != undefined) {
+    avocados = await Avocado.find({ user: userDetails._id });
+  }
+
+  Restaurant.find({ categories: category })
+    .then((restaurants) =>
+      res.render("restaurants/list", { restaurants, avocados, categoriesAll })
+    )
+    .catch((error) => next(error));
 };
