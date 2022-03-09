@@ -4,7 +4,7 @@
   --secondary-color: #f1c810;
   --white-color: #fff;
   --black-color: #212529;
-  --title-font: 'Merriweather', serif;
+  --title-font: "Merriweather", serif;
 }
 
 .card-images {
@@ -111,8 +111,6 @@
   display: none;
 }
 
-
-
 /* GENERAL STYLES*/
 * {
   margin: 0;
@@ -121,7 +119,7 @@
 }
 
 .bg-main {
-  background-color: #02AA7D;
+  background-color: #02aa7d;
 }
 
 /* .border-secondary-color {
@@ -132,7 +130,10 @@
 .white-color {
   color: var(--white-color) !important;
 }
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: var(--title-font);
   font-weight: 900;
 }
@@ -141,8 +142,8 @@ h1 {
   font-size: 50px;
 }
 
-h2{
-   font-size: 40px;
+h2 {
+  font-size: 40px;
 }
 
 h3 {
@@ -159,7 +160,7 @@ p {
 
 /* HOME -- BANNER */
 #banner {
-  background-image: url('/img/home-banner-bg-image.jpg');
+  background-image: url("/img/home-banner-bg-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 0%;
@@ -197,7 +198,7 @@ p {
   font-size: 60px;
 }
 
-.banner__subtitle{
+.banner__subtitle {
   color: var(--white-color);
   font-size: 22px;
   line-height: 1.2;
@@ -234,7 +235,6 @@ p {
   border-color: var(--white-color);
   color: var(--main-color);
 }
-
 
 /* HOME -- CONDITIONS */
 #conditions {
@@ -276,7 +276,7 @@ p {
 /* HOME -- RESTAURANTS */
 #restaurants {
   padding: 0px 0px 150px;
-  background-image: url('/img/bg-pattern-final.jpg');
+  background-image: url("/img/bg-pattern-final.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 0%;
@@ -321,11 +321,9 @@ p {
   color: var(--white-color);
 }
 
-
-
 /* RESTAURANTS */
 #restaurant-header {
-  background-image: url('/img/banner-restaurants-bg.jpg');
+  background-image: url("/img/banner-restaurants-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 100%;
@@ -346,10 +344,9 @@ p {
   font-size: 60px;
 }
 
-
 /* REGISTER */
 #register-bg {
-  background-image: url('/img/banner-register-bg.jpg');
+  background-image: url("/img/banner-register-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 0%;
@@ -362,11 +359,9 @@ p {
   background-color: var(--black-color);
 }
 
-
-
 /* RESTUARANT DETAIL */
 #header-restaurant-detail {
-  background-image: url('/img/header-restaurant-detail.png');
+  background-image: url("/img/header-restaurant-detail.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: 50% 0%;
@@ -374,7 +369,7 @@ p {
   margin-bottom: 50px;
 }
 
- .details {
+.details {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -409,7 +404,6 @@ p {
   padding-bottom: 25px;
 }
 
-
 .circle-icon {
   background-color: var(--secondary-color);
   border-radius: 50%;
@@ -418,7 +412,7 @@ p {
 }
 
 #reviews {
-  background-image: url('/img/restaurant-detail-comments-bg.jpg');
+  background-image: url("/img/restaurant-detail-comments-bg.jpg");
   background-position: cover;
   background-repeat: no-repeat;
   background-position: 50% 100%;
@@ -431,10 +425,25 @@ p {
 
 /* LOGIN */
 #login {
-  background-image: url('/img/login-bg.jpg');
+  background-image: url("/img/login-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 0%;
   height: calc(100vh - 112px);
   width: 100%;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #2aa87e;
+  border-color: #2aa87e;
+}
+
+.page-link {
+  color: #2aa87e;
+}
+
+.page-link:hover {
+  color: #2aa87e;
 }
