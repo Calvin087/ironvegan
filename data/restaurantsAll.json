@@ -31,7 +31,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/16/6f/17/36/cupcakes-de-halloween.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/16/6f/17/39/tarta-de-halloween.jpg"
     ],
-    "categories": [],
+    "categories": ["Gastropub", "Dining", "bars"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.873Z"
     },
@@ -72,7 +72,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/15/5f/11/95/lum1.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/5f/11/9d/lum2.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian", "Asian", "Nepali"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -113,7 +113,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/19/68/e1/fb/muu-ping-brovhetas-de.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/19/68/b4/03/kai-satay-brochetas-de.jpg"
     ],
-    "categories": [],
+    "categories": ["Asian", "Thai", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -154,7 +154,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/0e/8c/fd/8e/taco-pastor.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/0b/c0/68/1a/nachos-cherry.jpg"
     ],
-    "categories": [],
+    "categories": ["Mexican", "Latin", "Fast", "Food", "Central", "American"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -197,7 +197,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/18/0a/44/43/my-cuan.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/14/85/bc/9b/bum-cha.jpg"
     ],
-    "categories": [],
+    "categories": ["Asian", "Vietnamese", "Soups", "Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -240,7 +240,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1a/14/01/cf/photo2jpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/0b/83/5e/20181013-145754-largejpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Italian", "Mediterranean", "European"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -281,7 +281,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/e2/23/72/disfruten-de-nuestra.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/e2/23/04/la-mejor-tarta-de-queso.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -323,7 +323,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/07/51/af/9f/vega.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/07/51/af/9c/vega.jpg"
     ],
-    "categories": [],
+    "categories": ["Healthy", "Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -363,7 +363,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/11/36/f5/fc/ensalada-primavera.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/11/36/ef/3d/aperitivo.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Healthy", "Middle", "Eastern", "Israeli"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -404,7 +404,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/14/ee/d9/60/prawns-with-thai-basil.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/09/4c/59/b6/bambubox.jpg"
     ],
-    "categories": [],
+    "categories": ["Thai", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -443,7 +443,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/df/e7/d2/galette-queso-de-cabra.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/df/e7/c0/crepe-belle-helene.jpg"
     ],
-    "categories": [],
+    "categories": ["French"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -484,7 +484,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/19/22/9e/b0/restaurante-nueva-decoracion.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/19/22/9e/f6/restaurante-nueva-decoracion.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -527,7 +527,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/18/27/7d/23/avo-toast.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/18/27/7d/29/yogur-pots-to-go.jpg"
     ],
-    "categories": [],
+    "categories": ["British", "Cafe", "International", "European", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -569,7 +569,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/17/17/8e/ec/todo-exquisito-como-siempre.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/8b/e3/f8/caption.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian", "Asian", "Healthy", "Balti"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -610,7 +610,15 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/16/08/6c/88/pinsa-vegetariana.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/4f/6b/df/nuestro-local.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Mediterranean",
+      "Healthy",
+      "Tuscan",
+      "Romana",
+      "Lazio",
+      "Central-Italian"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -651,7 +659,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/10/8a/2e/55/brownie.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/8a/2d/96/samosas.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish", "International"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -692,7 +700,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1b/b3/58/99/fusion-italoespanola.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/af/0d/73/caption.jpg"
     ],
-    "categories": [],
+    "categories": ["Italian", "Mediterranean", "European", "Spanish", "Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -735,7 +743,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/13/a3/da/43/tartar-de-atun-rojo-con.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/05/d5/0d/b5/restaurante-la-gaditana.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -778,7 +786,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/15/4c/7f/a3/nuestros-currys.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/4c/6d/53/vista-del-interior.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -819,7 +827,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/c3/db/c2/jack-percoca.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0b/be/7e/e4/lunch.jpg"
     ],
-    "categories": [],
+    "categories": ["Italian", "Pizza"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -861,7 +869,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1b/f8/40/a5/nuestro-fantastico-hummus.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1b/f8/40/a8/varios-de-nuestros-platos.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Middle", "Eastern", "Arabic"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -902,7 +910,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0f/f4/40/8f/celicioso-calle-barquillo.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0f/f4/39/a2/nuestro-originales-cupcakes.jpg"
     ],
-    "categories": [],
+    "categories": ["Cafe", "European", "Healthy", "Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -945,7 +953,18 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/c0/a6/08/insalata-burrata-e-salmone.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/c0/a5/f0/uva.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Pizza",
+      "Romana",
+      "Lazio",
+      "Central-Italian",
+      "Southern-Italian",
+      "Mediterranean",
+      "Neapolitan",
+      "Campania",
+      "Sicilian"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -987,7 +1006,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/53/34/cd/tabla-de-quesos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/53/34/97/sangria-blanca-y-tinta.jpg"
     ],
-    "categories": [],
+    "categories": ["Latin", "Mediterranean", "Spanish", "Venezuelan"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -1030,7 +1049,13 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/19/60/5b/16/t-bone-iii-jornadas-gastronomi.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/14/27/b6/14/gastrobar-nnueve.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "International",
+      "Fusion",
+      "Mediterranean",
+      "European",
+      "Spanish"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -1072,7 +1097,13 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/be/8f/9c/tataki-de-sandia-con.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1a/be/8f/8f/crema-de-verduras-con.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Spanish",
+      "Mediterranean",
+      "European",
+      "Healthy",
+      "Contemporary"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -1111,7 +1142,15 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/21/d8/2d/71/mousse-de-castanas-conmarron.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/e2/28/5b/corvina-con-acelgas-y.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Mediterranean",
+      "European",
+      "International",
+      "Spanish",
+      "Fusion",
+      "Healthy",
+      "Soups"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -1152,7 +1191,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/17/f7/9c/d7/comida.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/17/f7/9a/aa/interior.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -1193,7 +1232,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/18/a4/e0/eb/soft-huachalomo-a-la.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/18/a4/da/0a/desayuno-campesino.jpg"
     ],
-    "categories": [],
+    "categories": ["American", "International", "Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -1235,7 +1274,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/da/af/24/hamburguesa-de-wayu.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0f/1f/3f/e1/los-montes-de-galicia.jpg"
     ],
-    "categories": [],
+    "categories": ["Spanish", "International", "Mediterranean", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -1277,7 +1316,18 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/5a/f2/e3/antipasto-italiano-cuidada.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/5a/f2/d2/dorata-e-peperonata-dorada.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Pizza",
+      "Neapolitan",
+      "Campania",
+      "Tuscan",
+      "Romana",
+      "Lazio",
+      "Sicilian",
+      "Central-Italian",
+      "Southern-Italian"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -1318,7 +1368,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/10/bb/53/9f/poteto-korokke-croquetas.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/bb/53/b9/meriendas-okashi-matcha.jpg"
     ],
-    "categories": [],
+    "categories": ["Japanese", "Asian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -1361,7 +1411,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/4e/c6/b9/croquetas-de-setas-con.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/4e/c6/1e/choco-loko.jpg"
     ],
-    "categories": [],
+    "categories": ["Healthy", "International", "Contemporary", "Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -1402,7 +1452,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/bd/25/10/la-encomienda.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/12/ff/09/40/gargantada-castellana.jpg"
     ],
-    "categories": [],
+    "categories": ["Contemporary", "Mediterranean", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -1443,7 +1493,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/13/ee/c5/de/moscow-mule.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/13/ee/c5/cb/grama-lounge.jpg"
     ],
-    "categories": [],
+    "categories": ["Latin", "Bar", "Venezuelan"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -1484,7 +1534,15 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/12/46/31/ca/sabij-fried-eggplant.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/12/46/31/aa/what-would-you-like-in.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Fast",
+      "Food",
+      "Healthy",
+      "Middle",
+      "Eastern",
+      "Mediterranean",
+      "Israeli"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -1526,7 +1584,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/11/7e/70/6e/rollitos-vietnamitas.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/12/a7/a6/c7/platos-de-la-carta.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Healthy", "Gastropub"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -1567,7 +1625,14 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/9d/f8/52/brunch.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/9d/f7/f6/very-berry-pancakes.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "American",
+      "Cafe",
+      "International",
+      "Spanish",
+      "Fusion",
+      "Healthy"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -1608,7 +1673,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/18/9f/bf/fa/amicis-duck-tataki-with.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/a6/6f/fb/amazing-terrace.jpg"
     ],
-    "categories": [],
+    "categories": ["Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -1649,7 +1714,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/91/2a/6d/para-cualquier-ocasion.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/91/2a/55/flores-de-calabacin.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -1690,7 +1755,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/16/82/fc/a3/planta-baja.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/17/f7/a2/08/chicken-mangoo.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian", "Balti"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -1727,7 +1792,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/15/98/d8/36/niscalos-de-temporada.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/15/98/d7/f3/ven-a-conocernos.jpg"
     ],
-    "categories": [],
+    "categories": ["Spanish", "Mediterranean", "Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.874Z"
     },
@@ -1768,7 +1833,15 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/11/65/8f/ec/hawaiana-jamon-pina-cebolla.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/11/65/8f/da/pollo-bbq-salsa-bbq-pollo.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Pizza",
+      "Fast",
+      "Food",
+      "European",
+      "Street",
+      "Food"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -1810,7 +1883,14 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/12/63/05/f0/la-tuttufunghi-nam-nam.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/16/43/da/62/pasta-al-pesto-deliciosa.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Pizza",
+      "Fast",
+      "Food",
+      "Mediterranean",
+      "Healthy"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -1848,7 +1928,16 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/97/18/4c/pizzeria-fratelli.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/0e/ea/35/88/ensalada-de-burrata.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Pizza",
+      "International",
+      "Mediterranean",
+      "Tuscan",
+      "Sicilian",
+      "Central-Italian",
+      "Southern-Italian"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -1892,7 +1981,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/13/17/36/e6/carta-araldo-arte-del.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/13/17/36/e0/nuestro-mercado-araldo.jpg"
     ],
-    "categories": [],
+    "categories": ["Italian", "Pizza", "Mediterranean", "European", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -1932,7 +2021,16 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/0e/6b/b1/5e/pizza.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/10/ed/d5/3a/carbonara-100-italiana.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Pizza",
+      "Mediterranean",
+      "European",
+      "Neapolitan",
+      "Campania",
+      "Sicilian",
+      "Southern-Italian"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -1974,7 +2072,15 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0e/02/44/ef/casa-jaguar-madrid.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/0e/a3/09/82/tiradito-de-atun-rojo.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Mexican",
+      "Brazilian",
+      "Peruvian",
+      "Latin",
+      "Fusion",
+      "Colombian",
+      "Healthy"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2016,7 +2122,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/43/22/ec/caption.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/0b/19/01/photo0jpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian", "Asian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2060,7 +2166,15 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/13/e3/3e/91/borax-en-su-version-mas.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/18/a8/55/ee/borax.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Caribbean",
+      "Latin",
+      "Cuban",
+      "Central",
+      "American",
+      "South",
+      "American"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2102,7 +2216,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/11/3d/d9/3a/menu-del-dia.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/d6/7e/47/prueba-nuestros-deliciosos.jpg"
     ],
-    "categories": [],
+    "categories": ["International", "Mediterranean", "European", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2146,7 +2260,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0f/9c/69/bc/20170617-212915-largejpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/18/85/1f/cb/photo1jpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Bar", "Gastropub", "Street", "Food"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2188,7 +2302,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/17/7e/ca/matilda.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0e/09/8f/c2/20161227-153431-largejpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Cafe", "Mediterranean", "European", "Spanish", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2228,7 +2342,20 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/5a/f3/b4/ai-frutti-di-mare-con.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/5a/f3/b9/salmone-en-crosta-de.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Mediterranean",
+      "European",
+      "Healthy",
+      "Neapolitan",
+      "Campania",
+      "Tuscan",
+      "Romana",
+      "Lazio",
+      "Sicilian",
+      "Central-Italian",
+      "Southern-Italian"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2271,7 +2398,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-w/21/a0/80/c2/restaurante-de-comida.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0f/ba/93/39/aloha-poke.jpg"
     ],
-    "categories": [],
+    "categories": ["Fast", "Food", "Healthy", "Hawaiian", "International"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2313,7 +2440,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/0e/e3/11/ed/lasana-de-verduras-y.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/17/9b/35/34/punto-vegano.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2354,7 +2481,19 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/e4/ae/26/photo0jpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/96/f4/ae/nina-pastabar.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Mediterranean",
+      "European",
+      "Neapolitan",
+      "Campania",
+      "Tuscan",
+      "Romana",
+      "Lazio",
+      "Sicilian",
+      "Central-Italian",
+      "Southern-Italian"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2396,7 +2535,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0e/72/f9/2b/lo-mas-dulce-siempre.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/07/1b/3b/tartar-de-atun-con-helado.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish", "Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2438,7 +2577,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/15/64/31/30/los-postres.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/15/9e/85/6d/photo1jpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish", "Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2480,7 +2619,14 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/04/c6/44/pbj-puccia.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/a2/3c/56/preparation-artesanal.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Fast",
+      "Food",
+      "Mediterranean",
+      "European",
+      "Healthy",
+      "Southern-Italian"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2523,7 +2669,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/4b/cb/2b/bhaji-de-cebolla-y-pakora.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1b/f9/05/21/genial-nunca-defrauda.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian", "Asian", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2564,7 +2710,16 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/13/ee/8a/33/arepa-pelua.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/87/b1/7a/arepa-domino.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "American",
+      "International",
+      "Venezuelan",
+      "Caribbean",
+      "Latin",
+      "Bar",
+      "Central",
+      "American"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2605,7 +2760,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/17/77/83/67/apple-almond-crumble.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/14/63/2f/58/nuestros-productos-provienen.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2646,7 +2801,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/15/7b/61/13/pnebol-mar.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/15/7b/61/76/y-o-g-u-r.jpg"
     ],
-    "categories": [],
+    "categories": ["Cafe", "European"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2686,7 +2841,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/18/9a/9d/a5/centro-floral.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/18/9a/9d/39/vista-comedor-principal.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2727,7 +2882,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/22/05/4d/tu-tambien-eres-un-amante.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/22/05/48/como-en-todo-buen-restaurante.jpg"
     ],
-    "categories": [],
+    "categories": ["Italian", "Pizza", "Mediterranean", "European"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.875Z"
     },
@@ -2769,7 +2924,15 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/77/ed/18/we-enjoyed-it-so-much.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1b/d1/f8/6e/barganzo-depitamadre.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Mediterranean",
+      "Healthy",
+      "Middle",
+      "Eastern",
+      "Israeli",
+      "Street",
+      "Food"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -2812,7 +2975,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/12/42/58/a8/sala-2.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/12/42/58/b0/entrada-con-distribucion.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -2854,7 +3017,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1b/88/71/cc/conejo-al-naranja.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1b/88/71/d8/pollo-ban-ban.jpg"
     ],
-    "categories": [],
+    "categories": ["Chinese", "Asian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -2895,7 +3058,13 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/03/c7/97/34/el-jardin-del-intercontinental.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0f/4f/0e/0d/cocteles-refrescantes.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Mediterranean",
+      "European",
+      "Spanish",
+      "International",
+      "Contemporary"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -2936,7 +3105,16 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0a/70/13/ba/bumpgreen.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0a/70/13/bd/bumpgreen.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Vegan",
+      "Options",
+      "Gluten",
+      "Free",
+      "OptionsMealsBreakfast",
+      "Lunch",
+      "Dinner",
+      "Brunch"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -2978,7 +3156,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/05/3c/7d/7d/izakaya-han.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/05/49/6c/11/izakaya-han.jpg"
     ],
-    "categories": [],
+    "categories": ["Japanese", "Sushi", "Asian", "Korean", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3021,7 +3199,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/16/91/af/af/salas-decadente.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/16/91/af/8b/salas-decadente.jpg"
     ],
-    "categories": [],
+    "categories": ["International", "Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3064,7 +3242,15 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/20/d0/d7/tiramissu-casero-itotalmente.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/22/04/58/como-en-todo-buen-restaurante.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Pizza",
+      "Mediterranean",
+      "European",
+      "Neapolitan",
+      "Campania",
+      "Southern-Italian"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3107,7 +3293,14 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/15/84/86/89/dos-platos-en-azotea.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/84/84/0a/azotea-forus-barcelo.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "International",
+      "European",
+      "Spanish",
+      "Healthy",
+      "Street",
+      "Food"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3148,7 +3341,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/05/a4/3e/65/rayuela.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/14/2b/8b/cc/planta-de-arriba-3.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish", "International"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3190,7 +3383,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/05/72/07/e8/solomillo-iberico-con.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/05/72/07/7d/rabas-de-calamar-con.jpg"
     ],
-    "categories": [],
+    "categories": ["Bar", "Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3231,7 +3424,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0c/35/25/85/dolores-y-lola.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/af/b2/e8/croquetas-de-cocido-madrileno.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3273,7 +3466,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/12/1a/28/e8/cochinillo-iberico.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/12/1a/28/87/comedor.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish", "Wine", "Bar"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3310,7 +3503,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/9e/20/71/20210204-163642-largejpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/12/0f/55/aa/srito-lab.jpg"
     ],
-    "categories": [],
+    "categories": ["Japanese", "Sushi", "Asian", "Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3354,7 +3547,13 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/03/2c/2c/8d/bahia-taberna.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/07/43/3a/f4/bahia-taberna.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Mediterranean",
+      "European",
+      "Spanish",
+      "Healthy",
+      "International"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3391,7 +3590,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/23/2c/0b/ven-a-visitarnos-nos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1b/23/3b/07/salmon-boom.jpg"
     ],
-    "categories": [],
+    "categories": ["Hawaiian", "Japanese", "Asian", "Japanese", "Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3432,7 +3631,13 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/0f/97/9c/cb/verano-en-maentrertinacocna.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/07/fd/0d/2e/martina-cocina.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Healthy",
+      "Argentinean",
+      "Cafe",
+      "Mediterranean",
+      "Spanish"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3473,7 +3678,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/57/cd/8d/panacota.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0f/63/0d/6b/deliciosos-garbanzos.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3514,7 +3719,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/06/97/8b/60/the-market-madrid.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/06/97/8b/4d/the-market-madrid.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish", "International"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3555,7 +3760,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/90/4f/a8/caption.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/bc/e9/ac/20210313-143117-largejpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Mexican"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3596,7 +3801,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/05/13/f3/86/sabe-a-gloria.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/05/12/e8/be/sabe-a-gloria.jpg"
     ],
-    "categories": [],
+    "categories": ["Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3640,7 +3845,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/66/90/fc/img-20201206-163609-largejpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/66/90/f8/img-20201206-151241-largejpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3678,7 +3883,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/ed/d5/b8/nuestro-steak-tartar.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/ed/d7/6e/clasico.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish", "Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3717,7 +3922,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/13/50/da/20/tapeo-de-dumpling-de.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/99/8a/74/quinoa-burger-la-estrella.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Fusion", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3759,7 +3964,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0a/cd/18/cc/periplo-cafe.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0a/cd/18/96/periplo-cafe.jpg"
     ],
-    "categories": [],
+    "categories": ["Bar", "Mediterranean", "Greek", "Gastropub", "European"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3800,7 +4005,15 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1a/3f/19/50/pulpo.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0f/ae/81/6f/pizza-piccola-trattoria.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Pizza",
+      "Mediterranean",
+      "Healthy",
+      "Neapolitan",
+      "Campania",
+      "Southern-Italian"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3841,7 +4054,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/9d/b3/db/caption.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/56/19/ec/enjoy.jpg"
     ],
-    "categories": [],
+    "categories": ["Italian", "Pizza", "European", "Mediterranean"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3882,7 +4095,15 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/5b/c7/a8/burrata-pugliese.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/5e/b9/d8/cremoso-de-chocolate.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Healthy",
+      "Neapolitan",
+      "Campania",
+      "Romana",
+      "Lazio",
+      "Sicilian"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3926,7 +4147,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/79/b6/37/tarta-de-queso-y-canela.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/11/a2/3f/ab/brunch-salado-smoothie.jpg"
     ],
-    "categories": [],
+    "categories": ["Cafe", "European", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -3968,7 +4189,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/0e/9f/8b/3d/sillita-para-los-mas.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0e/9f/8a/9d/arroz-verde-con-nalgas.jpg"
     ],
-    "categories": [],
+    "categories": ["International", "Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -4004,7 +4225,15 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1b/38/88/06/medias-copas-concepto.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1b/38/87/ff/atun-rojo-salvaje-caracterizad.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Japanese",
+      "Sushi",
+      "Asian",
+      "Healthy",
+      "Fusion",
+      "Japanese",
+      "Fusion"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -4046,7 +4275,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1a/93/41/c1/img-20200111-150902-largejpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/17/17/ca/1c/img-20190408-210709-largejpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Latin", "Healthy", "Argentinean"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.876Z"
     },
@@ -4087,7 +4316,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0a/50/49/fc/seleccion-de-postres.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/10/8a/6c/f5/photo1jpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Steakhouse", "Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4129,7 +4358,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/09/63/ac/82/fish-and-chips-artisan.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/09/63/a9/bf/maki-del-menu-de-mediodia.jpg"
     ],
-    "categories": [],
+    "categories": ["Japanese", "Sushi", "Asian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4173,7 +4402,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/18/57/73/22/buddha-palace-tandoori.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/1d/62/08/presentacion-de-los-platos.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian", "Nepali"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4217,7 +4446,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0e/ed/60/a4/photo6jpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/09/5d/d7/ce/la-manduca-de-azagra.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4260,7 +4489,16 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/03/7f/1f/bd/il-pizzaiolo.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/17/44/98/c6/photo2jpg.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Pizza",
+      "Mediterranean",
+      "European",
+      "Neapolitan",
+      "Campania",
+      "Sicilian",
+      "Southern-Italian"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4301,7 +4539,13 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1a/fb/c6/77/tempura-verde-de-gambas.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/fb/c9/e3/entrana.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Mediterranean",
+      "Spanish",
+      "Healthy",
+      "International",
+      "Fusion"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4343,7 +4587,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/64/ee/ac/photo3jpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/64/ee/a9/photo0jpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish", "Healthy", "International"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4384,7 +4628,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/13/99/f8/b8/nuestro-energy-mix-es.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/13/99/f8/bb/dulces-libaneses-deliciosos.jpg"
     ],
-    "categories": [],
+    "categories": ["Healthy", "Cafe", "Deli"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4426,7 +4670,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/70/87/f8/pulpo-a-la-plancha-con.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/70/88/35/navidad-2020.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish", "Fusion", "Contemporary"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4469,7 +4713,13 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/10/38/d6/41/barra-y-mesas-altas.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/38/d7/1c/salmorejo.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Contemporary",
+      "Mediterranean",
+      "European",
+      "Spanish",
+      "Fusion"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4510,7 +4760,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/22/0a/1f/el-guacamole-es-una-de.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/22/0a/19/una-de-las-cosas-mas.jpg"
     ],
-    "categories": [],
+    "categories": ["Mexican", "Latin", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4548,7 +4798,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/17/3d/7d/ff/perfecto-para-compartir.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/11/f6/14/5b/el-postre-es-la-comida.jpg"
     ],
-    "categories": [],
+    "categories": ["French", "Mexican", "Healthy", "International"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4589,7 +4839,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/15/83/8f/4d/ensalada.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/83/8f/2a/wraps.jpg"
     ],
-    "categories": [],
+    "categories": ["Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.873Z"
     },
@@ -4629,7 +4879,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/85/e2/16/camembert-e-pollo.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/85/e1/f9/gamberi-speziata.jpg"
     ],
-    "categories": [],
+    "categories": ["Italian", "Pizza", "Mediterranean", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4671,7 +4921,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/07/87/fc/90/onnekas-moncloa.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/09/c2/63/de/onnekas-moncloa.jpg"
     ],
-    "categories": [],
+    "categories": ["Italian", "Pizza", "Diner"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4711,7 +4961,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-o/1b/a4/e9/80/pepino-aplastado.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/a4/e9/93/dorada-frita-al-tofu.jpg"
     ],
-    "categories": [],
+    "categories": ["Chinese", "Cafe", "Asian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4752,7 +5002,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/10/6b/dd/ff/segundo-plato.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/6b/de/35/entrante.jpg"
     ],
-    "categories": [],
+    "categories": ["Spanish", "Contemporary", "Mediterranean", "European"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4793,7 +5043,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/16/77/8e/05/comida-konnichiwa-madrid.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/16/77/97/cd/comida-konnichiwa.jpg"
     ],
-    "categories": [],
+    "categories": ["Japanese", "Sushi", "Asian", "Street", "Food"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4832,7 +5082,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/11/ce/76/8d/terraza.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/11/ce/73/bf/lateral.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4873,7 +5123,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/1b/5f/61/healthy-hunters.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/17/94/da/55/poke-atun-agaucate.jpg"
     ],
-    "categories": [],
+    "categories": ["Healthy", "Mediterranean", "Hawaiian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4914,7 +5164,17 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0f/9c/83/73/pennette-a-pesto.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/0f/9c/74/04/grigliata-di-pescado.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Mediterranean",
+      "Neapolitan",
+      "Campania",
+      "Romana",
+      "Lazio",
+      "Central-Italian",
+      "Southern-Italian",
+      "European"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4955,7 +5215,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/17/77/84/4c/my-greek-summer-salad.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/17/77/84/61/ihay-carta-nueva-en-honest.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -4996,7 +5256,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/10/35/cc/e8/decoracion-de-inspiracion.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/35/cd/ef/postales-de-paris.jpg"
     ],
-    "categories": [],
+    "categories": ["French", "Spanish", "Mediterranean"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -5037,7 +5297,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/4e/f6/13/greek-style-monkfish.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/4e/f6/10/spanakopita-phyllo-pastry.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Greek"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -5079,7 +5339,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/09/7a/e7/7a/gaudium.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/09/7a/e7/b8/gaudium.jpg"
     ],
-    "categories": [],
+    "categories": ["Contemporary", "Fusion", "Spanish", "European"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -5119,7 +5379,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/2a/03/2d/photo0jpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/14/e9/c7/7b/127-taipei-bar-ramen.jpg"
     ],
-    "categories": [],
+    "categories": ["Asian", "Fusion", "Street", "Food", "Taiwanese"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -5161,7 +5421,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0a/c0/c3/0f/comodos-asientos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0a/c0/c3/10/atocha-tandoori.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian", "Asian", "Balti", "Bangladeshi"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -5202,7 +5462,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/c5/f1/eb/rigatoni-al-curry-chipotle.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/a3/24/cd/quarto-de-libra-vegano.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish", "Contemporary", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -5242,7 +5502,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/10/9c/51/10/img-20170910-143709-790.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0e/72/29/d5/img-20170211-wa0026-largejpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian", "Asian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -5283,7 +5543,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/11/ff/e7/b2/img-20180208-151444-640.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0f/76/4c/59/photo1jpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Japanese", "Sushi", "Asian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -5325,7 +5585,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/11/af/a9/c3/garbanzos-ecologicos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/11/4a/b1/d2/salteado-de-setas-de.jpg"
     ],
-    "categories": [],
+    "categories": ["Spanish", "Mediterranean", "European", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -5368,7 +5628,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/22/4b/70/2a/yakisoba-vegetal.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/22/4b/70/2e/crab-bao.jpg"
     ],
-    "categories": [],
+    "categories": ["Japanese", "Sushi", "Asian", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -5409,7 +5669,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/02/d4/dd/78/el-vegetariano.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/02/d4/dd/61/el-vegetariano.jpg"
     ],
-    "categories": [],
+    "categories": ["European", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -5450,7 +5710,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/15/0c/dd/6d/personaliza-tu-bowl-food.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/15/9e/cd/bc/bowl-con-base-de-coco.jpg"
     ],
-    "categories": [],
+    "categories": ["Cafe", "Mediterranean", "European", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -5493,7 +5753,13 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/4f/90/f9/tarta-de-queso-templada.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/b1/83/cf/raviolis-de-carabinero.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Mediterranean",
+      "Spanish",
+      "Fusion",
+      "Healthy",
+      "Steakhouse"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -5531,7 +5797,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/17/e3/2d/f5/taman-es-su-casa-de-comidas.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-p/17/e3/2f/7b/es-fundamental-para-el.jpg"
     ],
-    "categories": [],
+    "categories": ["Mexican", "Latin"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -5572,7 +5838,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/10/a8/63/e9/salon-de-los-sentidos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/a8/63/e6/salon-chimenea.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish", "Contemporary"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -5613,7 +5879,15 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/13/df/9d/bd/anema-e-core.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/ca/89/2a/caption.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Pizza",
+      "Mediterranean",
+      "European",
+      "Neapolitan",
+      "Campania",
+      "Southern-Italian"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.877Z"
     },
@@ -5655,7 +5929,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/11/4a/ab/42/fratelli-d-italia.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/11/4a/ab/43/fratelli-d-italia.jpg"
     ],
-    "categories": [],
+    "categories": ["Italian", "Pizza", "Sardinian", "Southern-Italian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -5696,7 +5970,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/1f/29/ec/vieiras-con-crema-de.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/1f/29/e7/salmorejo.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish", "Contemporary"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -5738,7 +6012,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0b/e6/3c/66/photo1jpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/7d/89/de/mi-nuevo-bizcocho-favorito.jpg"
     ],
-    "categories": [],
+    "categories": ["Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -5778,7 +6052,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/09/48/e3/db/adrede.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/09/48/e5/df/adrede.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -5820,7 +6094,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/95/47/ed/caption.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/95/49/5d/taberna-el-sur.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -5863,7 +6137,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/07/86/d1/26/huevos-rotos-con-trufa.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/17/0e/6e/f7/salmorejo.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -5904,7 +6178,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0c/49/6a/b2/ensalada-de-kale-y-tofu.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0c/45/d3/0d/el-fogon-verde.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -5945,7 +6219,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/f4/32/2a/special-biryani.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/f4/2a/5c/himalayan-mix-gril.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian", "Asian", "Nepali"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -5988,7 +6262,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/12/22/ea/0a/restaurante-volvoreta.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/12/22/e8/d5/restaurante-volvoreta.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6029,7 +6303,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/13/83/c5/b5/cocinando-en-la-cocina.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/13/83/c4/09/ensalada-de-pulpo-con.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish", "Catalan"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6067,7 +6341,14 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/21/ab/1e/70/restaurante-de-comida.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/21/ab/1e/6f/restaurante-de-comida.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Healthy",
+      "Hawaiian",
+      "Fast",
+      "Food",
+      "International",
+      "Asian"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6108,7 +6389,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/19/1d/9b/cf/nuestro-bowl-tekka-especial.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/07/94/1f/e4/yokaloka.jpg"
     ],
-    "categories": [],
+    "categories": ["Asian", "Japanese", "Sushi"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6149,7 +6430,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/54/c3/60/le-apetece-un-coctel.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/54/c7/a4/descubra-nuestra-terraza.jpg"
     ],
-    "categories": [],
+    "categories": ["Fast", "Food", "Contemporary"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6190,7 +6471,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/12/d7/04/0c/yuquitas-con-bacon.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/12/d7/03/f4/chicharron-de-pescado.jpg"
     ],
-    "categories": [],
+    "categories": ["Peruvian", "Latin"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6232,7 +6513,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/15/6c/16/04/variadas.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/15/29/d9/e5/pollo-a-la-cerveza.jpg"
     ],
-    "categories": [],
+    "categories": ["Argentinean"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6273,7 +6554,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/10/bb/5f/89/afterwork.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/bb/78/fa/great-view-from-botanic.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6315,7 +6596,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/07/21/33/tarta-de-manzana.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/07/20/cf/risotto-con-foie.jpg"
     ],
-    "categories": [],
+    "categories": ["Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6356,7 +6637,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/b4/d7/16/coliflor-poriyal.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/b4/d7/0d/butter-chicken.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6397,7 +6678,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/18/9f/14/9a/burrito-de-carne-mechada.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/87/67/1c/chicharrones-fresco-de.jpg"
     ],
-    "categories": [],
+    "categories": ["Mexican", "Latin", "Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6438,7 +6719,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/eb/37/94/salon.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/eb/37/7d/salon.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian", "Asian", "Nepali"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6479,7 +6760,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/78/82/e4/variado-de-sashimi-salmon.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/09/9b/f6/ad/photo0jpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Chinese", "Japanese", "Asian", "Fusion", "Sushi"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6520,7 +6801,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0e/fd/79/e2/20170416-141622-largejpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/15/ab/3c/aa/photo1jpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Asian", "Thai"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6561,7 +6842,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/1a/51/b2/caption.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/2f/ae/af/tiradito.jpg"
     ],
-    "categories": [],
+    "categories": ["Spanish", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6603,7 +6884,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/0f/46/d4/9d/le-comptoir-de-la-crepe.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/0f/46/d4/9e/le-comptoir-de-la-crepe.jpg"
     ],
-    "categories": [],
+    "categories": ["French", "European"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6647,7 +6928,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0c/7d/81/e3/pui-s-thai-tapas.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0c/7d/81/e8/pui-s-thai-tapas.jpg"
     ],
-    "categories": [],
+    "categories": ["Asian", "Thai"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6687,7 +6968,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/08/ff/64/3b/ceviche.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/08/ff/65/48/paella-de-domingo.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6730,7 +7011,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/7e/a1/91/tomate-en-texturas.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/7e/a3/74/sandy-club.jpg"
     ],
-    "categories": [],
+    "categories": ["Italian", "Mediterranean", "Neapolitan"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6772,7 +7053,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/07/aa/32/d9/flavia-restaurant-bar.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/07/aa/30/71/flavia-restaurant-bar.jpg"
     ],
-    "categories": [],
+    "categories": ["Italian", "Sicilian", "Southern-Italian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6814,7 +7095,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/b8/b8/51/piononos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/00/81/62/bonito-con-verduritas.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6856,7 +7137,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1b/ef/4c/51/20200903-150552-largejpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/ce/ee/01/photo1jpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6897,7 +7178,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/81/3e/08/brunch-eggs-benedict.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/81/3d/2f/vieiras-a-la-brasa-guanciale.jpg"
     ],
-    "categories": [],
+    "categories": ["European", "Spanish", "Mediterranean"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6936,7 +7217,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/13/7e/ad/99/sala-restaurante-nantes.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/87/e5/2a/torrija-de-sobao-artesano.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -6979,7 +7260,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0f/07/f3/5d/bomba-patata-rellena.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0f/07/f3/2f/gastronomia-ambiente.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -7023,7 +7304,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/06/40/53/55/east-47.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/06/40/53/6c/east-47.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish", "Bar", "Contemporary"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.878Z"
     },
@@ -7062,7 +7343,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/15/9d/81/67/caption.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/11/35/d4/ec/linguine-royal-boccone.jpg"
     ],
-    "categories": [],
+    "categories": ["Italian", "Mediterranean"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7105,7 +7386,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/07/6f/c6/7c/la-vaca-y-la-huerta.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/19/89/d3/93/nuestro-restaurante.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7146,7 +7427,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/16/34/b5/49/valiente-wrap.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/16/34/b4/e7/acai-bowl.jpg"
     ],
-    "categories": [],
+    "categories": ["Cafe", "Healthy", "International"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7186,7 +7467,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/16/5d/57/c4/detalle-de-nuestra-decoracion.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/16/5d/57/42/nuestro-pad-thai-de-pollo.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish", "Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7227,7 +7508,15 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/23/5f/e8/calzone-grosso.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/23/5f/41/local.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Pizza",
+      "European",
+      "Neapolitan",
+      "Campania",
+      "Southern-Italian",
+      "Mediterranean"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7268,7 +7557,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0e/b8/eb/35/restaurante-shanghai.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/c9/5a/68/mini-torre-de-xialongbao.jpg"
     ],
-    "categories": [],
+    "categories": ["Chinese"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7309,7 +7598,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/07/13/df/77/moharaj.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/07/13/d7/35/moharaj.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian", "Asian", "Balti"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7350,7 +7639,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/15/b7/71/33/langostinos-en-tempura.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/12/86/91/d0/ensaladilla-rusa-odds.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish", "European"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7394,7 +7683,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/07/8c/28/40/vinoteca-barbechera.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/07/8c/28/3b/vinoteca-barbechera.jpg"
     ],
-    "categories": [],
+    "categories": ["Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7435,7 +7724,13 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/17/0a/2e/aa/pintxos-de-barra-2-50.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1a/a1/10/05/chuleton-de-ternera-extra.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Mediterranean",
+      "European",
+      "Spanish",
+      "Contemporary",
+      "Fusion"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7476,7 +7771,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/71/43/b4/excelente-elaboracion.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1b/f2/ce/2a/photo0jpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7517,7 +7812,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/13/1a/59/fd/patio-restaurante-younique.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/12/1e/6d/e5/restaurante-younique.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7559,7 +7854,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/f4/ae/d9/la-galeria-exterior.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/0d/f4/ae/d1/la-mesa-del-banco-un.jpg"
     ],
-    "categories": [],
+    "categories": ["Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7601,7 +7896,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/79/59/e6/especies-casero.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/79/59/e7/queso-casero-rebosado.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7642,7 +7937,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/0b/9b/dc/f7/tartar-templado-de-queso.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/0c/6e/a1/12/20160724-151419-largejpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Healthy", "Mediterranean", "European"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7679,7 +7974,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1a/15/bb/c7/1.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/15/bc/01/1.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7720,7 +8015,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/40/a2/1d/satay-balines-de-pollo.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/78/95/c7/arroz-chaufa-salteado.jpg"
     ],
-    "categories": [],
+    "categories": ["Asian", "Fusion", "Central", "Asian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7759,7 +8054,15 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/11/7d/21/dd/scoons-relleno-de-queso.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/11/7d/21/e2/superbowl-dream-surf.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Healthy",
+      "Street",
+      "Food",
+      "Pizza",
+      "Cafe",
+      "Fast",
+      "Food"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7800,7 +8103,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/0b/8d/2d/90/noteolvides.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/08/e2/f8/c4/noteolvides.jpg"
     ],
-    "categories": [],
+    "categories": ["Steakhouse", "Mediterranean", "European", "Argentinean"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7841,7 +8144,18 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/13/bd/08/05/food-yatai-market.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/16/77/9b/58/le-japonais.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Chinese",
+      "Japanese",
+      "Fast",
+      "Food",
+      "Sushi",
+      "Asian",
+      "Thai",
+      "Korean",
+      "Vietnamese",
+      "Indonesian"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7880,7 +8194,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/0a/70/75/42/raku-sushi.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0b/be/ce/0b/postre.jpg"
     ],
-    "categories": [],
+    "categories": ["Japanese", "Sushi", "Asian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7922,7 +8236,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/12/5f/27/39/lolo-polos-artesanos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/7b/31/ad/cada-lolo-tiene-como.jpg"
     ],
-    "categories": [],
+    "categories": ["Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -7964,7 +8278,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/06/e4/ac/fd/bellamia-heladeria.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/06/fc/26/13/bellamia-heladeria.jpg"
     ],
-    "categories": [],
+    "categories": ["Italian", "Cafe"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -8005,7 +8319,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/0a/24/9d/59/megu.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/0a/24/9d/05/megu.jpg"
     ],
-    "categories": [],
+    "categories": ["Chinese", "Japanese", "Sushi", "Asian", "Thai"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -8046,7 +8360,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/15/17/ef/95/pizza-spianatta.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/12/08/d6/4f/massart-funghi.jpg"
     ],
-    "categories": [],
+    "categories": ["Italian", "Pizza"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -8087,7 +8401,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/08/d7/81/0f/casa-lafu.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/08/d7/80/e8/casa-lafu.jpg"
     ],
-    "categories": [],
+    "categories": ["Chinese", "Asian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -8128,7 +8442,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/11/e1/a5/ba/setas-de-temporada-con.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/10/01/30/9d/acompana-tus-platos-con.jpg"
     ],
-    "categories": [],
+    "categories": ["Brew", "Pub", "Mediterranean", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.879Z"
     },
@@ -8169,7 +8483,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/18/7e/c1/98/rock-n-chick-n.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/18/7e/c1/fa/supreme-yaya-fries.jpg"
     ],
-    "categories": [],
+    "categories": ["Fast", "Food", "American"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.873Z"
     },
@@ -8210,7 +8524,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/0f/e5/c7/70/img-20170715-154746-842.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/10/97/07/10/20170908-132438-largejpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Spanish", "Healthy", "Dining", "bars"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.873Z"
     },
@@ -8251,7 +8565,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/11/53/ef/a6/20171117-155721-largejpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/11/53/ef/a3/20171117-152807-largejpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Breakfast", "Lunch", "Dinner", "Brunch", "Drinks"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.872Z"
     },
@@ -8288,7 +8602,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/16/12/34/62/inti-pertenece-a-los.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/16/41/2f/c5/photo4jpg.jpg"
     ],
-    "categories": [],
+    "categories": ["Peruvian", "Latin", "Spanish", "South", "American"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.873Z"
     },
@@ -8330,7 +8644,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/0d/f4/6a/4c/mesas.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/0d/f4/6a/26/mesas.jpg"
     ],
-    "categories": [],
+    "categories": ["Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.873Z"
     },
@@ -8373,7 +8687,18 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/85/e6/a9/escalivada-genovese.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/85/e5/b4/gamberi-speziata.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Italian",
+      "Pizza",
+      "Mediterranean",
+      "Healthy",
+      "Tuscan",
+      "Romana",
+      "Lazio",
+      "Sicilian",
+      "Central-Italian",
+      "Southern-Italian"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.873Z"
     },
@@ -8414,7 +8739,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/53/4b/4d/level-veggie-bistro.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/69/18/3d/level-veggie-bistro.jpg"
     ],
-    "categories": [],
+    "categories": ["Mediterranean", "European", "Healthy", "Fusion"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.873Z"
     },
@@ -8454,7 +8779,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/98/ee/40/caption.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/96/ee/a2/caption.jpg"
     ],
-    "categories": [],
+    "categories": ["Italian", "Pizza", "Mediterranean", "European", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.873Z"
     },
@@ -8496,7 +8821,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/0b/3c/fe/1b/canelones-rellenos-de.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/11/bf/a2/58/carnes-de-calidad.jpg"
     ],
-    "categories": [],
+    "categories": ["Spanish", "Mediterranean", "European"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.873Z"
     },
@@ -8537,7 +8862,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/91/e2/6b/curry-canela.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/91/e2/3f/curry-canela.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian", "Asian", "Nepali", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.873Z"
     },
@@ -8578,7 +8903,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/21/dd/6c/comida-arpit.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/09/e6/42/helado-de-pistacho.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.873Z"
     },
@@ -8621,7 +8946,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/bc/52/ca/caption.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/1d/bc/52/cb/caption.jpg"
     ],
-    "categories": [],
+    "categories": ["Cafe", "European", "Healthy"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.873Z"
     },
@@ -8659,7 +8984,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-l/1c/26/12/7a/la-modernista.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1b/21/46/de/la-modernista.jpg"
     ],
-    "categories": [],
+    "categories": ["Healthy", "International", "European", "Spanish"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.873Z"
     },
@@ -8699,7 +9024,14 @@
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/ce/7c/3b/viva-chapata.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/06/23/3f/aa/viva-chapata.jpg"
     ],
-    "categories": [],
+    "categories": [
+      "Bar",
+      "Mediterranean",
+      "European",
+      "Spanish",
+      "Beer",
+      "restaurants"
+    ],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.873Z"
     },
@@ -8741,7 +9073,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/15/81/2f/26/korma-plato-de-sabor.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/15/81/2d/c4/tikka-masala.jpg"
     ],
-    "categories": [],
+    "categories": ["Indian", "Asian", "Healthy", "Nepali"],
     "createdAt": {
       "$date": "2022-03-06T20:52:27.873Z"
     },

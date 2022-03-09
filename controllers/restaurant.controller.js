@@ -1,15 +1,21 @@
 const mongoose = require("mongoose");
 
 const Restaurant = require("../models/restaurant.model");
+const Avocado = require("../models/avocado.model");
+
 require("../models/comments.model");
 require("../models/avocado.model");
 
-const Avocado = require("../models/avocado.model");
-
 const categories = require("../data/categories.json");
 const mailer = require("../config/mailer.config");
+const categoriesAll = require("../data/categoriesAll.json");
+
+const { calculatePagination } = require("../utils/calculatePagination");
 
 module.exports.list = async (req, res, next) => {
+  let { page = 1 } = req.query;
+  let limit = 12;
+
   const userDetails = res.locals.currentUser
     ? res.locals.currentUser
     : undefined;
@@ -19,12 +25,31 @@ module.exports.list = async (req, res, next) => {
     avocados = await Avocado.find({ user: userDetails._id });
   }
 
-  Restaurant.find()
-    .limit(12)
-    .then((restaurants) =>
-      res.render("restaurants/list", { restaurants, avocados })
-    )
-    .catch((error) => next(error));
+  try {
+    const max = Math.ceil(212 / limit);
+
+    if (page > max) {
+      res.redirect("/restaurants");
+    }
+
+    const restaurants = await Restaurant.find()
+      .limit(limit * 1)
+      .skip((Number(page) - 1) * limit)
+      .exec();
+
+    const count = await restaurants.length;
+
+    let pagination = await calculatePagination(page, count, limit, max);
+
+    res.render("restaurants/list", {
+      restaurants,
+      pagination,
+      categoriesAll,
+      avocados,
+    });
+  } catch (err) {
+    console.error(err.message);
+  }
 };
 
 module.exports.detail = (req, res, next) => {
@@ -89,4 +114,25 @@ module.exports.doCreate = (req, res, next) => {
 
   mailer.sendRecommendation(restaurant);
   res.redirect("/restaurants");
+};
+
+module.exports.filter = async (req, res, next) => {
+  let { category } = req.params;
+
+  category = category.split(" ")[0];
+
+  const userDetails = res.locals.currentUser
+    ? res.locals.currentUser
+    : undefined;
+
+  let avocados;
+  if (userDetails != undefined) {
+    avocados = await Avocado.find({ user: userDetails._id });
+  }
+
+  Restaurant.find({ categories: category })
+    .then((restaurants) =>
+      res.render("restaurants/list", { restaurants, avocados, categoriesAll })
+    )
+    .catch((error) => next(error));
 };

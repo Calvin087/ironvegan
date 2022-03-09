@@ -1,0 +1,21 @@
+  <div class="mt-5 mb-5">
+    <ul class="pagination justify-content-center ">
+      <li class="page-item {{#unless this.previous}} disabled{{/unless}}">
+        <a class="page-link " href="/restaurants?page={{this.previous}}">Previous</a>
+      </li>
+      {{#if this.slotOne}}
+      <li class="page-item active"><a class="page-link" href="/restaurants?page={{this.slotOne}}">{{this.slotOne}}</a></li>
+      {{/if}}
+
+      {{#if this.slotTwo}}
+        <li class="page-item"><a class="page-link" href="/restaurants?page={{this.slotTwo}}">{{this.slotTwo}}</a></li>
+      {{/if}}
+
+      {{#if this.slotThree}}
+        <li class="page-item"><a class="page-link" href="/restaurants?page={{this.slotThree}}">{{this.slotThree}}</a></li>
+      {{/if}}
+      <li class="page-item {{#unless this.next}} disabled{{/unless}}" >
+        <a class="page-link" href="/restaurants?page={{this.next}}">Next</a>
+      </li>
+    </ul>
+  </div>

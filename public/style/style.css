@@ -4,7 +4,7 @@
   --secondary-color: #f1c810;
   --white-color: #fff;
   --black-color: #212529;
-  --title-font: 'Merriweather', serif;
+  --title-font: "Merriweather", serif;
 }
 
 .card-images {
@@ -111,8 +111,6 @@
   display: none;
 }
 
-
-
 /* GENERAL STYLES*/
 * {
   margin: 0;
@@ -121,7 +119,7 @@
 }
 
 .bg-main {
-  background-color: #02AA7D;
+  background-color: #02aa7d;
 }
 
 /* .border-secondary-color {
@@ -152,8 +150,8 @@ h1 {
   font-size: 50px;
 }
 
-h2{
-   font-size: 40px;
+h2 {
+  font-size: 40px;
 }
 
 h3 {
@@ -204,7 +202,7 @@ p {
 /* HOME */
 /* HOME -- BANNER */
 #banner {
-  background-image: url('/img/home-banner-bg-image.jpg');
+  background-image: url("/img/home-banner-bg-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 0%;
@@ -267,12 +265,14 @@ p {
   font-size: 60px;
 }
 
-.banner__subtitle{
+.banner__subtitle {
   color: var(--white-color);
   font-size: 22px;
   line-height: 1.2;
   margin-bottom: 30px;
 }
+
+
 
 
 /* HOME -- CONDITIONS */
@@ -329,7 +329,7 @@ p {
 /* HOME -- RESTAURANTS */
 #restaurants {
   padding: 0px 0px 150px;
-  background-image: url('/img/bg-pattern-final.jpg');
+  background-image: url("/img/bg-pattern-final.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 0%;
@@ -394,11 +394,9 @@ p {
 
 
 
-
-
 /* RESTAURANTS */
 #restaurant-header {
-  background-image: url('/img/banner-restaurants-bg.jpg');
+  background-image: url("/img/banner-restaurants-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 100%;
@@ -421,10 +419,9 @@ p {
 
 
 
-
 /* RESTUARANT DETAIL */
 #header-restaurant-detail {
-  background-image: url('/img/header-restaurant-detail.png');
+  background-image: url("/img/header-restaurant-detail.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: 50% 0%;
@@ -454,6 +451,7 @@ p {
   padding-top: 50px;
   padding-bottom: 25px;
 }
+
 
 @media (max-width: 767px) {
   .single-restaurant__name {
@@ -504,7 +502,7 @@ p {
 }
 
 #reviews {
-  background-image: url('/img/restaurant-detail-comments-bg.jpg');
+  background-image: url("/img/restaurant-detail-comments-bg.jpg");
   background-position: cover;
   background-repeat: no-repeat;
   background-position: 50% 100%;
@@ -546,7 +544,7 @@ p {
 
 /* LOGIN */
 #login {
-  background-image: url('/img/login-bg.jpg');
+  background-image: url("/img/login-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 0%;
@@ -598,4 +596,45 @@ p {
   background-color: var(--black-color);
   position: relative;
   bottom: 0;
+
+  
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #2aa87e;
+  border-color: #2aa87e;
+}
+
+.page-link {
+  color: #2aa87e;
+}
+
+.page-link:hover {
+  color: #2aa87e;
+}
+
+.btn-primary {
+  background-color: #2aa87e;
+  border-color: #2aa87e;
+}
+
+.btn-primary {
+  background-color: #2aa87e;
+  border-color: #2aa87e;
+}
+
+.btn-primary:hover {
+  background-color: #2aa87e;
+  border-color: #2aa87e;
+}
+
+.btn-primary:active {
+  background-color: #2aa87e;
+  border-color: #2aa87e;
+}
+
+.btn-primary:focus {
+  background-color: #2aa87e;
+  border-color: #2aa87e;
+
 }

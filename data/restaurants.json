@@ -14,7 +14,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/17/4e/e7/af/brunch.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/17/4e/e7/f3/brunch.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/17/4e/e3/21/oreo-pancake.jpg"
-    ]
+    ],
+    "categories": ["Cafe", "European", "Healthy", "International"]
   },
   {
     "name": "Pizzart Villa Canalejas",
@@ -31,6 +32,18 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/85/e5/bc/di-parma.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/85/e6/93/salumeria-quesos-italianos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/85/e4/e9/parmigiana-di-melanzane.jpg"
+    ],
+    "categories": [
+      "Italian",
+      "Pizza",
+      "Mediterranean",
+      "Healthy",
+      "Tuscan",
+      "Romana",
+      "Lazio",
+      "Sicilian",
+      "Central-Italian",
+      "Southern-Italian"
     ]
   },
   {
@@ -48,7 +61,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/21/63/d7/ab/new-curry-masala.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/22/33/c2/comida-curry-masala.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/22/34/25/arroz-con-pollo-al-curry.jpg"
-    ]
+    ],
+    "categories": ["Asian", "Indian"]
   },
   {
     "name": "Levél Veggie Bistro",
@@ -65,7 +79,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/10/0b/3a/1d/interior.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/71/0d/df/level-veggie-bistro.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/ad/34/0c/photo1jpg.jpg"
-    ]
+    ],
+    "categories": ["Mediterranean", "European", "Healthy", "Fusion"]
   },
   {
     "name": "Eiffel",
@@ -82,7 +97,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/16/63/99/aa/eiffel.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/03/23/10/solomillo-al-oporto.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0c/71/ed/7b/tartare-de-aguacate-y.jpg"
-    ]
+    ],
+    "categories": ["Spanish", "Mediterranean", "European"]
   },
   {
     "name": "Curry y Canela",
@@ -99,7 +115,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-p/17/d1/9b/87/descubre-india-y-nepal.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/91/e2/84/curry-canela.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/91/e2/65/curry-canela.jpg"
-    ]
+    ],
+    "categories": ["Indian", "Asian", "Nepali", "Healthy"]
   },
   {
     "name": "Arpit",
@@ -116,7 +133,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/21/d7/e9/comedor-arpit.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/21/d9/a8/comida-hindu.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/21/dd/b2/comida-hindu-arpit.jpg"
-    ]
+    ],
+    "categories": ["Indian"]
   },
   {
     "name": "Real Talent Café",
@@ -133,7 +151,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/19/6a/99/81/arroz-negro.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/19/6a/96/dc/paella-valenciana.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/19/6a/96/9f/talent-bomba-no-se-puede.jpg"
-    ]
+    ],
+    "categories": ["Mediterranean", "Spanish", "Healthy"]
   },
   {
     "name": "Lumbini Tandoori",
@@ -150,7 +169,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/15/ac/e2/0e/lumbini-4.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/15/5f/11/ac/lum3.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/25/7e/60/foto-9.jpg"
-    ]
+    ],
+    "categories": ["Indian", "Asian", "Nepali"]
   },
   {
     "name": "Kai Thai",
@@ -167,7 +187,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/19/68/e2/69/kai-yang-contramuslo.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/19/68/e2/9e/tom-yam-kung-sopa-tradicional.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/19/68/e2/11/karee-pab-empanadillas.jpg"
-    ]
+    ],
+    "categories": ["Asian", "Thai", "Healthy"]
   },
   {
     "name": "Cherry Pecas",
@@ -184,7 +205,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-p/16/59/ae/da/logo-cherry-pecas.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-p/0e/8c/fd/9b/tacos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/0e/8c/fd/7c/tacos-y-quesadilla.jpg"
-    ]
+    ],
+    "categories": ["Mexican", "Latin", "Fast", "Food", "Central", "American"]
   },
   {
     "name": "Restaurante Vietnam Express",
@@ -201,7 +223,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/18/23/75/c0/caption.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/15/64/07/39/bienvenidos-a-vietnam.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/18/1b/1e/d9/caption.jpg"
-    ]
+    ],
+    "categories": ["Asian", "Vietnamese", "Soups", "Fusion"]
   },
   {
     "name": "Oliveto",
@@ -218,7 +241,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/10/40/99/6b/photo0jpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/d4/9b/e9/photo3jpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/06/b2/7f/5c/oliveto.jpg"
-    ]
+    ],
+    "categories": ["Italian", "Mediterranean", "European"]
   },
   {
     "name": "Vega",
@@ -235,7 +259,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/13/7b/a8/3e/20180625-142540-largejpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/0a/ba/a5/c7/local.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0a/ba/8e/2c/vega.jpg"
-    ]
+    ],
+    "categories": ["Healthy", "Fusion"]
   },
   {
     "name": "La Hummuseria",
@@ -252,7 +277,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/11/36/e8/2f/isalud.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/09/f9/26/17/la-hummuseria.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/11/36/e8/b5/tapa-del-dia.jpg"
-    ]
+    ],
+    "categories": ["Mediterranean", "Healthy", "Middle", "Eastern", "Israeli"]
   },
   {
     "name": "Bambubox Madrid",
@@ -269,7 +295,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/14/ee/e0/3c/bambubox.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-o/09/4c/59/5c/bambubox.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/14/ee/d6/48/tom-ka-gai.jpg"
-    ]
+    ],
+    "categories": ["Thai", "Healthy"]
   },
   {
     "name": "Lune Creperie",
@@ -286,7 +313,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-p/1a/df/e8/26/deco.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/df/e7/d2/galette-queso-de-cabra.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/df/e7/c0/crepe-belle-helene.jpg"
-    ]
+    ],
+    "categories": ["French"]
   },
   {
     "name": "Gustazio Gastrobar",
@@ -303,6 +331,15 @@
       "https://media-cdn.tripadvisor.com/media/photo-p/16/1c/10/34/pinsa-acciuga.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/3b/6b/f6/inueva-pinsa-acquolina.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/16/1c/0f/95/bagnacauda.jpg"
+    ],
+    "categories": [
+      "Italian",
+      "Mediterranean",
+      "Healthy",
+      "Tuscan",
+      "Romana",
+      "Lazio",
+      "Central-Italian"
     ]
   },
   {
@@ -320,7 +357,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/03/35/1c/09/restaurante-sagar.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/15/4c/6e/16/un-pequeno-trocito-de.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/03/35/1b/ad/restaurante-sagar.jpg"
-    ]
+    ],
+    "categories": ["Indian"]
   },
   {
     "name": "Jack Percoca",
@@ -337,7 +375,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/0d/c3/db/c8/jack-percoca.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/0a/f6/7f/1c/jack-percoca-bar-kitchen.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/0a/f6/98/5c/el-nuestro-spaghetti.jpg"
-    ]
+    ],
+    "categories": ["Italian", "Pizza"]
   },
   {
     "name": "La Bistroteca",
@@ -354,7 +393,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/0a/97/0a/30/la-bistroteca.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-p/10/db/9d/90/la-nipona-atun-a-la-parilla.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/10/db/9d/9f/nuestra-bacon.jpg"
-    ]
+    ],
+    "categories": ["Fusion"]
   },
   {
     "name": "Periplo Cafe",
@@ -371,7 +411,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-p/0b/d2/f5/06/periplo-cafe.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/0d/40/39/b3/periplo-cafe.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/0b/d2/f5/02/periplo-cafe.jpg"
-    ]
+    ],
+    "categories": ["Bar", "Mediterranean", "Greek", "Gastropub", "European"]
   },
   {
     "name": "La Piramide",
@@ -388,6 +429,15 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/21/d8/2d/71/mousse-de-castanas-conmarron.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/e2/28/5b/corvina-con-acelgas-y.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/cf/7d/f4/lomo-de-caballa-curado.jpg"
+    ],
+    "categories": [
+      "Mediterranean",
+      "European",
+      "International",
+      "Spanish",
+      "Fusion",
+      "Healthy",
+      "Soups"
     ]
   },
   {
@@ -405,6 +455,18 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/c0/a4/76/inuova.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/c0/a7/18/burrata-e-gamberi-speziata.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/c0/a7/3e/speziata.jpg"
+    ],
+    "categories": [
+      "Italian",
+      "Pizza",
+      "Romana",
+      "Lazio",
+      "Central-Italian",
+      "Southern-Italian",
+      "Mediterranean",
+      "Neapolitan",
+      "Campania",
+      "Sicilian"
     ]
   },
   {
@@ -422,6 +484,13 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/11/d0/21/2c/vista-invernadero-bloved.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/19/bb/8c/44/pate-de-centolla.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/19/51/6d/c4/postre-choco-bone-jornadas.jpg"
+    ],
+    "categories": [
+      "International",
+      "Fusion",
+      "Mediterranean",
+      "European",
+      "Spanish"
     ]
   },
   {
@@ -439,7 +508,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/0e/c5/db/b3/20170321-151636-largejpg.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/53/34/8c/solomillo-de-ternera.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/0d/53/34/54/pan-cook.jpg"
-    ]
+    ],
+    "categories": ["Latin", "Mediterranean", "Spanish", "Venezuelan"]
   },
   {
     "name": "Beytna Restaurante",
@@ -456,7 +526,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/19/50/3e/df/te-invitamos-a-disfrutar.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/19/b9/d0/b9/beytna-que-significa.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/f8/40/a4/beytna-es-el-sitio-perfecto.jpg"
-    ]
+    ],
+    "categories": ["Mediterranean", "Middle", "Eastern", "Arabic"]
   },
   {
     "name": "Gato Gato",
@@ -473,6 +544,13 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/12/d8/9d/fe/gato-gato.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/be/8f/c4/taco-de-oreja-con-salsa.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/be/8f/b0/timbal-de-berenjena-tomate.jpg"
+    ],
+    "categories": [
+      "Spanish",
+      "Mediterranean",
+      "European",
+      "Healthy",
+      "Contemporary"
     ]
   },
   {
@@ -490,7 +568,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/12/4f/82/db/lasana-crudivegana.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/12/22/df/d3/menu-del-dia.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/13/0b/d7/14/hamburguesa.jpg"
-    ]
+    ],
+    "categories": ["Contemporary", "Mediterranean", "Healthy"]
   },
   {
     "name": "Vega Alamo",
@@ -507,7 +586,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/4e/c5/dc/risotto-negro-mar-y-montana.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/4e/c6/38/choco-loko.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1a/4e/c9/51/steak-tartar-de-beyond.jpg"
-    ]
+    ],
+    "categories": ["Healthy", "International", "Contemporary", "Fusion"]
   },
   {
     "name": "Trattoria Pulcinella",
@@ -524,6 +604,17 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/04/a3/56/13/pulcinella.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/5a/f0/c0/scaloppine-al-marsala.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/5a/f0/b0/rigatoni-all-indiavolata.jpg"
+    ],
+    "categories": [
+      "Italian",
+      "Healthy",
+      "Neapolitan",
+      "Campania",
+      "Romana",
+      "Lazio",
+      "Sicilian",
+      "Central-Italian",
+      "Southern-Italian"
     ]
   },
   {
@@ -541,7 +632,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-p/0a/55/4b/44/salon.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/0a/55/4b/42/calles-del-albaicin.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/0a/55/4b/43/logo.jpg"
-    ]
+    ],
+    "categories": ["Mediterranean", "European", "Spanish"]
   },
   {
     "name": "Okashi Sanda",
@@ -558,7 +650,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/10/bb/53/a9/kare-raisu-guiso-de-curry.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/10/bb/53/97/poteto-sarada-ensalada.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/05/13/7b/bd/okashi-sanda.jpg"
-    ]
+    ],
+    "categories": ["Japanese", "Asian"]
   },
   {
     "name": "Maruzzella",
@@ -575,6 +668,18 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/5a/f2/df/spaghetti-alle-vongole.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1a/7a/73/4a/nuestra-especial-pizza.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1c/5a/f2/de/tagliatelle-bolognese.jpg"
+    ],
+    "categories": [
+      "Italian",
+      "Pizza",
+      "Neapolitan",
+      "Campania",
+      "Tuscan",
+      "Romana",
+      "Lazio",
+      "Sicilian",
+      "Central-Italian",
+      "Southern-Italian"
     ]
   },
   {
@@ -592,11 +697,12 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/16/62/42/b9/purnima-inside.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/17/f7/99/54/comida.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/17/f7/98/27/comida.jpg"
-    ]
+    ],
+    "categories": ["Indian"]
   },
   {
     "name": "Deleïte Restaurante",
-    "address": "Avenida de Logrono 327 Corner with Calle de Algemesi, 28042 Madrid Spain",
+    "address": "Avenida de Logrono 327, 28042 Madrid Spain",
     "phone": "+34 910 25 29 83",
     "website": "",
     "schedule": "",
@@ -609,7 +715,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/15/98/d7/f3/ven-a-conocernos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/15/98/e9/41/oreja-fina-crujiente.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/15/98/e9/0f/pimientos-de-cristal.jpg"
-    ]
+    ],
+    "categories": ["Spanish", "Mediterranean", "Fusion"]
   },
   {
     "name": "Alcaravea Gaztambide",
@@ -626,7 +733,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/91/2a/4d/ensalada-de-tomate-y.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/91/2a/65/calamar-fresco-de-potera.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1d/91/2a/74/quien-se-resiste-a-una.jpg"
-    ]
+    ],
+    "categories": ["Mediterranean", "European", "Spanish"]
   },
   {
     "name": "Amicis",
@@ -643,7 +751,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/10/b1/26/79/nuestro-equipo-a-grandes.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/1b/a6/75/6f/delicious-grilled-salmon.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-f/19/de/d1/2d/mouthwatering-creamy.jpg"
-    ]
+    ],
+    "categories": ["Spanish"]
   },
   {
     "name": "EatMyTrip Brunch & Bakery Madrid",
@@ -660,6 +769,14 @@
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/9d/f8/c4/bienvenidos-a-eatmytrip.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/9d/f7/9a/brunch-de-los-alpes.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/1c/9d/f8/49/macho-iberico.jpg"
+    ],
+    "categories": [
+      "American",
+      "Cafe",
+      "International",
+      "Spanish",
+      "Fusion",
+      "Healthy"
     ]
   },
   {
@@ -677,7 +794,8 @@
       "https://media-cdn.tripadvisor.com/media/photo-p/13/e8/3a/e4/superchulo.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/12/a7/a6/db/green-baos.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/12/a7/a6/e6/postres.jpg"
-    ]
+    ],
+    "categories": ["Mediterranean", "European", "Healthy", "Gastropub"]
   },
   {
     "name": "Periplo Cafe",
@@ -694,6 +812,7 @@
       "https://media-cdn.tripadvisor.com/media/photo-p/0b/d2/f5/06/periplo-cafe.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/0d/40/39/b3/periplo-cafe.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-l/0b/d2/f5/02/periplo-cafe.jpg"
-    ]
+    ],
+    "categories": ["Bar", "Mediterranean", "Greek", "Gastropub", "European"]
   }
 ]

@@ -13,7 +13,11 @@
      zoom: 15,
    });
 
-   const marker = new mapboxgl.Marker()
+   const marker = new mapboxgl.Marker({
+     color: '#1ba87e'
+   }
+
+   )
    .setLngLat([long, lat])
    .addTo(map);
 
