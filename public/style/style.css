@@ -417,6 +417,18 @@ p {
   font-size: 60px;
 }
 
+@media (max-width: 767px) {
+  .category-list {
+    margin-top: 10px;
+    max-height: 200px;
+    overflow: scroll;
+    border: solid 1px;
+    border-color: var(--main-color);
+  }
+}
+
+
+
 
 
 /* RESTUARANT DETAIL */
@@ -596,7 +608,7 @@ p {
   background-color: var(--black-color);
   position: relative;
   bottom: 0;
-
+}
   
 .page-item.active .page-link {
   z-index: 3;
@@ -613,9 +625,19 @@ p {
   color: #2aa87e;
 }
 
-.btn-primary {
-  background-color: #2aa87e;
-  border-color: #2aa87e;
+.green-border {
+  background-color: var(--white-color) !important;
+  border: solid 2px;
+  border-color: var(--main-color);
+  color: var(--main-color);
+  font-weight: 500;
+}
+
+.green-border:hover {
+  background-color: var(--secondary-color) !important;
+  border: solid 2px;
+  border-color: var(--secondary-color) !important;
+  color: var(--white-color) !important;
 }
 
 .btn-primary {
@@ -624,8 +646,8 @@ p {
 }
 
 .btn-primary:hover {
-  background-color: #2aa87e;
-  border-color: #2aa87e;
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
 }
 
 .btn-primary:active {
