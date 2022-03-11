@@ -35,6 +35,7 @@ module.exports.list = async (req, res, next) => {
     const restaurants = await Restaurant.find()
       .limit(limit * 1)
       .skip((Number(page) - 1) * limit)
+      .sort({ fullVegan: -1 })
       .exec();
 
     const count = await restaurants.length;
