@@ -1,7 +1,7 @@
 <section id="header-restaurant-detail">
   <div class="container single-restaurant">
     <div class="single-restaurant__name">
-      <h2 class="me-3 single-restaurant__title text-white">{{restaurant.name}}</h2>
+      <h2 class="me-3 single-restaurant__title text-white text-center">{{restaurant.name}}</h2>
       {{#if avocados}}
       <img 
         display="inline"
@@ -121,24 +121,26 @@
         <h2 class="comment__title">Recent Reviews</h2>
 
         {{#each restaurant.comments as |comment|}}
-          <div class="col-4 g-4">
+          <div class="col-xl-4 col-sm-6 col-xs-12 mb-5">
               {{>commentCard showActions=true user=../currentUser comment=comment}}
               </div>
           {{/each}}
         </div>
 
-        {{#if currentUser}}
-          <div class="write-a-review" id="write-a-review">
-            <h5 class="my-4">Hi {{currentUser.name}}, please write a review for {{restaurant.name}}</h5>
-            {{>commentForm edit=false}}
-          </div>
-      {{/if}}
     </div>
   </section>
 {{/if}}
 
   
 
+<div class="container mb-5">
+      {{#if currentUser}}
+          <div class="write-a-review" id="write-a-review">
+            <h5 class="my-4">Hi {{currentUser.name}}, please write a review for {{restaurant.name}}</h5>
+            {{>commentForm edit=false}}
+          </div>
+      {{/if}}
+</div>
 
 
 

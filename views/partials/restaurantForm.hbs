@@ -116,12 +116,12 @@
   <div class="form-group mb-3">
     <label for="text">Description</label>
     <textarea name="description" type="text" class="form-control html-editor {{#if errors.description}}is-invalid{{/if}}" id="text"
-      placeholder="Enter restaurant description" rows="10">{{ restaurant.description }}</textarea>
+      placeholder="Enter restaurant description" rows="5">{{ restaurant.description }}</textarea>
     {{#if errors.description}}<div class="invalid-feedback">{{errors.description}}</div>
     {{/if}}
   </div>
 
-   <button type="submit" class="btn btn-primary">Submit</button>
+   <button type="submit" class="button button--green">Submit</button>
 
   </div>
 

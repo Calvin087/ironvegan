@@ -6,7 +6,7 @@
   background-repeat: no-repeat; background-size: cover;"
     ></div>
     <div class="card-body">
-      <p class="mb-2 fw-bold"><a href="/restaurants/{{restaurant._id}}">{{restaurant.name}}</a></p>
+      <h4 class="mb-2"><a href="/restaurants/{{restaurant._id}}" class="card-body__link">{{restaurant.name}}</a></h4>
       <p class="card-text">{{comment.description}}</p>
       <p class="mb-2 fw-bold">Rating ({{comment.rating}})</p>
       <p>{{{showKiwis comment.rating}}}</p>
@@ -18,13 +18,16 @@
 
   {{#if showActions}}
     {{#isUserReview user=user._id comment=comment}}
+    <div class="form-buttons">
       <form action="/comment/{{comment._id}}/edit" method="GET">
-        <button type="submit" id="edit-btn">Edit</button>
+        <button type="submit" class="form-buttons__edit button button--green">Edit</button>
       </form>
 
       <form action="/comment/{{comment._id}}/delete" method="POST">
-        <button type="submit">Delete</button>
+        <button type="submit" class="button">Delete</button>
       </form>
+    </div>
+      
     {{/isUserReview}}
   {{/if}}
 
