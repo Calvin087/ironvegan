@@ -72,7 +72,7 @@ module.exports.detail = (req, res, next) => {
 
 module.exports.create = (req, res, next) => {
   res.render("restaurants/new", {
-    categories,
+    categoriesAll,
   });
 };
 

@@ -140,8 +140,10 @@
   color: var(--secondary-color);
 }
 
-
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: var(--title-font);
   font-weight: 900;
 }
@@ -196,8 +198,6 @@ p {
   border-color: var(--white-color);
   color: var(--main-color);
 }
-
-
 
 /* HOME */
 /* HOME -- BANNER */
@@ -271,9 +271,6 @@ p {
   line-height: 1.2;
   margin-bottom: 30px;
 }
-
-
-
 
 /* HOME -- CONDITIONS */
 #conditions {
@@ -392,8 +389,6 @@ p {
   color: var(--white-color);
 }
 
-
-
 /* RESTAURANTS */
 #restaurant-header {
   background-image: url("/img/banner-restaurants-bg.jpg");
@@ -426,10 +421,6 @@ p {
     border-color: var(--main-color);
   }
 }
-
-
-
-
 
 /* RESTUARANT DETAIL */
 #header-restaurant-detail {
@@ -464,18 +455,18 @@ p {
   padding-bottom: 25px;
 }
 
-
 @media (max-width: 767px) {
   .single-restaurant__name {
-    flex-direction: column  ;
+    flex-direction: column;
   }
 }
 
 .details {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  gap: 60px;
 }
 
 @media (max-width: 767px) {
@@ -485,7 +476,7 @@ p {
 }
 
 #restaurant-detail {
-  width: 80%;
+  width: 100%;
   margin: 100px auto;
 }
 
@@ -493,7 +484,7 @@ p {
   .detail__map {
     margin-bottom: 50px;
   }
-  
+
   .restaurant-map {
     width: 360px !important;
     margin: 0 auto;
@@ -536,23 +527,14 @@ p {
   margin-right: 15px;
 }
 
-
-
-
-
 /* REGISTER */
 #register-bg {
-  background-image: url('/img/banner-register-bg.jpg');
+  background-image: url("/img/banner-register-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 0%;
   padding-bottom: 250px;
 }
-
-
-
-
-
 
 /* LOGIN */
 #login {
@@ -566,7 +548,7 @@ p {
 
 @media (max-width: 767px) {
   #login {
-    background-image: url('/img/login-bg.jpg');
+    background-image: url("/img/login-bg.jpg");
   }
 
   .bg-form {
@@ -574,11 +556,9 @@ p {
   }
 }
 
-
-
 /* NEW RESTAURANT */
 #new-restaurant {
-  background-image: url('/img/new-restaurant-bg.jpg');
+  background-image: url("/img/new-restaurant-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 0%;
@@ -592,7 +572,6 @@ p {
   }
 }
 
-
 /* UPDATE COMMENT */
 #update-comment {
   height: calc(100vh - 162px);
@@ -601,15 +580,13 @@ p {
   display: flex;
 }
 
-
-
 /* FOOTER */
 #footer {
   background-color: var(--black-color);
   position: relative;
   bottom: 0;
 }
-  
+
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
@@ -658,5 +635,4 @@ p {
 .btn-primary:focus {
   background-color: #2aa87e;
   border-color: #2aa87e;
-
 }

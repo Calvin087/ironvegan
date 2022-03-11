@@ -93,10 +93,10 @@
   <div class="form-group mb-3">
     <label for="categories">Categories</label>
     <select class="form-select" name="categories" show-labels multiple aria-label="Categories" id="categories">
-      {{#each categories as |category|}}
+      {{#each categoriesAll as |category|}}
         <option
-          value="{{@key}}">
-          {{ category.text }}
+          value="{{category}}">
+          {{ category }}
         </option>
       {{/each}}
     </select>
