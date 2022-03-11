@@ -1,9 +1,7 @@
 const httpClient = axios.create({
-  baseURL:
-    process.env.NODE_ENV === "development"
-      ? "http://localhost:3000"
-      : "http://veganteam.herokuapp.com/",
+  baseURL: "https://veganteam.herokuapp.com/",
 });
+// baseURL: "http://localhost:3000"
 
 document.querySelectorAll(".list-page-advocado").forEach((btn) => {
   btn.onclick = (event) => {
